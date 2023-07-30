@@ -3,7 +3,8 @@
 ## Overview
 
 ## SPARQL query example
-Additional file 1
+Additional file 1  
+Example_1_Additional_file_1.txt
 Query Example 1
 Example 1: Federated SPARQL query for Alzheimer's disease
 SPARQL endpoint: https://knowledge.brc.riken.jp/sparql
