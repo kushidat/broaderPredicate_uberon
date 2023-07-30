@@ -26,7 +26,7 @@ Explain: A centralized SPARQL query for Melanoma (umls:C0025202)
 
 ### Additional file 5
 [tsv2rdf_uberonKgx_to_uberon_broader20230723.py](#https://github.com/kushidat/broaderPredicate_uberon/blob/main/tsv2rdf_uberonKgx_to_uberon_broader20230723.py)  
-Explain: This is a Python script for converting the latest uberon_kgx_tsv_edge.tsv from the kg-uberon webpage in the KG-OBO project (https://kg-hub.berkeleybop.io/kg-obo/uberon/) to two ttl format files includes subject_broader_object_from_BFO_0000050.ttl (Additional file 6) and subject_broader_object_from_subClassOf.ttl (Additional file 7).  
+Explain: This is a Python script for converting the latest uberon_kgx_tsv_edge.tsv from the [kg-uberon webpage](https://kg-hub.berkeleybop.io/kg-obo/uberon/) in the KG-OBO project of the [KG-Hub](https://kghub.org/) to two ttl format files includes [subject_broader_object_from_BFO_0000050.ttl](https://github.com/kushidat/broaderPredicate_uberon/blob/main/subject_broader_object_from_BFO_0000050.ttl)  (Additional file 6) and [subject_broader_object_from_subClassOf.ttl](https://github.com/kushidat/broaderPredicate_uberon/blob/main/subject_broader_object_from_subClassOf.ttl) (Additional file 7).  
 
 ### Additional file 6
 [subject_broader_object_from_BFO_0000050.ttl](https://github.com/kushidat/broaderPredicate_uberon/blob/main/subject_broader_object_from_BFO_0000050.ttl)  
