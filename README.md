@@ -10,7 +10,7 @@ https://knowledge.brc.riken.jp/sparql
 ## SPARQL query example
 ### Additional file 1
 [Example_1_Additional_file_1.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1_Additional_file_1.txt)  
-Explain: A federated SPARQL query for Alzheimer's disease (umls:C0002395) 
+Explain: A federated SPARQL query for Alzheimer's disease (umls:C0002395)  
 Results:  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image] | Ensembl Gene IDs | Gene labels |
 |:---:|:---:|:---:|:---:|:---:|:---:|
