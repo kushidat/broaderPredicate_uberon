@@ -16,7 +16,7 @@ Search parameters:
   - GDA: DisGeNET
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
-  - Expression Level: >99
+  - Expression Level: >99  
 The average runtime (10 times): 42 seconds  
 Results:  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image] | Ensembl Gene IDs | Gene labels |
