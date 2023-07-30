@@ -12,11 +12,9 @@ https://knowledge.brc.riken.jp/sparql
 [Example_1_Additional_file_1.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1_Additional_file_1.txt)  
 Explain: A federated SPARQL query for Alzheimer's disease (umls:C0002395) 
 Results:  
-| Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image](https://github.com/kushidat/broaderPredicate_uberon/assets/1106622/8802d53b-29ba-4051-bc3a-15beaae09147)
-
-|:---:|:---:|:---:|
-|1 |2 |3 |
-|4 |5 |6 |
+| Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image] | Ensembl Gene IDs | Gene labels |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|Example 1: Federated query for AD | 21 | RBRC06342,RBRC06343,RBRC06344,RBRC10041,RBRC10042,RBRC10700,RBRC10701,RBRC10043,RBRC11518,RBRC03298,RBRC03388,RBRC03389,RBRC03390,RBRC03391,RBRC03418,RBRC03419,RBRC03420,RBRC03421,RBRC03422,RBRC03423,RBRC00052 | 2 | ENSG00000130203,ENSG00000142192 | APOE,APP |  
 
 
 ### Additional file 2 
