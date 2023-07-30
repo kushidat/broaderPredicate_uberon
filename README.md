@@ -3,15 +3,15 @@
 ## Overview
 
 ## SPARQL query example
-Additional file 1  
-Example_1_Additional_file_1.txt
-Query Example 1
-Example 1: Federated SPARQL query for Alzheimer's disease
-SPARQL endpoint: https://knowledge.brc.riken.jp/sparql
-Example_1_Additional_file_1.txt
-https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1_Additional_file_1.txt 
+### Additional file 1
+Example_1_Additional_file_1.txt   
+Query Example 1  
+Example 1: Federated SPARQL query for Alzheimer's disease  
+SPARQL endpoint: https://knowledge.brc.riken.jp/sparql  
+Example_1_Additional_file_1.txt  
+https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1_Additional_file_1.txt
 
-Additional file 2
+### Additional file 2
 Query Example 2
 Example 2: Centralized SPARQL query for Alzheimer's disease 
 SPARQL endpoint: https://knowledge.brc.riken.jp/sparql
