@@ -10,7 +10,7 @@ https://knowledge.brc.riken.jp/sparql
 ## SPARQL query example
 ### Additional file 1
 [Example_1_Additional_file_1.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1_Additional_file_1.txt)  
-Description: A federated SPARQL query for Alzheimer's disease (umls:C0002395) 
+Description: A federated SPARQL query for Alzheimer's disease (umls:C0002395)  
 Search parameters:  
   - GDA: DisGeNET
   - 
