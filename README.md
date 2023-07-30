@@ -17,7 +17,7 @@ Search parameters:
   - GDA: DisGeNET
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
-  - Expression Level: >99  
+  - Expression Level: > 99  
 
 The average runtime (10 times): 42 seconds  
 Results:  
@@ -29,6 +29,14 @@ Results:
 ### Additional file 2 
 [Example2_Additional_file_2.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2_Additional_file_2.txt)  
 Description: A centralized SPARQL query for Alzheimer's disease (umls:C0002395)  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Disease: Alzheimer's disease (umls:C0002395)
+  - GDA: DisGeNET
+  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - Confidence Level: high
+  - Expression Level: > 99
+    
 The average runtime (10 times): 40 seconds  
 Results:  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image] | Ensembl Gene IDs | Gene labels |
