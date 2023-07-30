@@ -17,7 +17,8 @@ Search parameters:
   - GDA: DisGeNET
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
-  - Expression Level: > 99  
+  - Expression Level: > 99
+  - Property paths: No
 
 The average runtime (10 times): 42 seconds  
 Results:  
@@ -36,6 +37,7 @@ Search parameters:
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
   - Expression Level: > 99
+  - Property paths: No
     
 The average runtime (10 times): 40 seconds  
 Results:  
@@ -46,6 +48,15 @@ Results:
 ### Additional file 3
 [Example3_Additional_file_3.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3_Additional_file_3.txt)  
 Description: A federated SPARQL query for Melanoma (umls:C0025202)  
+Search parameters:  
+  - Federated or Centralized: Federated
+  - Disease: Melanoma (umls:C0025202) 
+  - GDA: DisGeNET
+  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - Property paths: No
+    
 The average runtime (10 times): 38 seconds  
 Results:  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image] | Ensembl Gene IDs | Gene labels |
@@ -55,6 +66,15 @@ Results:
 ### Additional file 4
 [Example4_ Additional_file_4.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4_Additional_file_4.txt )  
 Description: A centralized SPARQL query for Melanoma (umls:C0025202)  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Disease: Melanoma (umls:C0025202) 
+  - GDA: DisGeNET
+  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - Property paths: No
+    
 The average runtime (10 times): 20 seconds  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image] | Ensembl Gene IDs | Gene labels |
 |:---|:---:|:---|:---:|:---|:---:|
@@ -75,6 +95,15 @@ Description: This is a turtle file converted from the latest uberon_kgx_tsv_edge
 ### Additional file 8
 [Example5_Additional_file_8.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5_Additional_file_8.txt)  
 Description: A centralized query for Melanoma (umls:C0025202) using the broader predicate  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Disease: Melanoma (umls:C0025202) 
+  - GDA: DisGeNET
+  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - Property paths: Yes
+    
 The average runtime (10 times): 72 seconds  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes | Ensembl Gene IDs | Gene labels |  No. of anatomical entities | Uberon IDs | Anatomical entity labels |
 |:---|:---:|:---|:---:|:---|:---:|:---:|:---|:---|
