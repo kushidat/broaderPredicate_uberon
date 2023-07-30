@@ -58,7 +58,7 @@ Explain: This is a turtle file converted from the latest uberon_kgx_tsv_edge.tsv
 
 ### Additional file 8
 [Example5_Additional_file_8.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5_Additional_file_8.txt)  
-Explain: A centralized query for Melanoma (umls:C0025202) using the broader predicate 
+Explain: A centralized query for Melanoma (umls:C0025202) using the broader predicate  
 The average runtime (10 times): 72 seconds  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes | Ensembl Gene IDs | Gene labels |  No. of anatomical entities | Uberon IDs | Anatomical entity labels |
 |:---|:---:|:---|:---:|:---|:---:|:---:|:---|:---|
