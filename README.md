@@ -48,6 +48,7 @@ Explain: A centralized query for Melanoma (umls:C0025202) using broader predicat
 
 ## Licence
 [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+Copyright (c) 2019 Tatsuya Kushida (RIKEN BioResource Research Center (BRC))
 
 ## Reference
 https://github.com/tarcisiotmf/swat4hcls
