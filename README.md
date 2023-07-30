@@ -94,7 +94,7 @@ Description: This is a turtle file converted from the latest uberon_kgx_tsv_edge
 
 ### Additional file 8
 [Example5_Additional_file_8.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5_Additional_file_8.txt)  
-Description: A centralized query for Melanoma (umls:C0025202) using the broader predicate  
+Description: A centralized query for Melanoma (umls:C0025202) using the property paths  
 Search parameters:  
   - Federated or Centralized: Centralized
   - Disease: Melanoma (umls:C0025202) 
