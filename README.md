@@ -3,6 +3,9 @@
 ## Overview
 The RIKEN BioResource Research Center (BRC) is exploring the model organisms which are expected to be available for medical science research by executing the SPARQL queries for the RIKEN bioresource Knowledge graph integrated with the Bgee, a gene expression database, the Orthologous MAtrix (OMA, an orthology database), the DisGeNET, a human gene-disease association, Mouse Genome Informatics (MGI), UniProt, and four disease ontologies stored in the RIKEN BioResource MetaDatabase. This page shares the SPARQL query examples and the related data.
 
+## Reference
+https://github.com/tarcisiotmf/swat4hcls
+
 ## RIKEN BioResource SPARQL endpoint
 https://knowledge.brc.riken.jp/sparql  
 
@@ -115,5 +118,4 @@ The average runtime (10 times): 72 seconds
 [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
 Copyright (c) 2019 Tatsuya Kushida (RIKEN BioResource Research Center (BRC))
 
-## Reference
-https://github.com/tarcisiotmf/swat4hcls
+
