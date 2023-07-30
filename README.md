@@ -4,7 +4,7 @@
 
 
 ## RIKEN BioResource SPARQL endpoint
-https://knowledge.brc.riken.jp/sparql 
+https://knowledge.brc.riken.jp/sparql  
 
 
 ## SPARQL query example
