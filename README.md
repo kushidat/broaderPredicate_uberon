@@ -10,8 +10,8 @@ https://github.com/tarcisiotmf/swat4hcls
 https://knowledge.brc.riken.jp/sparql  
 
 
-## SPARQL query example
-### Additional file 1
+## SPARQL query examples and the ralated data
+### Additional file 1 (SPARQL query example 1)  
 [Example_1_Additional_file_1.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1_Additional_file_1.txt)  
 Description: A federated SPARQL query for Alzheimer's disease (umls:C0002395)  
 Search parameters:  
@@ -30,7 +30,7 @@ Results:
 |Example 1: Federated query for AD | 21 | RBRC06342,RBRC06343,<br>RBRC06344,RBRC10041,<br>RBRC10042,RBRC10700,<br>RBRC10701,RBRC10043,<br>RBRC11518,RBRC03298,<br>RBRC03388,RBRC03389,<br>RBRC03390,RBRC03391,<br>RBRC03418,RBRC03419,<br>RBRC03420,RBRC03421,<br>RBRC03422,RBRC03423,<br>RBRC00052 | 2 | ENSG00000130203,<br>ENSG00000142192 | APOE,<br>APP |  
 
 
-### Additional file 2 
+### Additional file 2 (SPARQL query example 2)  
 [Example2_Additional_file_2.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2_Additional_file_2.txt)  
 Description: A centralized SPARQL query for Alzheimer's disease (umls:C0002395)  
 Search parameters:  
@@ -48,7 +48,7 @@ Results:
 |:---|:---:|:---|:---:|:---|:---:|
 |Example 2: Centralized query for AD | 21 | RBRC06342,RBRC06343,<br>RBRC06344,RBRC10041,<br>RBRC10042,RBRC10700,<br>RBRC10701,RBRC10043,<br>RBRC11518,RBRC03298,<br>RBRC03388,RBRC03389,<br>RBRC03390,RBRC03391,<br>RBRC03418,RBRC03419,<br>RBRC03420,RBRC03421,<br>RBRC03422,RBRC03423,<br>RBRC00052 | 2 | ENSG00000130203,<br>ENSG00000142192 | APOE,<br>APP |  
 
-### Additional file 3
+### Additional file 3 (SPARQL query example 3)  
 [Example3_Additional_file_3.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3_Additional_file_3.txt)  
 Description: A federated SPARQL query for Melanoma (umls:C0025202)  
 Search parameters:  
@@ -66,7 +66,7 @@ Results:
 |:---|:---:|:---|:---:|:---|:---:|
 |Example 3: Federated query for Melanoma | 18 | RBRC10866,RBRC01088,<br>RBRC02449,RBRC02450,<br>RBRC02451,RBRC02460,<br>RBRC02464,RBRC02466,<br>RBRC02473,RBRC02475,<br>RBRC02479,RBRC02481,<br>RBRC02484,RBRC02485,<br>RBRC02487,RBRC02488,<br>RBRC02586,RBRC11578 | 1 | ENSG00000174775 | HRAS |  
 
-### Additional file 4
+### Additional file 4 (SPARQL query example 4)  
 [Example4_ Additional_file_4.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4_Additional_file_4.txt )  
 Description: A centralized SPARQL query for Melanoma (umls:C0025202)  
 Search parameters:  
@@ -83,19 +83,19 @@ The average runtime (10 times): 20 seconds
 |:---|:---:|:---|:---:|:---|:---:|
 |Example 4: Centralized query for Melanoma | 18 | RBRC10866,RBRC01088,<br>RBRC02449,RBRC02450,<br>RBRC02451,RBRC02460,<br>RBRC02464,RBRC02466,<br>RBRC02473,RBRC02475,<br>RBRC02479,RBRC02481,<br>RBRC02484,RBRC02485,<br>RBRC02487,RBRC02488,<br>RBRC02586,RBRC11578 | 1 | ENSG00000174775 | HRAS | 
 
-### Additional file 5
+### Additional file 5 (A Python script)
 [tsv2rdf_uberonKgx_to_uberon_broader20230723.py](https://github.com/kushidat/broaderPredicate_uberon/blob/main/tsv2rdf_uberonKgx_to_uberon_broader20230723.py)  
 Description: This is a Python script for converting the latest uberon_kgx_tsv_edge.tsv from the [kg-uberon webpage](https://kg-hub.berkeleybop.io/kg-obo/uberon/) in the [KG-OBO project](https://github.com/Knowledge-Graph-Hub/kg-obo) of the [KG-Hub](https://kghub.org/) to two ttl format files includes [subject_broader_object_from_BFO_0000050.ttl](https://github.com/kushidat/broaderPredicate_uberon/blob/main/subject_broader_object_from_BFO_0000050.ttl)  (Additional file 6) and [subject_broader_object_from_subClassOf.ttl](https://github.com/kushidat/broaderPredicate_uberon/blob/main/subject_broader_object_from_subClassOf.ttl) (Additional file 7).  
 
-### Additional file 6
+### Additional file 6 (RDF data)  
 [subject_broader_object_from_BFO_0000050.ttl](https://github.com/kushidat/broaderPredicate_uberon/blob/main/subject_broader_object_from_BFO_0000050.ttl)  
 Description: This is a turtle file converted from the latest uberon_kgx_tsv_edge.tsv in the [kg-uberon webpage](https://kg-hub.berkeleybop.io/kg-obo/uberon/) in the [KG-OBO project](https://github.com/Knowledge-Graph-Hub/kg-obo) of the [KG-Hub](https://kghub.org/). This file includes the borader predicate’s relationships among terms created from the BFO:0000050 (pratOf) relations in the uberon_kgx_tsv_edge.tsv in the [kg-uberon](https://kg-hub.berkeleybop.io/kg-obo/uberon/).  
 
-### Additional file 7
+### Additional file 7 (RDF data)  
 [subject_broader_object_from_subClassOf.ttl](https://github.com/kushidat/broaderPredicate_uberon/blob/main/subject_broader_object_from_subClassOf.ttl)  
 Description: This is a turtle file converted from the latest uberon_kgx_tsv_edge.tsv in the [kg-uberon webpage](https://kg-hub.berkeleybop.io/kg-obo/uberon/) in the [KG-OBO project](https://github.com/Knowledge-Graph-Hub/kg-obo) of the [KG-Hub](https://kghub.org/). This file includes the borader predicate’s relationships among terms created from the rdfs:subClassOf relations in the uberon_kgx_tsv_edge.tsv in the [kg-uberon](https://kg-hub.berkeleybop.io/kg-obo/uberon/).  
 
-### Additional file 8
+### Additional file 8 (SPARQL query example 5)  
 [Example5_Additional_file_8.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5_Additional_file_8.txt)  
 Description: A centralized query for Melanoma (umls:C0025202) using the property paths  
 Search parameters:  
