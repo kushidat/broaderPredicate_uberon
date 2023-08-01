@@ -116,6 +116,6 @@ The average runtime (10 times): 72 seconds
 
 ## Licence
 [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
-Copyright (c) 2019 Tatsuya Kushida (RIKEN BioResource Research Center (BRC))
+Copyright (c) 2023 Tatsuya Kushida (RIKEN BioResource Research Center (BRC))
 
 
