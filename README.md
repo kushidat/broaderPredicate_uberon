@@ -13,11 +13,11 @@ https://knowledge.brc.riken.jp/sparql
 ## SPARQL query examples and the ralated data
 ### Additional file 1 (SPARQL query example 1)  
 [Example_1_Additional_file_1.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1_Additional_file_1.txt)  
-Description: A federated SPARQL query for Alzheimer's disease (umls:C0002395)  
+Description: A federated SPARQL query for Alzheimer's disease   
 Search parameters:  
   - Federated or Centralized: Federated
   - Disease: Alzheimer's disease (umls:C0002395)
-  - GDA: DisGeNET
+  - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
   - Expression Level: > 99
@@ -32,11 +32,11 @@ Results:
 
 ### Additional file 2 (SPARQL query example 2)  
 [Example2_Additional_file_2.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2_Additional_file_2.txt)  
-Description: A centralized SPARQL query for Alzheimer's disease (umls:C0002395)  
+Description: A centralized SPARQL query for Alzheimer's disease  
 Search parameters:  
   - Federated or Centralized: Centralized
   - Disease: Alzheimer's disease (umls:C0002395)
-  - GDA: DisGeNET
+  - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
   - Expression Level: > 99
@@ -50,12 +50,12 @@ Results:
 
 ### Additional file 3 (SPARQL query example 3)  
 [Example3_Additional_file_3.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3_Additional_file_3.txt)  
-Description: A federated SPARQL query for Melanoma (umls:C0025202)  
+Description: A federated SPARQL query for Melanoma  
 Search parameters:  
   - Federated or Centralized: Federated
   - Disease: Melanoma (umls:C0025202) 
-  - GDA: DisGeNET
-  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
   - Expression Level: > 99
   - Property paths: No
@@ -68,12 +68,12 @@ Results:
 
 ### Additional file 4 (SPARQL query example 4)  
 [Example4_ Additional_file_4.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4_Additional_file_4.txt )  
-Description: A centralized SPARQL query for Melanoma (umls:C0025202)  
+Description: A centralized SPARQL query for Melanoma   
 Search parameters:  
   - Federated or Centralized: Centralized
   - Disease: Melanoma (umls:C0025202) 
-  - GDA: DisGeNET
-  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
   - Expression Level: > 99
   - Property paths: No
@@ -97,12 +97,12 @@ Description: This is a turtle file converted from the latest uberon_kgx_tsv_edge
 
 ### Additional file 8 (SPARQL query example 5)  
 [Example5_Additional_file_8.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5_Additional_file_8.txt)  
-Description: A centralized query for Melanoma (umls:C0025202) using the property paths  
+Description: A centralized query for Melanoma using the property paths  
 Search parameters:  
   - Federated or Centralized: Centralized
   - Disease: Melanoma (umls:C0025202) 
-  - GDA: DisGeNET
-  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
   - Expression Level: > 99
   - Property paths: Yes
@@ -112,7 +112,19 @@ The average runtime (10 times): 72 seconds
 |:---|:---:|:---|:---:|:---|:---:|:---:|:---|:---|
 |Example 5: Centralized query for Melanoma using the broader predicate| 21 | RBRC11578,<br>RBRC02473,<br>RBRC02481,<br>RBRC02449,<br>RBRC02488,<br>RBRC02464,<br>RBRC02485,<br>RBRC02484,<br>RBRC10866,<br>RBRC02466,<br> RBRC02479,<br>RBRC02450,<br>RBRC02586,<br>RBRC02460,<br>RBRC02451,<br> RBRC02475,<br>RBRC01088,<br>RBRC02487,<br>RBRC-AES1453,<br>RBRC02300,<br>RBRC02301 | 2 | ENSG00000174775 | HRAS,<br>PTEN | 8 | UBERON:0000014,<br>UBERON:0001511,<br>UBERON:0003532,<br>UBERON:0001416,<br>UBERON:0001419,<br>UBERON:0002097,<br>UBERON:0003531,<br>UBERON:0004263,<br> | zone of skin,<br>skin of leg,<br>hindlimb skin,<br>skin of abdomen,<br>skin of limb,<br>skin of body,<br>forelimb skin,<br>upper arm skin |
 
-
+### SPARQL query example 6  
+[Example6](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6.txt)  
+Description: A centralized query for Alzheimer's disease using MedGen  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Alzheimer's disease (umls:C0002395)
+  - GDA: MedGen (https://www.ncbi.nlm.nih.gov/medgen/)
+  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - Property paths: Yes
+    
+The average runtime (3 times): 67 seconds  
 
 ## Licence
 [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
