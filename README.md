@@ -13,7 +13,7 @@ https://knowledge.brc.riken.jp/sparql
 ## SPARQL query examples and the ralated data
 ### Additional file 1 (SPARQL query example 1)  
 [Example_1_Additional_file_1.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1_Additional_file_1.txt)  
-Description: A federated SPARQL query for Alzheimer's disease   
+Description: A federated SPARQL query for Alzheimer's disease using DisGeNET   
 Search parameters:  
   - Federated or Centralized: Federated
   - Disease: Alzheimer's disease (umls:C0002395)
@@ -32,7 +32,7 @@ Results:
 
 ### Additional file 2 (SPARQL query example 2)  
 [Example2_Additional_file_2.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2_Additional_file_2.txt)  
-Description: A centralized SPARQL query for Alzheimer's disease  
+Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET   
 Search parameters:  
   - Federated or Centralized: Centralized
   - Disease: Alzheimer's disease (umls:C0002395)
@@ -50,7 +50,7 @@ Results:
 
 ### Additional file 3 (SPARQL query example 3)  
 [Example3_Additional_file_3.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3_Additional_file_3.txt)  
-Description: A federated SPARQL query for Melanoma  
+Description: A federated SPARQL query for Melanoma using DisGeNET  
 Search parameters:  
   - Federated or Centralized: Federated
   - Disease: Melanoma (umls:C0025202) 
@@ -68,7 +68,7 @@ Results:
 
 ### Additional file 4 (SPARQL query example 4)  
 [Example4_ Additional_file_4.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4_Additional_file_4.txt )  
-Description: A centralized SPARQL query for Melanoma   
+Description: A centralized SPARQL query for Melanoma using DisGeNET  
 Search parameters:  
   - Federated or Centralized: Centralized
   - Disease: Melanoma (umls:C0025202) 
@@ -98,7 +98,7 @@ Description: This is a turtle file converted from the latest uberon_kgx_tsv_edge
 
 ### Additional file 8 (SPARQL query example 5)  
 [Example5_Additional_file_8.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5_Additional_file_8.txt)  
-Description: A centralized query for Melanoma using the property paths  
+Description: A centralized query for Melanoma using DisGeNET and the property paths  
 Search parameters:  
   - Federated or Centralized: Centralized
   - Disease: Melanoma (umls:C0025202) 
