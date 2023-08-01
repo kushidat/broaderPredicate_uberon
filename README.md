@@ -131,7 +131,7 @@ Search parameters:
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
   - Expression Level: > 99
-  - Property paths: Yes
+  - Property paths: No
     
 The average runtime (3 times): 67 seconds  
 Results:  0 cases  
