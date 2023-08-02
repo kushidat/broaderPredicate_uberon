@@ -108,7 +108,6 @@ Description: This is a turtle file converted from the latest uberon_kgx_tsv_edge
 Title: Conversion of the uberon.owl to the turtle file using the “broader” predicate.  
 Description: A path between the “skin of limb” ([UBERON_0001419](http://purl.obolibrary.org/obo/UBERON_0001419)) to the “skin of body” ([UBERON_0002097](http://purl.obolibrary.org/obo/UBERON_0002097)) in the uberon.owl (A) and that in the graph <http://purl.org/rbrc/resource/broader> within the RIKEN Bioresource MetaDatabase (B). These diagrams were created using https://www.kanzaki.com/works/2009/pub/graph-draw.  
 
-![image](https://github.com/kushidat/broaderPredicate_uberon/assets/1106622/51520a75-0d4a-4a2c-ba38-01917f094d7f)  
 
 
 ### Additional file 9 (SPARQL query example 5)  
