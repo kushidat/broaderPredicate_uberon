@@ -103,6 +103,10 @@ Description: This is a turtle file converted from the latest uberon_kgx_tsv_edge
 
 ![sample_subject_broader_object_from_subClassOf](https://github.com/kushidat/broaderPredicate_uberon/assets/1106622/838e5709-471b-428c-a91c-4380a4b8e84a)
 
+### Additional file 8 (Image file)  
+[image_additional_file_5.tiff](https://github.com/kushidat/broaderPredicate_uberon/blob/main/image_additional_file_5.tiff)   
+Description: This is a turtle file converted from the latest uberon_kgx_tsv_edge.tsv in the [kg-uberon webpage](https://kg-hub.berkeleybop.io/kg-obo/uberon/) in the [KG-OBO project](https://github.com/Knowledge-Graph-Hub/kg-obo) of the [KG-Hub](https://kghub.org/). In this file, the rdfs:subClassOf relations among the Uberon terms were converted to <http://purl.org/rbrc/resource/broader> relations among them.  
+
 ### Additional file 9 (SPARQL query example 5)  
 [Example5_Additional_file_9.txt](https://github.com/kushidat/broaderPredicate_uberon/edit/main/README.md#:~:text=Example5_Additional_file_9)    
 Description: A centralized query for Melanoma using DisGeNET and the property paths  
