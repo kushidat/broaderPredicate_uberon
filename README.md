@@ -112,7 +112,7 @@ Description: A path between the “skin of limb” ([UBERON_0001419](http://purl
 ![image_additional_file_5](https://github.com/kushidat/broaderPredicate_uberon/assets/1106622/190dc9ca-167e-48ba-ad7f-f6bc95b4025d)  
 
 ### Additional file 9 (SPARQL query example 5)  
-[Example5_Additional_file_9.txt](https://github.com/kushidat/broaderPredicate_uberon/edit/main/README.md#:~:text=Example5_Additional_file_9)    
+[Example5_Additional_file_9.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5_Additional_file_9.txt)      
 Description: A centralized query for Melanoma using DisGeNET and the property paths  
 Search parameters:  
   - Federated or Centralized: Centralized
