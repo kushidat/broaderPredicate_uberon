@@ -103,8 +103,8 @@ Description: This is a turtle file converted from the latest uberon_kgx_tsv_edge
 
 ![sample_subject_broader_object_from_subClassOf](https://github.com/kushidat/broaderPredicate_uberon/assets/1106622/838e5709-471b-428c-a91c-4380a4b8e84a)
 
-### Additional file 8 (SPARQL query example 5)  
-[Example5_Additional_file_9.txt]([(https://github.com/kushidat/broaderPredicate_uberon/edit/main/README.md#:~:text=Example5_Additional_file_9)])  
+### Additional file 9 (SPARQL query example 5)  
+[Example5_Additional_file_9.txt](https://github.com/kushidat/broaderPredicate_uberon/edit/main/README.md#:~:text=Example5_Additional_file_9)    
 Description: A centralized query for Melanoma using DisGeNET and the property paths  
 Search parameters:  
   - Federated or Centralized: Centralized
