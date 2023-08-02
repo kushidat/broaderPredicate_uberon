@@ -84,7 +84,7 @@ Results:
 |:---|:---:|:---|:---:|:---|:---:|
 |Example 4: Centralized query for Melanoma | 18 | RBRC10866,RBRC01088,<br>RBRC02449,RBRC02450,<br>RBRC02451,RBRC02460,<br>RBRC02464,RBRC02466,<br>RBRC02473,RBRC02475,<br>RBRC02479,RBRC02481,<br>RBRC02484,RBRC02485,<br>RBRC02487,RBRC02488,<br>RBRC02586,RBRC11578 | 1 | ENSG00000174775 | HRAS | 
 
-### Additional file 5 (A Python script)
+### Additional file 5 (Python script)
 [tsv2rdf_uberonKgx_to_uberon_broader20230723.py](https://github.com/kushidat/broaderPredicate_uberon/blob/main/tsv2rdf_uberonKgx_to_uberon_broader20230723.py)  
 Description: This is a Python script for converting the latest **uberon_kgx_tsv_edge.tsv** from the [kg-uberon webpage](https://kg-hub.berkeleybop.io/kg-obo/uberon/) in the [KG-OBO project](https://github.com/Knowledge-Graph-Hub/kg-obo) of the [KG-Hub](https://kghub.org/) to two ttl format files includes [subject_broader_object_from_BFO_0000050.ttl](https://github.com/kushidat/broaderPredicate_uberon/blob/main/subject_broader_object_from_BFO_0000050.ttl)  (Additional file 6) and [subject_broader_object_from_subClassOf.ttl](https://github.com/kushidat/broaderPredicate_uberon/blob/main/subject_broader_object_from_subClassOf.ttl) (Additional file 7).  We loaded both turtle files as the graph <http://metadb.riken.jp/db/uberonRDF_broader_fromKGX> to the [RIKEN Bioresource MetaDabase](https://knowledge.brc.riken.jp/sparql) to enable executing a transitive search for the Uberon terms.
 
@@ -104,8 +104,14 @@ Description: This is a turtle file converted from the latest uberon_kgx_tsv_edge
 ![sample_subject_broader_object_from_subClassOf](https://github.com/kushidat/broaderPredicate_uberon/assets/1106622/838e5709-471b-428c-a91c-4380a4b8e84a)
 
 ### Additional file 8 (Image file)  
-[image_additional_file_5.tiff](https://github.com/kushidat/broaderPredicate_uberon/blob/main/image_additional_file_5.tiff)   
-Description: This is a turtle file converted from the latest uberon_kgx_tsv_edge.tsv in the [kg-uberon webpage](https://kg-hub.berkeleybop.io/kg-obo/uberon/) in the [KG-OBO project](https://github.com/Knowledge-Graph-Hub/kg-obo) of the [KG-Hub](https://kghub.org/). In this file, the rdfs:subClassOf relations among the Uberon terms were converted to <http://purl.org/rbrc/resource/broader> relations among them.  
+[image_additional_file_5.tiff](https://github.com/kushidat/broaderPredicate_uberon/blob/main/image_additional_file_5.tiff)  
+Title: Conversion of the uberon.owl to the turtle file using the “broader” predicate.  
+Description: A path between the “skin of limb” ([UBERON_0001419](http://purl.obolibrary.org/obo/UBERON_0001419)) to the “skin of body” ([UBERON_0002097](http://purl.obolibrary.org/obo/UBERON_0002097)) in the uberon.owl (A) and that in the graph <http://purl.org/rbrc/resource/broader> within the RIKEN Bioresource MetaDatabase (B). These diagrams were created using https://www.kanzaki.com/works/2009/pub/graph-draw.  
+
+![image](https://github.com/kushidat/broaderPredicate_uberon/assets/1106622/51520a75-0d4a-4a2c-ba38-01917f094d7f)
+ 
+
+![image_additional_file_5](https://github.com/kushidat/broaderPredicate_uberon/assets/1106622/97a24fac-3377-4d2c-b054-728439d15a2d)
 
 ### Additional file 9 (SPARQL query example 5)  
 [Example5_Additional_file_9.txt](https://github.com/kushidat/broaderPredicate_uberon/edit/main/README.md#:~:text=Example5_Additional_file_9)    
