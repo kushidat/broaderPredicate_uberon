@@ -144,6 +144,22 @@ Search parameters:
 The average runtime (3 times): 67 seconds  
 Results:  0 cases  
 
+### SPARQL query example 7  
+[Example7.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7.txt)  
+Description: A centralized query for Alzheimer's disease using MGI  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Alzheimer's disease (umls:C0002395)
+  - GDA:MGI (https://www.informatics.jax.org/)  
+  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - Property paths: No
+    
+The average runtime (3 times): 1 seconds  
+Results:  
+
+
 ## Licence
 [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
 Copyright (c) 2023 Tatsuya Kushida (RIKEN BioResource Research Center (BRC))
