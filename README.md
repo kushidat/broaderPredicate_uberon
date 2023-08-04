@@ -156,7 +156,7 @@ Search parameters:
   - Expression Level: > 99
   - Property paths: No
     
-The average runtime (3 times): 1 second  
+The average runtime (10 times): 1 second  
 Results:  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image] | Ensembl Gene IDs | Gene labels |
 |:---|:---:|:---|:---:|:---|:---:|
