@@ -10,7 +10,7 @@ PREFIX orth: <http://purl.org/net/orth#>
 PREFIX genex: <http://purl.org/genex#>
 PREFIX umls: <http://linkedlifedata.com/resource/umls/id/>
 
-SELECT DISTINCT ?mouse ?homepage_mouse ?ensembl2
+SELECT DISTINCT ?mouse ?ensembl2
 WHERE {
    GRAPH <http://metadb.riken.jp/db/bgee> {
     ?oma_gene2 a orth:Gene .
@@ -26,7 +26,7 @@ WHERE {
     FILTER (?exprLevel > 99)
   }
   {
-    SELECT DISTINCT ?mouse ?homepage_mouse ?ensembl2
+    SELECT DISTINCT ?mouse ?ensembl2
     WHERE {
       GRAPH <http://metadb.riken.jp/db/xsearch_animal_brso> {
         ?mouse brso:genomic_feature/brso:has_genomic_segment/rdfs:seeAlso ?mgi1 .
