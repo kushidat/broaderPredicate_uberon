@@ -156,9 +156,11 @@ Search parameters:
   - Expression Level: > 99
   - Property paths: No
     
-The average runtime (3 times): 1 seconds  
+The average runtime (3 times): 1 second  
 Results:  
-
+| Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image] | Ensembl Gene IDs | Gene labels |
+|:---|:---:|:---|:---:|:---|:---:|
+|Example 7: Federated query for AD | 10 | RBRC10700,RBRC10701,<br>RBRC06344,RBRC10042,<br>RBRC10041,RBRC06342,<br>RBRC11518,RBRC06343,<br>RBRC10043,RBRC10368 | 2 | ENSG00000142192,<br>ENSG00000127445 | APP,<br>PIN1 |  
 
 ## Licence
 [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
