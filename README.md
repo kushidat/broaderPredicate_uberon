@@ -13,7 +13,7 @@ https://knowledge.brc.riken.jp/sparql
 ## SPARQL query examples and the ralated data
 ### Additional file 1 (SPARQL query example 1-1)  
 [Example_1-1_Additional_file_1.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-1_Additional_file_1.txt)  
-Description: A federated SPARQL query for Alzheimer's disease using DisGeNET   
+Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and one subquery    
 Search parameters:  
   - Federated or Centralized: Federated
   - Disease: Alzheimer's disease (umls:C0002395)
@@ -33,7 +33,7 @@ _____
 
 ### Additional file 2 (SPARQL query example 2-1)  
 [Example2-1_Additional_file_2.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-1_Additional_file_2.txt)  
-Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET   
+Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and one subquery     
 Search parameters:  
   - Federated or Centralized: Centralized
   - Disease: Alzheimer's disease (umls:C0002395)
@@ -53,7 +53,7 @@ ____
 
 ### Additional file 3 (SPARQL query example 3-1)  
 [Example3-1_Additional_file_3.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-1_Additional_file_3.txt)  
-Description: A federated SPARQL query for Melanoma using DisGeNET  
+Description: A federated SPARQL query for Melanoma using DisGeNET and one subquery  
 Search parameters:  
   - Federated or Centralized: Federated
   - Disease: Melanoma (umls:C0025202) 
@@ -73,7 +73,7 @@ ____
 
 ### Additional file 4 (SPARQL query example 4-1)  
 [Example4-1_ Additional_file_4.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-1_Additional_file_4.txt )  
-Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Description: A centralized SPARQL query for Melanoma using DisGeNET and one subquery   
 Search parameters:  
   - Federated or Centralized: Centralized
   - Disease: Melanoma (umls:C0025202) 
@@ -92,6 +92,9 @@ Results:
 ____
 
 ### Additional file 5 (SPARQL query example 1-2)  
+[Example_1-2_Additional_file_1.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-1_Additional_file_5.txt)  
+Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and two subqueries   
+
 The average runtime (10 times): 48 seconds  
 Results:  
 
