@@ -1,4 +1,4 @@
-# exampl 4-3 with 3 subqueries (melanoma)
+# Example 4-3 with 3 subqueries (melanoma)
 PREFIX brso: <http://purl.jp/bio/10/brso/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sio: <http://semanticscience.org/resource/>
