@@ -245,7 +245,7 @@ Results:
 ____
 
 ### Additional file 22 (SPARQL query example 10)  
-[Example10_ Additional_file_22.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example10_Additional_file_20.txt )  
+[Example10_ Additional_file_22.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example10_Additional_file_22.txt )  
 Description: A centralized SPARQL query of Section 4 (Bgee) for the "skin of body" using DisGeNET.  
     
 The average runtime (10 times): 11 seconds  
