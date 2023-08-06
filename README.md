@@ -211,7 +211,7 @@ Results:
 
 
 ### Additional file 28 (SPARQL query example 11-2)  
-[Example11-2_Additional_file_28.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5_Additional_file_9.txt)      
+[Example11-2_Additional_file_28.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-2_Additional_file_28.txt)      
 Description: A centralized query for Melanoma using DisGeNET and the Ubergraph (Endpoint: https://ubergraph.apps.renci.org/sparql)   
   
 Search parameters:  
