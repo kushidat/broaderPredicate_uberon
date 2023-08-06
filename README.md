@@ -342,7 +342,7 @@ Search parameters:
   - Expression Level: > 99
   - Property paths: No
     
-The average runtime (3 times): 67 seconds  
+The average runtime (10 times): 67 seconds  
 Results:  0 cases  
 
 ____
