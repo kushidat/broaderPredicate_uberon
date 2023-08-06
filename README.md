@@ -156,7 +156,7 @@ ____
 
 ### Additional file 12 (SPARQL query example 4-3)  
 [Example_4-3_Additional_file_1.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-3_Additional_file_12.txt)  
-Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and three subqueries  
+Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and three subqueries.    
 
 The average runtime (10 times): 40 seconds  
 Results:  
@@ -165,7 +165,7 @@ ____
 
 ### Additional file 13 (SPARQL query example 5-0)  
 [Example5-0_ Additional_file_13.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-0_Additional_file_13.txt )  
-Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and without the subquery.  
 
 The average runtime (10 times): 51 seconds  
 Results:
@@ -174,7 +174,7 @@ ____
 
 ### Additional file 14 (SPARQL query example 5-1) 
 [Example5-1_ Additional_file_14.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-1_Additional_file_14.txt )  
-Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and one subquery.  
  
 The average runtime (10 times): 2 seconds  
 Results:  
@@ -183,7 +183,7 @@ ____
 
 ### Additional file 15 (SPARQL query example 5-2)  
 [Example5-2_ Additional_file_15.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-2_Additional_file_15.txt )  
-Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and two subqueries.  
     
 The average runtime (10 times): 2 seconds  
 Results:  
@@ -192,7 +192,7 @@ ____
 
 ### Additional file 16 (SPARQL query example 6-0)  
 [Example6-0_ Additional_file_16.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-0_Additional_file_16.txt )  
-Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and without the subquery.  
     
 The average runtime (10 times): 77 seconds  
 Results:  
@@ -201,7 +201,7 @@ ____
 
 ### Additional file 17 (SPARQL query example 6-1)  
 [Example6-1_ Additional_file_17.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-1_Additional_file_17.txt )  
-Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and one subquery.  
 
 The average runtime (10 times): 2 seconds  
 Results:  
@@ -210,7 +210,7 @@ ____
 
 ### Additional file 18 (SPARQL query example 6-2)  
 [Example6-2_ Additional_file_18.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-2_Additional_file_18.txt )  
-Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and two subqueries.  
     
 The average runtime (10 times): 2 seconds  
 Results:  
@@ -219,7 +219,7 @@ ____
 
 ### Additional file 19 (SPARQL query example 7)  
 [Example7_ Additional_file_19.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7_Additional_file_19.txt )  
-Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Description: A federated SPARQL query of Section 4 (Bgee) for the "prefrontal cortex" using DisGeNET.  
     
 The average runtime (10 times): 29 seconds  
 Results:  
@@ -228,7 +228,7 @@ ____
 
 ### Additional file 20 (SPARQL query example 8)  
 [Example8_ Additional_file_20.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example8_Additional_file_20.txt )  
-Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Description: A federated SPARQL query of Section 4 (Bgee) for the "skin of body" using DisGeNET.  
     
 The average runtime (10 times): 29 seconds  
 Results:  
@@ -237,7 +237,7 @@ ____
 
 ### Additional file 21 (SPARQL query example 9)  
 [Example9_ Additional_file_21.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example9_Additional_file_21.txt )  
-Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Description: A centralized SPARQL query of Section 4 (Bgee) for the "prefrontal cortex" using DisGeNET.   
     
 The average runtime (10 times): 9 seconds  
 Results:  
@@ -246,7 +246,7 @@ ____
 
 ### Additional file 22 (SPARQL query example 10)  
 [Example10_ Additional_file_22.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example10_Additional_file_20.txt )  
-Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Description: A centralized SPARQL query of Section 4 (Bgee) for the "skin of body" using DisGeNET.  
     
 The average runtime (10 times): 11 seconds  
 Results:  
