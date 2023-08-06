@@ -130,7 +130,7 @@ Results:
 |Example 5: Centralized query for Melanoma using the broader predicate| 21 | RBRC11578,<br>RBRC02473,<br>RBRC02481,<br>RBRC02449,<br>RBRC02488,<br>RBRC02464,<br>RBRC02485,<br>RBRC02484,<br>RBRC10866,<br>RBRC02466,<br> RBRC02479,<br>RBRC02450,<br>RBRC02586,<br>RBRC02460,<br>RBRC02451,<br> RBRC02475,<br>RBRC01088,<br>RBRC02487,<br>RBRC-AES1453,<br>RBRC02300,<br>RBRC02301 | 2 | ENSG00000174775 | HRAS,<br>PTEN | 8 | UBERON:0000014,<br>UBERON:0001511,<br>UBERON:0003532,<br>UBERON:0001416,<br>UBERON:0001419,<br>UBERON:0002097,<br>UBERON:0003531,<br>UBERON:0004263,<br> | zone of skin,<br>skin of leg,<br>hindlimb skin,<br>skin of abdomen,<br>skin of limb,<br>skin of body,<br>forelimb skin,<br>upper arm skin |
 
 ### SPARQL query example 13  
-[Example13.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6.txt)  
+[Example13.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example13.txt)  
 Description: A centralized query for Alzheimer's disease using MedGen  
 Search parameters:  
   - Federated or Centralized: Centralized
@@ -145,7 +145,7 @@ The average runtime (3 times): 67 seconds
 Results:  0 cases  
 
 ### SPARQL query example 14  
-[Example14.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7.txt)  
+[Example14.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example14.txt)  
 Description: A centralized query for Alzheimer's disease using MGI  
 Search parameters:  
   - Federated or Centralized: Centralized
