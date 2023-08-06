@@ -289,7 +289,7 @@ Description: A path between the “skin of limb” ([UBERON_0001419](http://purl
 
 ____
 
-### Additional file 27 (SPARQL query example 11-1)  
+### Additional file 26 (SPARQL query example 11-1)  
 [Example11-1_Additional_file_26.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-1_Additional_file_26.txt)      
 Description: A centralized query for Melanoma using DisGeNET and the uberonRDF-KGX
   
@@ -311,7 +311,7 @@ Results:
 ____
 
 
-### Additional file 28 (SPARQL query example 11-2)  
+### Additional file 27 (SPARQL query example 11-2)  
 [Example11-2_Additional_file_27.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-2_Additional_file_27.txt)      
 Description: A centralized query for Melanoma using DisGeNET and the Ubergraph (Endpoint: https://ubergraph.apps.renci.org/sparql)   
   
