@@ -1,4 +1,4 @@
-# Example6-2
+# Example 6-2
 # Section 1(GDA)-2(OMA )-3(Bior) 2 subqueries  (melanoma)
 PREFIX brso: <http://purl.jp/bio/10/brso/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
