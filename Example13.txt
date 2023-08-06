@@ -1,4 +1,4 @@
-# Example13: Centralized query for Alzheimer's disease using the MedGen
+# Example 13: Centralized query for Alzheimer's disease using the MGi
 PREFIX brso: <http://purl.jp/bio/10/brso/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sio: <http://semanticscience.org/resource/>
@@ -9,7 +9,7 @@ PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX orth: <http://purl.org/net/orth#>
 PREFIX genex: <http://purl.org/genex#>
 PREFIX umls: <http://linkedlifedata.com/resource/umls/id/>
-PREFIX medgen: <http://www.ncbi.nlm.nih.gov/medgen/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 
 SELECT DISTINCT ?mouse ?ensembl2
 WHERE {
@@ -52,16 +52,14 @@ WHERE {
         ?oma_organism2 obo:RO_0002162 taxon:9606 .
         ?oma_gene2 lscr:xrefNCBIGene ?ncbi2 .
         ?oma_gene2 lscr:xrefEnsemblGene ?ensembl2 .
+      }      
+      GRAPH <http://metadb.riken.jp/db/mgiGene_doid_fromMGIdb> {
+        ?mgi1 <http://purl.obolibrary.org/obo/RO_0003302> ?doid .
       }
-      GRAPH <http://metadb.riken.jp/db/uniprot_ncbigene> {
-        ?uniprot2 rdfs:seeAlso ?ncbi2 .
-        ?uniprot2 rdfs:seeAlso ?identifiers_ncbi2 .
-        FILTER (?ncbi2 != ?identifiers_ncbi2)
-      }
-      graph <http://metadb.riken.jp/db/mim2gene_medgen_disease> {
-        ?medgen <http://med2rdf/ontology/medgen#mgconso> ?bL_disease.
-              VALUES (?medgen) { (medgen:C0002395) } 
-        ?idntf_ncbi2 obo:RO_0003302  ?medgen. # ?idntf_ncbi2:human ncbiGene
+      GRAPH <http://metadb.riken.jp/ontology/MONDO> {
+        ?mondo skos:exactMatch ?doid.
+        ?mondo skos:exactMatch ?umls.
+        VALUES (?umls) { (umls:C0002395) } 
       }
     }
   }
