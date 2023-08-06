@@ -84,34 +84,34 @@ Results:
 |:---|:---:|:---|:---:|:---|:---:|
 |Example 4: Centralized query for Melanoma | 18 | RBRC10866,RBRC01088,<br>RBRC02449,RBRC02450,<br>RBRC02451,RBRC02460,<br>RBRC02464,RBRC02466,<br>RBRC02473,RBRC02475,<br>RBRC02479,RBRC02481,<br>RBRC02484,RBRC02485,<br>RBRC02487,RBRC02488,<br>RBRC02586,RBRC11578 | 1 | ENSG00000174775 | HRAS | 
 
-### Additional file 5 (Python script)
+### Additional file 23 (Python script)
 [tsv2rdf_uberonKgx_to_uberon_broader20230723.py](https://github.com/kushidat/broaderPredicate_uberon/blob/main/tsv2rdf_uberonKgx_to_uberon_broader20230723.py)  
-Description: This is a Python script for converting the latest **uberon_kgx_tsv_edge.tsv** from the [kg-uberon webpage](https://kg-hub.berkeleybop.io/kg-obo/uberon/) in the [KG-OBO project](https://github.com/Knowledge-Graph-Hub/kg-obo) of the [KG-Hub](https://kghub.org/) to two ttl format files includes [subject_broader_object_from_BFO_0000050.ttl](https://github.com/kushidat/broaderPredicate_uberon/blob/main/subject_broader_object_from_BFO_0000050.ttl)  (Additional file 6) and [subject_broader_object_from_subClassOf.ttl](https://github.com/kushidat/broaderPredicate_uberon/blob/main/subject_broader_object_from_subClassOf.ttl) (Additional file 7).  We loaded both turtle files as the graph <http://metadb.riken.jp/db/uberonRDF_broader_fromKGX> to the [RIKEN Bioresource MetaDabase](https://knowledge.brc.riken.jp/sparql) to enable executing a transitive search for the Uberon terms.
+Description: This is a Python script for converting the latest **uberon_kgx_tsv_edge.tsv** from the [kg-uberon webpage](https://kg-hub.berkeleybop.io/kg-obo/uberon/) in the [KG-OBO project](https://github.com/Knowledge-Graph-Hub/kg-obo) of the [KG-Hub](https://kghub.org/) to two ttl format files includes [subject_broader_object_from_BFO_0000050.ttl](https://github.com/kushidat/broaderPredicate_uberon/blob/main/subject_broader_object_from_BFO_0000050.ttl)  (Additional file 24) and [subject_broader_object_from_subClassOf.ttl](https://github.com/kushidat/broaderPredicate_uberon/blob/main/subject_broader_object_from_subClassOf.ttl) (Additional file 25).  We loaded both turtle files as the graph <http://metadb.riken.jp/db/uberonRDF_broader_fromKGX> to the [RIKEN Bioresource MetaDabase](https://knowledge.brc.riken.jp/sparql) to enable executing a transitive search for the Uberon terms.
 
 <img width="1411" alt="a_partOf_image_additional_file_5" src="https://github.com/kushidat/broaderPredicate_uberon/assets/1106622/80973097-c5aa-4c4d-b2f4-2be24d7ee046">
 
-### Additional file 6 (RDF data)  
+### Additional file 24 (RDF data)  
 [subject_broader_object_from_BFO_0000050.ttl](https://github.com/kushidat/broaderPredicate_uberon/blob/main/subject_broader_object_from_BFO_0000050.ttl)  
 Description: This is a turtle file converted from the latest uberon_kgx_tsv_edge.tsv in the [kg-uberon webpage](https://kg-hub.berkeleybop.io/kg-obo/uberon/) in the [KG-OBO project](https://github.com/Knowledge-Graph-Hub/kg-obo) of the [KG-Hub](https://kghub.org/). In this file, the BFO:0000050 (pratOf) relations among the Uberon terms were converted to <http://purl.org/rbrc/resource/broader> relations among them.
 
 Sample:  
 ![sample_subject_broader_object_from_BFO_0000050_02](https://github.com/kushidat/broaderPredicate_uberon/assets/1106622/bb4c6e13-cdb5-4d9d-9895-7d59a08fde41)
 
-### Additional file 7 (RDF data)  
+### Additional file 25 (RDF data)  
 [subject_broader_object_from_subClassOf.ttl](https://github.com/kushidat/broaderPredicate_uberon/blob/main/subject_broader_object_from_subClassOf.ttl)  
 Description: This is a turtle file converted from the latest uberon_kgx_tsv_edge.tsv in the [kg-uberon webpage](https://kg-hub.berkeleybop.io/kg-obo/uberon/) in the [KG-OBO project](https://github.com/Knowledge-Graph-Hub/kg-obo) of the [KG-Hub](https://kghub.org/). In this file, the rdfs:subClassOf relations among the Uberon terms were converted to <http://purl.org/rbrc/resource/broader> relations among them.  
 
 Sample:  
 ![sample_subject_broader_object_from_subClassOf_02](https://github.com/kushidat/broaderPredicate_uberon/assets/1106622/a967b103-4698-4ff7-b92e-897debbe5fde)
 
-### Additional file 8 (Image file)  
+### Additional file 26 (Image file)  
 [image_additional_file_5.tiff](https://github.com/kushidat/broaderPredicate_uberon/blob/main/image_additional_file_5.tiff)  
 Title: Conversion of the uberon.owl to the turtle file using the “broader” predicate.  
 Description: A path between the “skin of limb” ([UBERON_0001419](http://purl.obolibrary.org/obo/UBERON_0001419)) to the “skin of body” ([UBERON_0002097](http://purl.obolibrary.org/obo/UBERON_0002097)) in the uberon.owl (A) and that in the graph <http://purl.org/rbrc/resource/broader> within the RIKEN Bioresource MetaDatabase (B). These diagrams were created using https://www.kanzaki.com/works/2009/pub/graph-draw.  
 
 ![image_additional_file_5](https://github.com/kushidat/broaderPredicate_uberon/assets/1106622/190dc9ca-167e-48ba-ad7f-f6bc95b4025d)  
 
-### Additional file 9 (SPARQL query example 5)  
+### Additional file 27 (SPARQL query example 11-1)  
 [Example5_Additional_file_9.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5_Additional_file_9.txt)      
 Description: A centralized query for Melanoma using DisGeNET and the property paths  
 Search parameters:  
@@ -129,8 +129,8 @@ Results:
 |:---|:---:|:---|:---:|:---|:---:|:---:|:---|:---|
 |Example 5: Centralized query for Melanoma using the broader predicate| 21 | RBRC11578,<br>RBRC02473,<br>RBRC02481,<br>RBRC02449,<br>RBRC02488,<br>RBRC02464,<br>RBRC02485,<br>RBRC02484,<br>RBRC10866,<br>RBRC02466,<br> RBRC02479,<br>RBRC02450,<br>RBRC02586,<br>RBRC02460,<br>RBRC02451,<br> RBRC02475,<br>RBRC01088,<br>RBRC02487,<br>RBRC-AES1453,<br>RBRC02300,<br>RBRC02301 | 2 | ENSG00000174775 | HRAS,<br>PTEN | 8 | UBERON:0000014,<br>UBERON:0001511,<br>UBERON:0003532,<br>UBERON:0001416,<br>UBERON:0001419,<br>UBERON:0002097,<br>UBERON:0003531,<br>UBERON:0004263,<br> | zone of skin,<br>skin of leg,<br>hindlimb skin,<br>skin of abdomen,<br>skin of limb,<br>skin of body,<br>forelimb skin,<br>upper arm skin |
 
-### SPARQL query example 6  
-[Example6.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6.txt)  
+### SPARQL query example 13  
+[Example13.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6.txt)  
 Description: A centralized query for Alzheimer's disease using MedGen  
 Search parameters:  
   - Federated or Centralized: Centralized
@@ -144,8 +144,8 @@ Search parameters:
 The average runtime (3 times): 67 seconds  
 Results:  0 cases  
 
-### SPARQL query example 7  
-[Example7.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7.txt)  
+### SPARQL query example 14  
+[Example14.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7.txt)  
 Description: A centralized query for Alzheimer's disease using MGI  
 Search parameters:  
   - Federated or Centralized: Centralized
