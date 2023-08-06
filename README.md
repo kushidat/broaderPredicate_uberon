@@ -92,7 +92,7 @@ Results:
 ____
 
 ### Additional file 5 (SPARQL query example 1-2)  
-[Example_1-2_Additional_file_5.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-1_Additional_file_5.txt)  
+[Example_1-2_Additional_file_5.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-2_Additional_file_5.txt)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and two subqueries   
 
 The average runtime (10 times): 48 seconds  
