@@ -29,6 +29,7 @@ Results:
 |:---|:---:|:---|:---:|:---|:---:|
 |Example 1: Federated query for AD | 21 | RBRC06342,RBRC06343,<br>RBRC06344,RBRC10041,<br>RBRC10042,RBRC10700,<br>RBRC10701,RBRC10043,<br>RBRC11518,RBRC03298,<br>RBRC03388,RBRC03389,<br>RBRC03390,RBRC03391,<br>RBRC03418,RBRC03419,<br>RBRC03420,RBRC03421,<br>RBRC03422,RBRC03423,<br>RBRC00052 | 2 | ENSG00000130203,<br>ENSG00000142192 | APOE,<br>APP |  
 
+_____
 
 ### Additional file 2 (SPARQL query example 2-1)  
 [Example2-1_Additional_file_2.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-1_Additional_file_2.txt)  
@@ -48,6 +49,8 @@ Results:
 |:---|:---:|:---|:---:|:---|:---:|
 |Example 2: Centralized query for AD | 21 | RBRC06342,RBRC06343,<br>RBRC06344,RBRC10041,<br>RBRC10042,RBRC10700,<br>RBRC10701,RBRC10043,<br>RBRC11518,RBRC03298,<br>RBRC03388,RBRC03389,<br>RBRC03390,RBRC03391,<br>RBRC03418,RBRC03419,<br>RBRC03420,RBRC03421,<br>RBRC03422,RBRC03423,<br>RBRC00052 | 2 | ENSG00000130203,<br>ENSG00000142192 | APOE,<br>APP |  
 
+____
+
 ### Additional file 3 (SPARQL query example 3-1)  
 [Example3-1_Additional_file_3.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-1_Additional_file_3.txt)  
 Description: A federated SPARQL query for Melanoma using DisGeNET  
@@ -65,6 +68,8 @@ Results:
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image] | Ensembl Gene IDs | Gene labels |
 |:---|:---:|:---|:---:|:---|:---:|
 |Example 3: Federated query for Melanoma | 18 | RBRC10866,RBRC01088,<br>RBRC02449,RBRC02450,<br>RBRC02451,RBRC02460,<br>RBRC02464,RBRC02466,<br>RBRC02473,RBRC02475,<br>RBRC02479,RBRC02481,<br>RBRC02484,RBRC02485,<br>RBRC02487,RBRC02488,<br>RBRC02586,RBRC11578 | 1 | ENSG00000174775 | HRAS |  
+
+____
 
 ### Additional file 4 (SPARQL query example 4-1)  
 [Example4-1_ Additional_file_4.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-1_Additional_file_4.txt )  
@@ -84,83 +89,225 @@ Results:
 |:---|:---:|:---|:---:|:---|:---:|
 |Example 4: Centralized query for Melanoma | 18 | RBRC10866,RBRC01088,<br>RBRC02449,RBRC02450,<br>RBRC02451,RBRC02460,<br>RBRC02464,RBRC02466,<br>RBRC02473,RBRC02475,<br>RBRC02479,RBRC02481,<br>RBRC02484,RBRC02485,<br>RBRC02487,RBRC02488,<br>RBRC02586,RBRC11578 | 1 | ENSG00000174775 | HRAS |  
 
+____
+
 ### Additional file 5 (SPARQL query example 1-2)  
 The average runtime (10 times): 48 seconds  
 Results:  
+
+____
 
 ### Additional file 6 (SPARQL query example 2-2) 
 The average runtime (10 times): 12 seconds  
 Results:  
 
+____
+
 ### Additional file 7 (SPARQL query example 3-2) 
 The average runtime (10 times): 42 seconds  
 Results:  
+
+____
 
 ### Additional file 8 (SPARQL query example 4-2)  
 The average runtime (10 times): 42 seconds  
 Results:  
 
+____
+
 ### Additional file 9 (SPARQL query example 1-3) 
 The average runtime (10 times): 47 seconds  
 Results:  
+
+____
 
 ### Additional file 10 (SPARQL query example 2-3)  
 The average runtime (10 times): 28 seconds  
 Results:  
 
+____
+
 ### Additional file 11 (SPARQL query example 3-3)  
 The average runtime (10 times): 40 seconds  
 Results:  
+
+____
 
 ### Additional file 12 (SPARQL query example 4-3)  
 The average runtime (10 times): 40 seconds  
 Results:  
 
+____
+
 ### Additional file 13 (SPARQL query example 5-0)  
-The average runtime (10 times):  seconds  
+[Example5-0_ Additional_file_13.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-0_Additional_file_13.txt )  
+Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Disease: Melanoma (umls:C0025202) 
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - Property paths: No
+  - 
+The average runtime (10 times): 51 seconds  
+Results:
+
+____
+
+### Additional file 14 (SPARQL query example 5-1) 
+[Example5-1_ Additional_file_14.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-1_Additional_file_14.txt )  
+Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Disease: Melanoma (umls:C0025202) 
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - Property paths: No
+ 
+The average runtime (10 times): 2 seconds  
 Results:  
 
-### Additional file 14 (SPARQL query example 5-1)  
-The average runtime (10 times):  seconds  
-Results:  
+____
 
 ### Additional file 15 (SPARQL query example 5-2)  
-The average runtime (10 times):  seconds  
+[Example5-2_ Additional_file_15.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-2_Additional_file_15.txt )  
+Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Disease: Melanoma (umls:C0025202) 
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - Property paths: No
+    
+The average runtime (10 times): 2 seconds  
 Results:  
+
+____
 
 ### Additional file 16 (SPARQL query example 6-0)  
-The average runtime (10 times):  seconds  
+[Example6-0_ Additional_file_16.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-0_Additional_file_16.txt )  
+Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Disease: Melanoma (umls:C0025202) 
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - Property paths: No
+    
+The average runtime (10 times): 77 seconds  
 Results:  
+
+____
 
 ### Additional file 17 (SPARQL query example 6-1)  
-The average runtime (10 times):  seconds  
+[Example6-1_ Additional_file_17.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-1_Additional_file_17.txt )  
+Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Disease: Melanoma (umls:C0025202) 
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - Property paths: No
+
+The average runtime (10 times): 2 seconds  
 Results:  
+
+____
 
 ### Additional file 18 (SPARQL query example 6-2)  
-The average runtime (10 times):  seconds  
+[Example6-2_ Additional_file_18.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-2_Additional_file_18.txt )  
+Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Disease: Melanoma (umls:C0025202) 
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - Property paths: No
+    
+The average runtime (10 times): 2 seconds  
 Results:  
+
+____
 
 ### Additional file 19 (SPARQL query example 7)  
-The average runtime (10 times):  seconds  
+[Example7_ Additional_file_19.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7_Additional_file_19.txt )  
+Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Disease: Melanoma (umls:C0025202) 
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - Property paths: No
+    
+The average runtime (10 times): 29 seconds  
 Results:  
+
+____
 
 ### Additional file 20 (SPARQL query example 8)  
-The average runtime (10 times):  seconds  
+[Example8_ Additional_file_20.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example8_Additional_file_20.txt )  
+Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Disease: Melanoma (umls:C0025202) 
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - Property paths: No
+    
+The average runtime (10 times): 29 seconds  
 Results:  
+
+____
 
 ### Additional file 21 (SPARQL query example 9)  
-The average runtime (10 times):  seconds  
+[Example9_ Additional_file_21.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example9_Additional_file_21.txt )  
+Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Disease: Melanoma (umls:C0025202) 
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - Property paths: No
+    
+The average runtime (10 times): 9 seconds  
 Results:  
+
+____
 
 ### Additional file 22 (SPARQL query example 10)  
-The average runtime (10 times):  seconds  
+[Example10_ Additional_file_22.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example10_Additional_file_20.txt )  
+Description: A centralized SPARQL query for Melanoma using DisGeNET  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Disease: Melanoma (umls:C0025202) 
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - Property paths: No
+    
+The average runtime (10 times): 11 seconds  
 Results:  
 
-
-
-
-
-
+____
 
 
 ### Additional file 23 (Python script)
@@ -169,12 +316,16 @@ Description: This is a Python script for converting the latest **uberon_kgx_tsv_
 
 <img width="1411" alt="a_partOf_image_additional_file_5" src="https://github.com/kushidat/broaderPredicate_uberon/assets/1106622/80973097-c5aa-4c4d-b2f4-2be24d7ee046">
 
+____
+
 ### Additional file 24 (RDF data)  
 [subject_broader_object_from_BFO_0000050.ttl](https://github.com/kushidat/broaderPredicate_uberon/blob/main/subject_broader_object_from_BFO_0000050.ttl)  
 Description: This is a turtle file converted from the latest uberon_kgx_tsv_edge.tsv in the [kg-uberon webpage](https://kg-hub.berkeleybop.io/kg-obo/uberon/) in the [KG-OBO project](https://github.com/Knowledge-Graph-Hub/kg-obo) of the [KG-Hub](https://kghub.org/). In this file, the BFO:0000050 (pratOf) relations among the Uberon terms were converted to <http://purl.org/rbrc/resource/broader> relations among them.
 
 Sample:  
 ![sample_subject_broader_object_from_BFO_0000050_02](https://github.com/kushidat/broaderPredicate_uberon/assets/1106622/bb4c6e13-cdb5-4d9d-9895-7d59a08fde41)
+
+____
 
 ### Additional file 25 (RDF data)  
 [subject_broader_object_from_subClassOf.ttl](https://github.com/kushidat/broaderPredicate_uberon/blob/main/subject_broader_object_from_subClassOf.ttl)  
@@ -183,12 +334,16 @@ Description: This is a turtle file converted from the latest uberon_kgx_tsv_edge
 Sample:  
 ![sample_subject_broader_object_from_subClassOf_02](https://github.com/kushidat/broaderPredicate_uberon/assets/1106622/a967b103-4698-4ff7-b92e-897debbe5fde)
 
+____
+
 ### Overview of Converting the uberon.owl to the turtle file using the “broader” predicate.  (Image file)  
 [image_additional_file_5.tiff](https://github.com/kushidat/broaderPredicate_uberon/blob/main/image_additional_file_5.tiff)  
 Title: Overview of Converting the uberon.owl to the turtle file using the “broader” predicate.  
 Description: A path between the “skin of limb” ([UBERON_0001419](http://purl.obolibrary.org/obo/UBERON_0001419)) to the “skin of body” ([UBERON_0002097](http://purl.obolibrary.org/obo/UBERON_0002097)) in the uberon.owl (A) and that in the graph <http://purl.org/rbrc/resource/broader> within the RIKEN Bioresource MetaDatabase (B). The diagrams were created using https://www.kanzaki.com/works/2009/pub/graph-draw.  
 
 ![image_additional_file_5](https://github.com/kushidat/broaderPredicate_uberon/assets/1106622/190dc9ca-167e-48ba-ad7f-f6bc95b4025d)  
+
+____
 
 ### Additional file 27 (SPARQL query example 11-1)  
 [Example11-1_Additional_file_27.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-1_Additional_file_27.txt)      
@@ -209,6 +364,8 @@ Results:
 |:---|:---:|:---|:---:|:---|:---:|:---:|:---|:---|
 |Example 5: Centralized query for Melanoma using the broader predicate| 21 | RBRC11578,<br>RBRC02473,<br>RBRC02481,<br>RBRC02449,<br>RBRC02488,<br>RBRC02464,<br>RBRC02485,<br>RBRC02484,<br>RBRC10866,<br>RBRC02466,<br> RBRC02479,<br>RBRC02450,<br>RBRC02586,<br>RBRC02460,<br>RBRC02451,<br> RBRC02475,<br>RBRC01088,<br>RBRC02487,<br>RBRC-AES1453,<br>RBRC02300,<br>RBRC02301 | 2 | ENSG00000174775 | HRAS,<br>PTEN | 8 | UBERON:0000014,<br>UBERON:0001511,<br>UBERON:0003532,<br>UBERON:0001416,<br>UBERON:0001419,<br>UBERON:0002097,<br>UBERON:0003531,<br>UBERON:0004263,<br> | zone of skin,<br>skin of leg,<br>hindlimb skin,<br>skin of abdomen,<br>skin of limb,<br>skin of body,<br>forelimb skin,<br>upper arm skin |  
 
+____
+
 
 ### Additional file 28 (SPARQL query example 11-2)  
 [Example11-2_Additional_file_28.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-2_Additional_file_28.txt)      
@@ -226,7 +383,7 @@ Search parameters:
 The average runtime (10 times): Transaction timed out (over 10 mins)   
 Results:  ND
 
-
+____
 
 
 ### SPARQL query example 13  
@@ -261,6 +418,8 @@ Results:
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image] | Ensembl Gene IDs | Gene labels |
 |:---|:---:|:---|:---:|:---|:---:|
 |Example 7: Federated query for AD | 10 | RBRC10700,RBRC10701,<br>RBRC06344,RBRC10042,<br>RBRC10041,RBRC06342,<br>RBRC11518,RBRC06343,<br>RBRC10043,RBRC10368 | 2 | ENSG00000142192,<br>ENSG00000127445 | APP,<br>PIN1 |  
+
+____
 
 ## Licence
 [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
