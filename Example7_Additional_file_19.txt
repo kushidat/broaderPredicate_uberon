@@ -1,4 +1,4 @@
-# Example7
+# Example 7
 # Federated (prefrontal cortex)
 PREFIX brso: <http://purl.jp/bio/10/brso/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
