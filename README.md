@@ -92,7 +92,7 @@ Results:
 ____
 
 ### Additional file 5 (SPARQL query example 1-2)  
-[Example_1-2_Additional_file_5.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-2_Additional_file_5.txt)  
+[Example1-2_Additional_file_5.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-2_Additional_file_5.txt)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and two subqueries   
 
 The average runtime (10 times): 48 seconds  
@@ -101,7 +101,7 @@ Results:
 ____
 
 ### Additional file 6 (SPARQL query example 2-2)  
-[Example_2-2_Additional_file_6.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-2_Additional_file_6.txt)  
+[Example2-2_Additional_file_6.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-2_Additional_file_6.txt)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and two subqueries   
 
 The average runtime (10 times): 12 seconds  
@@ -110,7 +110,7 @@ Results:
 ____
 
 ### Additional file 7 (SPARQL query example 3-2)  
-[Example_3-2_Additional_file_7.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-2_Additional_file_7.txt)  
+[Example3-2_Additional_file_7.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-2_Additional_file_7.txt)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and two subqueries  
 
 The average runtime (10 times): 42 seconds  
@@ -119,7 +119,7 @@ Results:
 ____
 
 ### Additional file 8 (SPARQL query example 4-2)  
-[Example_4-2_Additional_file_8.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-2_Additional_file_8.txt)  
+[Example4-2_Additional_file_8.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-2_Additional_file_8.txt)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and two subqueries  
 
 The average runtime (10 times): 42 seconds  
@@ -128,7 +128,7 @@ Results:
 ____
 
 ### Additional file 9 (SPARQL query example 1-3)  
-[Example_1-3_Additional_file_9.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-3_Additional_file_9.txt)  
+[Example1-3_Additional_file_9.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-3_Additional_file_9.txt)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and three subqueries  
 
 The average runtime (10 times): 47 seconds  
@@ -137,7 +137,7 @@ Results:
 ____
 
 ### Additional file 10 (SPARQL query example 2-3)  
-[Example_2-3_Additional_file_10.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-3_Additional_file_10.txt)  
+[Example2-3_Additional_file_10.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-3_Additional_file_10.txt)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and three subqueries  
 
 The average runtime (10 times): 28 seconds  
@@ -146,7 +146,7 @@ Results:
 ____
 
 ### Additional file 11 (SPARQL query example 3-3)  
-[Example_3-3_Additional_file_11.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-3_Additional_file_11.txt)  
+[Example3-3_Additional_file_11.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-3_Additional_file_11.txt)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and three subqueries  
 
 The average runtime (10 times): 40 seconds  
@@ -155,7 +155,7 @@ Results:
 ____
 
 ### Additional file 12 (SPARQL query example 4-3)  
-[Example_4-3_Additional_file_12.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-3_Additional_file_12.txt)  
+[Example4-3_Additional_file_12.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-3_Additional_file_12.txt)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and three subqueries.    
 
 The average runtime (10 times): 40 seconds  
