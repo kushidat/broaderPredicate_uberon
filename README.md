@@ -12,7 +12,7 @@ https://knowledge.brc.riken.jp/sparql
 
 ## SPARQL query examples and the ralated data
 ### Additional file 1 (SPARQL query example 1-1)  
-[Example_1-1_Additional_file_1.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1_Additional_file_1.txt)  
+[Example_1-1_Additional_file_1.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-1_Additional_file_1.txt)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET   
 Search parameters:  
   - Federated or Centralized: Federated
@@ -31,7 +31,7 @@ Results:
 
 
 ### Additional file 2 (SPARQL query example 2-1)  
-[Example2-1_Additional_file_2.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2_Additional_file_2.txt)  
+[Example2-1_Additional_file_2.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-1_Additional_file_2.txt)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET   
 Search parameters:  
   - Federated or Centralized: Centralized
@@ -49,7 +49,7 @@ Results:
 |Example 2: Centralized query for AD | 21 | RBRC06342,RBRC06343,<br>RBRC06344,RBRC10041,<br>RBRC10042,RBRC10700,<br>RBRC10701,RBRC10043,<br>RBRC11518,RBRC03298,<br>RBRC03388,RBRC03389,<br>RBRC03390,RBRC03391,<br>RBRC03418,RBRC03419,<br>RBRC03420,RBRC03421,<br>RBRC03422,RBRC03423,<br>RBRC00052 | 2 | ENSG00000130203,<br>ENSG00000142192 | APOE,<br>APP |  
 
 ### Additional file 3 (SPARQL query example 3-1)  
-[Example3-1_Additional_file_3.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3_Additional_file_3.txt)  
+[Example3-1_Additional_file_3.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-1_Additional_file_3.txt)  
 Description: A federated SPARQL query for Melanoma using DisGeNET  
 Search parameters:  
   - Federated or Centralized: Federated
@@ -67,7 +67,7 @@ Results:
 |Example 3: Federated query for Melanoma | 18 | RBRC10866,RBRC01088,<br>RBRC02449,RBRC02450,<br>RBRC02451,RBRC02460,<br>RBRC02464,RBRC02466,<br>RBRC02473,RBRC02475,<br>RBRC02479,RBRC02481,<br>RBRC02484,RBRC02485,<br>RBRC02487,RBRC02488,<br>RBRC02586,RBRC11578 | 1 | ENSG00000174775 | HRAS |  
 
 ### Additional file 4 (SPARQL query example 4-1)  
-[Example4_ Additional_file_4.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4_Additional_file_4.txt )  
+[Example4_ Additional_file_4.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-1_Additional_file_4.txt )  
 Description: A centralized SPARQL query for Melanoma using DisGeNET  
 Search parameters:  
   - Federated or Centralized: Centralized
@@ -191,7 +191,7 @@ Description: A path between the “skin of limb” ([UBERON_0001419](http://purl
 ![image_additional_file_5](https://github.com/kushidat/broaderPredicate_uberon/assets/1106622/190dc9ca-167e-48ba-ad7f-f6bc95b4025d)  
 
 ### Additional file 27 (SPARQL query example 11-1)  
-[Example11-1_Additional_file_27.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5_Additional_file_9.txt)      
+[Example11-1_Additional_file_27.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-1_Additional_file_27.txt)      
 Description: A centralized query for Melanoma using DisGeNET and the uberonRDF-KGX
   
 Search parameters:  
