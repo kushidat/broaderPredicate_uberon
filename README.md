@@ -67,7 +67,7 @@ Results:
 |Example 3: Federated query for Melanoma | 18 | RBRC10866,RBRC01088,<br>RBRC02449,RBRC02450,<br>RBRC02451,RBRC02460,<br>RBRC02464,RBRC02466,<br>RBRC02473,RBRC02475,<br>RBRC02479,RBRC02481,<br>RBRC02484,RBRC02485,<br>RBRC02487,RBRC02488,<br>RBRC02586,RBRC11578 | 1 | ENSG00000174775 | HRAS |  
 
 ### Additional file 4 (SPARQL query example 4-1)  
-[Example4_ Additional_file_4.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-1_Additional_file_4.txt )  
+[Example4-1_ Additional_file_4.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-1_Additional_file_4.txt )  
 Description: A centralized SPARQL query for Melanoma using DisGeNET  
 Search parameters:  
   - Federated or Centralized: Centralized
