@@ -50,8 +50,8 @@ SELECT distinct ?mouse ?ensembl2 WHERE {
         VALUES (?umls) { (umls:C0002395) } # Alzheimer disease
                       FILTER (?identifiers_ncbi2 != ?umls)
               }
-			     }
-		    }
+	}
+	}
       } 
     }
 } 
