@@ -113,7 +113,9 @@ ____
 [Example3-2_Additional_file_7.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-2_Additional_file_7.txt)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and two subqueries  
 
-The average runtime (10 times): 42 seconds  
+The average runtime (10 times):  
+- 42 seconds [Execution date: 4 August 2023]   
+  
 Results:  
 
 ____
@@ -221,7 +223,10 @@ ____
 [Example7_ Additional_file_19.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7_Additional_file_19.txt )  
 Description: A federated SPARQL query of Section 4 (Bgee) for the "prefrontal cortex" using DisGeNET.  
     
-The average runtime (10 times): 29 seconds  
+The average runtime (10 times):  
+- 29 seconds [Execution date: 4 August 2023]
+- 8 seconds [Execution date: 10 August 2023]  
+  
 Results:  
 
 ____
