@@ -23,7 +23,10 @@ Search parameters:
   - Expression Level: > 99
   - Property paths: No
 
-The average runtime (10 times): 59 seconds  
+The average runtime (10 times):  
+- 59 seconds [Execution date: 4 August 2023]  
+- 44 seconds [Execution date: 10 August 2023]  
+  
 Results:  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image] | Ensembl Gene IDs | Gene labels |
 |:---|:---:|:---|:---:|:---|:---:|
@@ -63,7 +66,11 @@ Search parameters:
   - Expression Level: > 99
   - Property paths: No
     
-The average runtime (10 times): 38 seconds  
+The average runtime (10 times):  
+- 38 seconds [Execution date: 4 August 2023]    
+- 21 seconds [Execution date: 10 August 2023]  
+
+
 Results:  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image] | Ensembl Gene IDs | Gene labels |
 |:---|:---:|:---|:---:|:---|:---:|
@@ -225,7 +232,7 @@ Description: A federated SPARQL query of Section 4 (Bgee) for the "prefrontal co
     
 The average runtime (10 times):  
 - 29 seconds [Execution date: 4 August 2023]
-- 8 seconds [Execution date: 10 August 2023]  
+- 10 seconds [Execution date: 10 August 2023]  
   
 Results:  
 
