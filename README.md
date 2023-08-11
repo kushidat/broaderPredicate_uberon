@@ -9,6 +9,9 @@ https://github.com/tarcisiotmf/swat4hcls
 ## RIKEN BioResource SPARQL endpoint
 https://knowledge.brc.riken.jp/sparql  
 
+## Bgee SPARQL endpoint
+https://www.bgee.org/sparql/
+
 
 ## SPARQL query examples and the related data
 ### Additional file 1 (SPARQL query example 1-1)  
