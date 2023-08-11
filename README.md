@@ -50,7 +50,9 @@ Search parameters:
   - No. of subqueries: 1
   - Property paths: No
     
-The average runtime (10 times): 40 seconds  
+The average runtime (10 times): 
+  - 40 seconds [Execution date: 4 August 2023]
+    
 Results:  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes | Ensembl Gene IDs | Gene labels |
 |:---|:---:|:---|:---:|:---|:---:|
@@ -98,7 +100,9 @@ Search parameters:
   - No. of subqueries: 1
   - Property paths: No
     
-The average runtime (10 times): 20 seconds  
+The average runtime (10 times): 
+  - 20 seconds [Execution date: 4 August 2023]
+     
 Results:  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image] | Ensembl Gene IDs | Gene labels |
 |:---|:---:|:---|:---:|:---|:---:|
@@ -120,7 +124,9 @@ Search parameters:
   - No. of subqueries: 2
   - Property paths: No
 
-The average runtime (10 times): 48 seconds  
+The average runtime (10 times): 
+  - 48 seconds [Execution date: 4 August 2023]
+    
 Results:  
 
 ____
@@ -139,7 +145,9 @@ Search parameters:
   - No. of subqueries: 2
   - Property paths: No
 
-The average runtime (10 times): 12 seconds  
+The average runtime (10 times): 
+  - 12 seconds [Execution date: 4 August 2023]
+    
 Results:  
 
 ____
@@ -179,7 +187,9 @@ Search parameters:
   - No. of subqueries: 2
   - Property paths: No
 
-The average runtime (10 times): 42 seconds  
+The average runtime (10 times): 
+  - 42 seconds [Execution date: 4 August 2023]
+    
 Results:  
 
 ____
@@ -198,7 +208,9 @@ Search parameters:
   - No. of subqueries: 3
   - Property paths: No
 
-The average runtime (10 times): 47 seconds  
+The average runtime (10 times): 
+  - 47 seconds [Execution date: 4 August 2023]
+    
 Results:  
 
 ____
@@ -217,7 +229,9 @@ Search parameters:
   - No. of subqueries: 3
   - Property paths: No
 
-The average runtime (10 times): 28 seconds  
+The average runtime (10 times):   
+  - 28 seconds [Execution date: 4 August 2023]
+    
 Results:  
 
 ____
@@ -236,7 +250,9 @@ Search parameters:
   - No. of subqueries: 3
   - Property paths: No
 
-The average runtime (10 times): 40 seconds  
+The average runtime (10 times): 
+  - 40 seconds [Execution date: 4 August 2023]
+    
 Results:  
 
 ____
@@ -255,7 +271,9 @@ Search parameters:
   - No. of subqueries: 3
   - Property paths: No
 
-The average runtime (10 times): 40 seconds  
+The average runtime (10 times): 
+  - 40 seconds [Execution date: 4 August 2023]
+    
 Results:  
 
 ____
@@ -274,7 +292,9 @@ Search parameters:
   - No. of subqueries: 0
   - Property paths: No
     
-The average runtime (10 times): 51 seconds  
+The average runtime (10 times): 
+  - 51 seconds [Execution date: 4 August 2023]
+    
 Results:
 
 ____
@@ -293,7 +313,9 @@ Search parameters:
   - No. of subqueries: 1
   - Property paths: No
  
-The average runtime (10 times): 2 seconds  
+The average runtime (10 times): 
+  - 2 seconds [Execution date: 4 August 2023]
+    
 Results:  
 
 ____
@@ -312,7 +334,9 @@ Search parameters:
   - No. of subqueries: 2
   - Property paths: No
         
-The average runtime (10 times): 2 seconds  
+The average runtime (10 times): 
+  - 2 seconds [Execution date: 4 August 2023]
+    
 Results:  
 
 ____
@@ -331,7 +355,9 @@ Search parameters:
   - No. of subqueries: 0
   - Property paths: No
     
-The average runtime (10 times): 77 seconds  
+The average runtime (10 times): 
+  - 77 seconds [Execution date: 4 August 2023]
+    
 Results:  
 
 ____
@@ -350,7 +376,9 @@ Search parameters:
   - No. of subqueries: 1
   - Property paths: No
 
-The average runtime (10 times): 2 seconds  
+The average runtime (10 times): 
+  - 2 seconds [Execution date: 4 August 2023]
+    
 Results:  
 
 ____
@@ -369,7 +397,9 @@ Search parameters:
   - No. of subqueries: 2
   - Property paths: No
     
-The average runtime (10 times): 2 seconds  
+The average runtime (10 times): 
+  - 2 seconds [Execution date: 4 August 2023]
+    
 Results:  
 
 ____
@@ -410,7 +440,9 @@ Search parameters:
   - No. of subqueries: 0
   - Property paths: No
     
-The average runtime (10 times): 29 seconds  
+The average runtime (10 times): 
+  - 29 seconds [Execution date: 4 August 2023]
+    
 Results:  
 
 ____
@@ -429,7 +461,9 @@ Search parameters:
   - No. of subqueries: 0
   - Property paths: No
     
-The average runtime (10 times): 9 seconds  
+The average runtime (10 times): 
+  - 9 seconds [Execution date: 4 August 2023]
+    
 Results:  
 
 ____
@@ -448,7 +482,9 @@ Search parameters:
   - No. of subqueries: 0
   - Property paths: No
     
-The average runtime (10 times): 11 seconds  
+The average runtime (10 times): 
+  - 11 seconds [Execution date: 4 August 2023]
+    
 Results:  
 
 ____
@@ -504,7 +540,9 @@ Search parameters:
   - No. of subqueries: 1
   - Property paths: Yes
     
-The average runtime (10 times): 67 seconds  
+The average runtime (10 times): 
+  - 67 seconds [Execution date: 4 August 2023]
+    
 Results:  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes | Ensembl Gene IDs | Gene labels |  No. of anatomical entities | Uberon IDs | Anatomical entity labels |
 |:---|:---:|:---|:---:|:---|:---:|:---:|:---|:---|
@@ -516,7 +554,6 @@ ____
 ### Additional file 27 (SPARQL query example 11-2)  
 [Example11-2_Additional_file_27.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-2_Additional_file_27.txt)      
 Description: A centralized query for melanoma using DisGeNET and the Ubergraph (Endpoint: https://ubergraph.apps.renci.org/sparql)   
-  
 Search parameters:  
   - Federated (F) or Centralized (C): C
   - Sections: All
@@ -528,7 +565,9 @@ Search parameters:
   - No. of subqueries: 1
   - Property paths: Yes
     
-The average runtime (10 times): Transaction timed out (over 10 mins)   
+The average runtime (10 times): 
+  - Transaction timed out (over 10 mins) [Execution date: 4 August 2023]
+    
 Results:  ND
 
 ____
@@ -548,7 +587,9 @@ Search parameters:
   - No. of subqueries: 1
   - Property paths: No
     
-The average runtime (10 times): 67 seconds  
+The average runtime (10 times): 
+  - 67 seconds [Execution date: 4 August 2023]
+    
 Results:  0 cases  
 
 ____
@@ -567,7 +608,9 @@ Search parameters:
   - No. of subqueries: 1
   - Property paths: No
     
-The average runtime (10 times): 1 second  
+The average runtime (10 times): 
+  - 1 second [Execution date: 4 August 2023]
+    
 Results:  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image] | Ensembl Gene IDs | Gene labels |
 |:---|:---:|:---|:---:|:---|:---:|
