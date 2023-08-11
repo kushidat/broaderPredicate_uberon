@@ -6,11 +6,9 @@ The RIKEN BioResource Research Center (BRC) is exploring the model organisms whi
 ## Reference
 https://github.com/tarcisiotmf/swat4hcls
 
-## RIKEN BioResource SPARQL endpoint
-https://knowledge.brc.riken.jp/sparql  
-
-## Bgee SPARQL endpoint
-https://www.bgee.org/sparql/
+## SPARQL endpoint
+  - RIKEN BioResource SPARQL endpoint: https://knowledge.brc.riken.jp/sparql  
+  - Bgee SPARQL endpoint: https://www.bgee.org/sparql/
 
 
 ## SPARQL query examples and the related data
