@@ -10,17 +10,19 @@ https://github.com/tarcisiotmf/swat4hcls
 https://knowledge.brc.riken.jp/sparql  
 
 
-## SPARQL query examples and the ralated data
+## SPARQL query examples and the related data
 ### Additional file 1 (SPARQL query example 1-1)  
 [Example_1-1_Additional_file_1.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-1_Additional_file_1.txt)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and one subquery    
 Search parameters:  
   - Federated or Centralized: Federated
+  - Sections: All
   - Disease: Alzheimer's disease (umls:C0002395)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
   - Expression Level: > 99
+  - No. of subqueries: 1
   - Property paths: No
 
 The average runtime (10 times):  
@@ -39,11 +41,13 @@ _____
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and one subquery     
 Search parameters:  
   - Federated or Centralized: Centralized
+  - Sections: All
   - Disease: Alzheimer's disease (umls:C0002395)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
   - Expression Level: > 99
+  - No. of subqueries: 1
   - Property paths: No
     
 The average runtime (10 times): 40 seconds  
@@ -56,14 +60,16 @@ ____
 
 ### Additional file 3 (SPARQL query example 3-1)  
 [Example3-1_Additional_file_3.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-1_Additional_file_3.txt)  
-Description: A federated SPARQL query for Melanoma using DisGeNET and one subquery  
+Description: A federated SPARQL query for melanoma using DisGeNET and one subquery  
 Search parameters:  
   - Federated or Centralized: Federated
-  - Disease: Melanoma (umls:C0025202) 
+  - Sections: All
+  - Disease: melanoma (umls:C0025202) 
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
   - Expression Level: > 99
+  - No. of subqueries: 1
   - Property paths: No
     
 The average runtime (10 times):  
@@ -74,33 +80,45 @@ The average runtime (10 times):
 Results:  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image] | Ensembl Gene IDs | Gene labels |
 |:---|:---:|:---|:---:|:---|:---:|
-|Example 3-1: Federated query for Melanoma | 18 | RBRC10866,RBRC01088,<br>RBRC02449,RBRC02450,<br>RBRC02451,RBRC02460,<br>RBRC02464,RBRC02466,<br>RBRC02473,RBRC02475,<br>RBRC02479,RBRC02481,<br>RBRC02484,RBRC02485,<br>RBRC02487,RBRC02488,<br>RBRC02586,RBRC11578 | 1 | ENSG00000174775 | HRAS |  
+|Example 3-1: Federated query for melanoma | 18 | RBRC10866,RBRC01088,<br>RBRC02449,RBRC02450,<br>RBRC02451,RBRC02460,<br>RBRC02464,RBRC02466,<br>RBRC02473,RBRC02475,<br>RBRC02479,RBRC02481,<br>RBRC02484,RBRC02485,<br>RBRC02487,RBRC02488,<br>RBRC02586,RBRC11578 | 1 | ENSG00000174775 | HRAS |  
 
 ____
 
 ### Additional file 4 (SPARQL query example 4-1)  
 [Example4-1_ Additional_file_4.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-1_Additional_file_4.txt )  
-Description: A centralized SPARQL query for Melanoma using DisGeNET and one subquery   
+Description: A centralized SPARQL query for melanoma using DisGeNET and one subquery   
 Search parameters:  
   - Federated or Centralized: Centralized
-  - Disease: Melanoma (umls:C0025202) 
+  - Sections: All
+  - Disease: melanoma (umls:C0025202) 
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
   - Expression Level: > 99
+  - No. of subqueries: 1
   - Property paths: No
     
 The average runtime (10 times): 20 seconds  
 Results:  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image] | Ensembl Gene IDs | Gene labels |
 |:---|:---:|:---|:---:|:---|:---:|
-|Example 4-1: Centralized query for Melanoma | 18 | RBRC10866,RBRC01088,<br>RBRC02449,RBRC02450,<br>RBRC02451,RBRC02460,<br>RBRC02464,RBRC02466,<br>RBRC02473,RBRC02475,<br>RBRC02479,RBRC02481,<br>RBRC02484,RBRC02485,<br>RBRC02487,RBRC02488,<br>RBRC02586,RBRC11578 | 1 | ENSG00000174775 | HRAS |  
+|Example 4-1: Centralized query for melanoma | 18 | RBRC10866,RBRC01088,<br>RBRC02449,RBRC02450,<br>RBRC02451,RBRC02460,<br>RBRC02464,RBRC02466,<br>RBRC02473,RBRC02475,<br>RBRC02479,RBRC02481,<br>RBRC02484,RBRC02485,<br>RBRC02487,RBRC02488,<br>RBRC02586,RBRC11578 | 1 | ENSG00000174775 | HRAS |  
 
 ____
 
 ### Additional file 5 (SPARQL query example 1-2)  
 [Example1-2_Additional_file_5.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-2_Additional_file_5.txt)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and two subqueries   
+Search parameters:  
+  - Federated or Centralized: Federated
+  - Sections: All
+  - Disease: Alzheimer's disease (umls:C0002395)
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 2
+  - Property paths: No
 
 The average runtime (10 times): 48 seconds  
 Results:  
@@ -110,6 +128,16 @@ ____
 ### Additional file 6 (SPARQL query example 2-2)  
 [Example2-2_Additional_file_6.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-2_Additional_file_6.txt)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and two subqueries   
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Sections: All
+  - Disease: Alzheimer's disease (umls:C0002395)
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 2
+  - Property paths: No
 
 The average runtime (10 times): 12 seconds  
 Results:  
@@ -118,7 +146,17 @@ ____
 
 ### Additional file 7 (SPARQL query example 3-2)  
 [Example3-2_Additional_file_7.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-2_Additional_file_7.txt)  
-Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and two subqueries  
+Description: A federated SPARQL query for melanoma using DisGeNET and two subqueries  
+Search parameters:  
+  - Federated or Centralized: Federated
+  - Sections: All
+  - Disease: melanoma (umls:C0025202)
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 2
+  - Property paths: No
 
 The average runtime (10 times):  
 - 42 seconds [Execution date: 4 August 2023]   
@@ -129,7 +167,17 @@ ____
 
 ### Additional file 8 (SPARQL query example 4-2)  
 [Example4-2_Additional_file_8.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-2_Additional_file_8.txt)  
-Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and two subqueries  
+Description: A centralized SPARQL query for melanoma using DisGeNET and two subqueries  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Sections: All
+  - Disease: melanoma (umls:C0025202)
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 2
+  - Property paths: No
 
 The average runtime (10 times): 42 seconds  
 Results:  
@@ -139,6 +187,16 @@ ____
 ### Additional file 9 (SPARQL query example 1-3)  
 [Example1-3_Additional_file_9.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-3_Additional_file_9.txt)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and three subqueries  
+Search parameters:  
+  - Federated or Centralized: Federated
+  - Sections: All
+  - Disease: Alzheimer's disease (umls:C0002395)
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 3
+  - Property paths: No
 
 The average runtime (10 times): 47 seconds  
 Results:  
@@ -148,6 +206,16 @@ ____
 ### Additional file 10 (SPARQL query example 2-3)  
 [Example2-3_Additional_file_10.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-3_Additional_file_10.txt)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and three subqueries  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Sections: All
+  - Disease: Alzheimer's disease (umls:C0002395)
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 3
+  - Property paths: No
 
 The average runtime (10 times): 28 seconds  
 Results:  
@@ -156,7 +224,17 @@ ____
 
 ### Additional file 11 (SPARQL query example 3-3)  
 [Example3-3_Additional_file_11.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-3_Additional_file_11.txt)  
-Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and three subqueries  
+Description: A federated SPARQL query for melanoma using DisGeNET and three subqueries  
+Search parameters:  
+  - Federated or Centralized: Federated
+  - Sections: All
+  - Disease: melanoma (umls:C0025202)
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 3
+  - Property paths: No
 
 The average runtime (10 times): 40 seconds  
 Results:  
@@ -166,6 +244,16 @@ ____
 ### Additional file 12 (SPARQL query example 4-3)  
 [Example4-3_Additional_file_12.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-3_Additional_file_12.txt)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and three subqueries.    
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Sections: All
+  - Disease: melanoma (umls:C0025202)
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 3
+  - Property paths: No
 
 The average runtime (10 times): 40 seconds  
 Results:  
@@ -175,7 +263,17 @@ ____
 ### Additional file 13 (SPARQL query example 5-0)  
 [Example5-0_ Additional_file_13.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-0_Additional_file_13.txt )  
 Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and without the subquery.  
-
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Sections: 1, 2, and 3
+  - Disease: Alzheimer's disease (umls:C0002395)
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 0
+  - Property paths: No
+    
 The average runtime (10 times): 51 seconds  
 Results:
 
@@ -184,6 +282,16 @@ ____
 ### Additional file 14 (SPARQL query example 5-1) 
 [Example5-1_ Additional_file_14.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-1_Additional_file_14.txt )  
 Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and one subquery.  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Sections: 1, 2, and 3
+  - Disease: Alzheimer's disease (umls:C0002395)
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 1
+  - Property paths: No
  
 The average runtime (10 times): 2 seconds  
 Results:  
@@ -193,7 +301,17 @@ ____
 ### Additional file 15 (SPARQL query example 5-2)  
 [Example5-2_ Additional_file_15.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-2_Additional_file_15.txt )  
 Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and two subqueries.  
-    
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Sections: 1, 2, and 3
+  - Disease: Alzheimer's disease (umls:C0002395)
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 2
+  - Property paths: No
+        
 The average runtime (10 times): 2 seconds  
 Results:  
 
@@ -202,6 +320,16 @@ ____
 ### Additional file 16 (SPARQL query example 6-0)  
 [Example6-0_ Additional_file_16.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-0_Additional_file_16.txt )  
 Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and without the subquery.  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Sections: 1, 2, and 3
+  - Disease: melanoma (umls:C0025202)
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 0
+  - Property paths: No
     
 The average runtime (10 times): 77 seconds  
 Results:  
@@ -211,6 +339,16 @@ ____
 ### Additional file 17 (SPARQL query example 6-1)  
 [Example6-1_ Additional_file_17.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-1_Additional_file_17.txt )  
 Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and one subquery.  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Sections: 1, 2, and 3
+  - Disease: melanoma (umls:C0025202)
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 1
+  - Property paths: No
 
 The average runtime (10 times): 2 seconds  
 Results:  
@@ -220,6 +358,16 @@ ____
 ### Additional file 18 (SPARQL query example 6-2)  
 [Example6-2_ Additional_file_18.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-2_Additional_file_18.txt )  
 Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and two subqueries.  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Sections: 1, 2, and 3
+  - Disease: melanoma (umls:C0025202)
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 2
+  - Property paths: No
     
 The average runtime (10 times): 2 seconds  
 Results:  
@@ -229,6 +377,16 @@ ____
 ### Additional file 19 (SPARQL query example 7)  
 [Example7_ Additional_file_19.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7_Additional_file_19.txt )  
 Description: A federated SPARQL query of Section 4 (Bgee) for the "prefrontal cortex" using DisGeNET.  
+Search parameters:  
+  - Federated or Centralized: Federated
+  - Sections: 4 (Bgee data)
+  - Disease: Not specified
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 0
+  - Property paths: No
     
 The average runtime (10 times):  
 - 29 seconds [Execution date: 4 August 2023]
@@ -241,6 +399,16 @@ ____
 ### Additional file 20 (SPARQL query example 8)  
 [Example8_ Additional_file_20.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example8_Additional_file_20.txt )  
 Description: A federated SPARQL query of Section 4 (Bgee) for the "skin of body" using DisGeNET.  
+Search parameters:  
+  - Federated or Centralized: Federated
+  - Sections: 4 (Bgee data)
+  - Disease: Not specified
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 0
+  - Property paths: No
     
 The average runtime (10 times): 29 seconds  
 Results:  
@@ -249,7 +417,17 @@ ____
 
 ### Additional file 21 (SPARQL query example 9)  
 [Example9_ Additional_file_21.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example9_Additional_file_21.txt )  
-Description: A centralized SPARQL query of Section 4 (Bgee) for the "prefrontal cortex" using DisGeNET.   
+Description: A centralized SPARQL query of Section 4 (Bgee) for the "prefrontal cortex" using DisGeNET.  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Sections: 4 (Bgee data)
+  - Disease: Not specified
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: prefrontal cortex (UBERON:0000451)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 0
+  - Property paths: No
     
 The average runtime (10 times): 9 seconds  
 Results:  
@@ -259,6 +437,16 @@ ____
 ### Additional file 22 (SPARQL query example 10)  
 [Example10_ Additional_file_22.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example10_Additional_file_22.txt )  
 Description: A centralized SPARQL query of Section 4 (Bgee) for the "skin of body" using DisGeNET.  
+Search parameters:  
+  - Federated or Centralized: Centralized
+  - Sections: 4 (Bgee data)
+  - Disease: Not specified
+  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Anatomical parts: skin of body (UBERON:0002097)
+  - Confidence Level: high
+  - Expression Level: > 99
+  - No. of subqueries: 0
+  - Property paths: No
     
 The average runtime (10 times): 11 seconds  
 Results:  
@@ -303,37 +491,41 @@ ____
 
 ### Additional file 26 (SPARQL query example 11-1)  
 [Example11-1_Additional_file_26.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-1_Additional_file_26.txt)      
-Description: A centralized query for Melanoma using DisGeNET and the uberonRDF-KGX
+Description: A centralized query for melanoma using DisGeNET and the uberonRDF-KGX
   
 Search parameters:  
   - Federated or Centralized: Centralized
-  - Disease: Melanoma (umls:C0025202) 
+  - Sections: All
+  - Disease: melanoma (umls:C0025202) 
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
   - Expression Level: > 99
+  - No. of subqueries: 1
   - Property paths: Yes
     
 The average runtime (10 times): 67 seconds  
 Results:  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes | Ensembl Gene IDs | Gene labels |  No. of anatomical entities | Uberon IDs | Anatomical entity labels |
 |:---|:---:|:---|:---:|:---|:---:|:---:|:---|:---|
-|Example 11-1: Centralized query for Melanoma using the broader predicate| 21 | RBRC11578,<br>RBRC02473,<br>RBRC02481,<br>RBRC02449,<br>RBRC02488,<br>RBRC02464,<br>RBRC02485,<br>RBRC02484,<br>RBRC10866,<br>RBRC02466,<br> RBRC02479,<br>RBRC02450,<br>RBRC02586,<br>RBRC02460,<br>RBRC02451,<br> RBRC02475,<br>RBRC01088,<br>RBRC02487,<br>RBRC-AES1453,<br>RBRC02300,<br>RBRC02301 | 2 | ENSG00000174775 | HRAS,<br>PTEN | 8 | UBERON:0000014,<br>UBERON:0001511,<br>UBERON:0003532,<br>UBERON:0001416,<br>UBERON:0001419,<br>UBERON:0002097,<br>UBERON:0003531,<br>UBERON:0004263,<br> | zone of skin,<br>skin of leg,<br>hindlimb skin,<br>skin of abdomen,<br>skin of limb,<br>skin of body,<br>forelimb skin,<br>upper arm skin |  
+|Example 11-1: Centralized query for melanoma using the broader predicate| 21 | RBRC11578,<br>RBRC02473,<br>RBRC02481,<br>RBRC02449,<br>RBRC02488,<br>RBRC02464,<br>RBRC02485,<br>RBRC02484,<br>RBRC10866,<br>RBRC02466,<br> RBRC02479,<br>RBRC02450,<br>RBRC02586,<br>RBRC02460,<br>RBRC02451,<br> RBRC02475,<br>RBRC01088,<br>RBRC02487,<br>RBRC-AES1453,<br>RBRC02300,<br>RBRC02301 | 2 | ENSG00000174775 | HRAS,<br>PTEN | 8 | UBERON:0000014,<br>UBERON:0001511,<br>UBERON:0003532,<br>UBERON:0001416,<br>UBERON:0001419,<br>UBERON:0002097,<br>UBERON:0003531,<br>UBERON:0004263,<br> | zone of skin,<br>skin of leg,<br>hindlimb skin,<br>skin of abdomen,<br>skin of limb,<br>skin of body,<br>forelimb skin,<br>upper arm skin |  
 
 ____
 
 
 ### Additional file 27 (SPARQL query example 11-2)  
 [Example11-2_Additional_file_27.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-2_Additional_file_27.txt)      
-Description: A centralized query for Melanoma using DisGeNET and the Ubergraph (Endpoint: https://ubergraph.apps.renci.org/sparql)   
+Description: A centralized query for melanoma using DisGeNET and the Ubergraph (Endpoint: https://ubergraph.apps.renci.org/sparql)   
   
 Search parameters:  
   - Federated or Centralized: Centralized
-  - Disease: Melanoma (umls:C0025202) 
+  - Sections: All
+  - Disease: melanoma (umls:C0025202) 
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
   - Expression Level: > 99
+  - No. of subqueries: 1
   - Property paths: Yes
     
 The average runtime (10 times): Transaction timed out (over 10 mins)   
@@ -347,11 +539,13 @@ ____
 Description: A centralized query for Alzheimer's disease using MedGen  
 Search parameters:  
   - Federated or Centralized: Centralized
+  - Sections: All
   - Alzheimer's disease (umls:C0002395)
   - GDA: MedGen (https://www.ncbi.nlm.nih.gov/medgen/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
   - Expression Level: > 99
+  - No. of subqueries: 1
   - Property paths: No
     
 The average runtime (10 times): 67 seconds  
@@ -364,11 +558,13 @@ ____
 Description: A centralized query for Alzheimer's disease using MGI  
 Search parameters:  
   - Federated or Centralized: Centralized
+  - Sections: All
   - Alzheimer's disease (umls:C0002395)
   - GDA:MGI (https://www.informatics.jax.org/)  
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
   - Expression Level: > 99
+  - No. of subqueries: 1
   - Property paths: No
     
 The average runtime (10 times): 1 second  
