@@ -621,7 +621,14 @@ Results:
 ____
 
 ## Licence
-[Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
-Copyright (c) 2023 Tatsuya Kushida (RIKEN BioResource Research Center (BRC))
+
+BioResource MetaDatabase by RIKEN BRC is licensed under a [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
+If you use data from this database, please be sure attribute this database as follows:  
+"BioResource Metadatabase (https://knowledge.brc.riken.jp/) © RIKEN BRC licensed under CC Attribution 4.0 International".  
+
+The Bioresource MetaDatabase integrates the BRC's research results using the following external datasets.  
+OMA (Orthologs) licensed under [CC Attribution-Share Alike 2.5 (CC BY-SA 2.5)](https://creativecommons.org/licenses/by-sa/2.5/).  
+Bgee (Gene expression) licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/).  
+DisGeNET (Disease-gene interaction) licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/).  
 
 
