@@ -7,8 +7,10 @@ The RIKEN BioResource Research Center (BRC) is exploring the model organisms whi
 https://github.com/tarcisiotmf/swat4hcls
 
 ## SPARQL endpoint
-  - RIKEN BioResource SPARQL endpoint: https://knowledge.brc.riken.jp/sparql  
+  - RIKEN BioResource SPARQL endpoint: https://knowledge.brc.riken.jp/sparql
+    - RDF Store: Virtuoso/07.20.3230 
   - Bgee SPARQL endpoint: https://www.bgee.org/sparql/
+    - RDF Store: Virtuoso/07.20.3234 (Linux) x86_64-pc-linux-gnu
 
 ____
 
