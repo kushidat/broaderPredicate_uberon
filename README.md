@@ -15,7 +15,7 @@ https://github.com/tarcisiotmf/swat4hcls
 ____
 
 ## SPARQL query examples and the related data
-### Additional file 1 (SPARQL query example 1-1)  
+### Additional file 1 (SPARQL query Example 1-1)  
 [Example_1-1_Additional_file_1.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-1_Additional_file_1.txt)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and one subquery    
 Search parameters:  
@@ -40,7 +40,7 @@ Results:
 
 _____
 
-### Additional file 2 (SPARQL query example 2-1)  
+### Additional file 2 (SPARQL query Example 2-1)  
 [Example2-1_Additional_file_2.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-1_Additional_file_2.txt)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and one subquery     
 Search parameters:  
@@ -64,7 +64,7 @@ Results:
 
 ____
 
-### Additional file 3 (SPARQL query example 3-1)  
+### Additional file 3 (SPARQL query Example 3-1)  
 [Example3-1_Additional_file_3.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-1_Additional_file_3.txt)  
 Description: A federated SPARQL query for melanoma using DisGeNET and one subquery  
 Search parameters:  
@@ -90,7 +90,7 @@ Results:
 
 ____
 
-### Additional file 4 (SPARQL query example 4-1)  
+### Additional file 4 (SPARQL query Example 4-1)  
 [Example4-1_ Additional_file_4.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-1_Additional_file_4.txt )  
 Description: A centralized SPARQL query for melanoma using DisGeNET and one subquery   
 Search parameters:  
@@ -114,7 +114,7 @@ Results:
 
 ____
 
-### Additional file 5 (SPARQL query example 1-2)  
+### Additional file 5 (SPARQL query Example 1-2)  
 [Example1-2_Additional_file_5.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-2_Additional_file_5.txt)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and two subqueries   
 Search parameters:  
@@ -131,11 +131,11 @@ Search parameters:
 The average runtime (10 times): 
   - 48 seconds [Execution date: 4 August 2023]
     
-Results:  
+Results: Same as results of Example 1-1  
 
 ____
 
-### Additional file 6 (SPARQL query example 2-2)  
+### Additional file 6 (SPARQL query Example 2-2)  
 [Example2-2_Additional_file_6.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-2_Additional_file_6.txt)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and two subqueries   
 Search parameters:  
@@ -152,11 +152,11 @@ Search parameters:
 The average runtime (10 times): 
   - 12 seconds [Execution date: 4 August 2023]
     
-Results:  
+Results: Same as results of Example 2-1  
 
 ____
 
-### Additional file 7 (SPARQL query example 3-2)  
+### Additional file 7 (SPARQL query Example 3-2)  
 [Example3-2_Additional_file_7.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-2_Additional_file_7.txt)  
 Description: A federated SPARQL query for melanoma using DisGeNET and two subqueries  
 Search parameters:  
@@ -173,11 +173,11 @@ Search parameters:
 The average runtime (10 times):  
 - 42 seconds [Execution date: 4 August 2023]   
   
-Results:  
+Results: Same as results of Example 3-1  
 
 ____
 
-### Additional file 8 (SPARQL query example 4-2)  
+### Additional file 8 (SPARQL query Example 4-2)  
 [Example4-2_Additional_file_8.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-2_Additional_file_8.txt)  
 Description: A centralized SPARQL query for melanoma using DisGeNET and two subqueries  
 Search parameters:  
@@ -194,11 +194,11 @@ Search parameters:
 The average runtime (10 times): 
   - 42 seconds [Execution date: 4 August 2023]
     
-Results:  
+Results: Same as results of Example 4-1  
 
 ____
 
-### Additional file 9 (SPARQL query example 1-3)  
+### Additional file 9 (SPARQL query Example 1-3)  
 [Example1-3_Additional_file_9.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-3_Additional_file_9.txt)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and three subqueries  
 Search parameters:  
@@ -215,11 +215,11 @@ Search parameters:
 The average runtime (10 times): 
   - 47 seconds [Execution date: 4 August 2023]
     
-Results:  
+Results: Same as results of Example 1-1  
 
 ____
 
-### Additional file 10 (SPARQL query example 2-3)  
+### Additional file 10 (SPARQL query Example 2-3)  
 [Example2-3_Additional_file_10.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-3_Additional_file_10.txt)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and three subqueries  
 Search parameters:  
@@ -236,11 +236,11 @@ Search parameters:
 The average runtime (10 times):   
   - 28 seconds [Execution date: 4 August 2023]
     
-Results:  
+Results: Same as results of Example 2-1  
 
 ____
 
-### Additional file 11 (SPARQL query example 3-3)  
+### Additional file 11 (SPARQL query Example 3-3)  
 [Example3-3_Additional_file_11.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-3_Additional_file_11.txt)  
 Description: A federated SPARQL query for melanoma using DisGeNET and three subqueries  
 Search parameters:  
@@ -257,11 +257,11 @@ Search parameters:
 The average runtime (10 times): 
   - 40 seconds [Execution date: 4 August 2023]
     
-Results:  
+Results: Same as results of Example 3-1  
 
 ____
 
-### Additional file 12 (SPARQL query example 4-3)  
+### Additional file 12 (SPARQL query Example 4-3)  
 [Example4-3_Additional_file_12.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-3_Additional_file_12.txt)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and three subqueries.    
 Search parameters:  
@@ -278,11 +278,11 @@ Search parameters:
 The average runtime (10 times): 
   - 40 seconds [Execution date: 4 August 2023]
     
-Results:  
+Results: Same as results of Example 4-1  
 
 ____
 
-### Additional file 13 (SPARQL query example 5-0)  
+### Additional file 13 (SPARQL query Example 5-0)  
 [Example5-0_ Additional_file_13.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-0_Additional_file_13.txt )  
 Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and without the subquery.  
 Search parameters:  
@@ -303,7 +303,7 @@ Results:
 
 ____
 
-### Additional file 14 (SPARQL query example 5-1) 
+### Additional file 14 (SPARQL query Example 5-1) 
 [Example5-1_ Additional_file_14.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-1_Additional_file_14.txt )  
 Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and one subquery.  
 Search parameters:  
@@ -320,11 +320,11 @@ Search parameters:
 The average runtime (10 times): 
   - 2 seconds [Execution date: 4 August 2023]
     
-Results:  
+Results: Same as results of Example 5-0  
 
 ____
 
-### Additional file 15 (SPARQL query example 5-2)  
+### Additional file 15 (SPARQL query Example 5-2)  
 [Example5-2_ Additional_file_15.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-2_Additional_file_15.txt )  
 Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and two subqueries.  
 Search parameters:  
@@ -341,11 +341,11 @@ Search parameters:
 The average runtime (10 times): 
   - 2 seconds [Execution date: 4 August 2023]
     
-Results:  
+Results: Same as results of Example 5-0  
 
 ____
 
-### Additional file 16 (SPARQL query example 6-0)  
+### Additional file 16 (SPARQL query Example 6-0)  
 [Example6-0_ Additional_file_16.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-0_Additional_file_16.txt )  
 Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and without the subquery.  
 Search parameters:  
@@ -366,7 +366,7 @@ Results:
 
 ____
 
-### Additional file 17 (SPARQL query example 6-1)  
+### Additional file 17 (SPARQL query Example 6-1)  
 [Example6-1_ Additional_file_17.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-1_Additional_file_17.txt )  
 Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and one subquery.  
 Search parameters:  
@@ -383,11 +383,11 @@ Search parameters:
 The average runtime (10 times): 
   - 2 seconds [Execution date: 4 August 2023]
     
-Results:  
+Results: Same as results of Example 6-0  
 
 ____
 
-### Additional file 18 (SPARQL query example 6-2)  
+### Additional file 18 (SPARQL query Example 6-2)  
 [Example6-2_ Additional_file_18.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-2_Additional_file_18.txt )  
 Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and two subqueries.  
 Search parameters:  
@@ -404,11 +404,11 @@ Search parameters:
 The average runtime (10 times): 
   - 2 seconds [Execution date: 4 August 2023]
     
-Results:  
+Results: Same as results of Example 6-0  
 
 ____
 
-### Additional file 19 (SPARQL query example 7)  
+### Additional file 19 (SPARQL query Example 7)  
 [Example7_ Additional_file_19.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7_Additional_file_19.txt )  
 Description: A federated SPARQL query of Section 4 (Bgee) for the "prefrontal cortex" using DisGeNET.  
 Search parameters:  
@@ -427,10 +427,12 @@ The average runtime (10 times):
 - 10 seconds [Execution date: 10 August 2023]  
   
 Results:  
-
+| Query approach | No. of genes |
+|:---|:---:|
+|Example 7: Federated query of Section 4 (Bgee) for the "prefrontal cortex" | 618 | 
 ____
 
-### Additional file 20 (SPARQL query example 8)  
+### Additional file 20 (SPARQL query Example 8)  
 [Example8_ Additional_file_20.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example8_Additional_file_20.txt )  
 Description: A federated SPARQL query of Section 4 (Bgee) for the "skin of body" using DisGeNET.  
 Search parameters:  
@@ -448,10 +450,13 @@ The average runtime (10 times):
   - 29 seconds [Execution date: 4 August 2023]
     
 Results:  
+| Query approach | No. of genes |
+|:---|:---:|
+|Example 7: Federated query of Section 4 (Bgee) for the "skin of body" | 498 | 
 
 ____
 
-### Additional file 21 (SPARQL query example 9)  
+### Additional file 21 (SPARQL query Example 9)  
 [Example9_ Additional_file_21.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example9_Additional_file_21.txt )  
 Description: A centralized SPARQL query of Section 4 (Bgee) for the "prefrontal cortex" using DisGeNET.  
 Search parameters:  
@@ -468,11 +473,11 @@ Search parameters:
 The average runtime (10 times): 
   - 9 seconds [Execution date: 4 August 2023]
     
-Results:  
+Results: Same as results of Example 7   
 
 ____
 
-### Additional file 22 (SPARQL query example 10)  
+### Additional file 22 (SPARQL query Example 10)  
 [Example10_ Additional_file_22.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example10_Additional_file_22.txt )  
 Description: A centralized SPARQL query of Section 4 (Bgee) for the "skin of body" using DisGeNET.  
 Search parameters:  
@@ -489,7 +494,7 @@ Search parameters:
 The average runtime (10 times): 
   - 11 seconds [Execution date: 4 August 2023]
     
-Results:  
+Results: Same as results of Example 8  
 
 ____
 
@@ -529,7 +534,7 @@ Description: A path between the “skin of limb” ([UBERON_0001419](http://purl
 
 ____
 
-### Additional file 26 (SPARQL query example 11-1)  
+### Additional file 26 (SPARQL query Example 11-1)  
 [Example11-1_Additional_file_26.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-1_Additional_file_26.txt)      
 Description: A centralized query for melanoma using DisGeNET and the uberonRDF-KGX
   
@@ -555,7 +560,7 @@ Results:
 ____
 
 
-### Additional file 27 (SPARQL query example 11-2)  
+### Additional file 27 (SPARQL query Example 11-2)  
 [Example11-2_Additional_file_27.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-2_Additional_file_27.txt)      
 Description: A centralized query for melanoma using DisGeNET and the Ubergraph (Endpoint: https://ubergraph.apps.renci.org/sparql)   
 Search parameters:  
@@ -577,7 +582,7 @@ Results:  ND
 ____
 
 
-### SPARQL query example 12  
+### SPARQL query Example 12  
 [Example12.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example12.txt)  
 Description: A centralized query for Alzheimer's disease using MedGen  
 Search parameters:  
@@ -598,7 +603,7 @@ Results:  0 cases
 
 ____
 
-### SPARQL query example 13  
+### SPARQL query Example 13  
 [Example13.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example13.txt)  
 Description: A centralized query for Alzheimer's disease using MGI  
 Search parameters:  
@@ -616,7 +621,7 @@ The average runtime (10 times):
   - 1 second [Execution date: 4 August 2023]
     
 Results:  
-| Query approach | No. of mice | RIKEN Mouse IDs | No. of genes![image] | Ensembl Gene IDs | Gene labels |
+| Query approach | No. of mice | RIKEN Mouse IDs | No. of genes | Ensembl Gene IDs | Gene labels |
 |:---|:---:|:---|:---:|:---|:---:|
 |Example 13: Federated query for AD | 10 | RBRC10700,RBRC10701,<br>RBRC06344,RBRC10042,<br>RBRC10041,RBRC06342,<br>RBRC11518,RBRC06343,<br>RBRC10043,RBRC10368 | 2 | ENSG00000142192,<br>ENSG00000127445 | APP,<br>PIN1 |  
 
