@@ -588,7 +588,7 @@ Description: A centralized query for Alzheimer's disease using MedGen
 Search parameters:  
   - Federated (F) or Centralized (C): C
   - Sections: All
-  - Alzheimer's disease (umls:C0002395, medgen:C0002395)
+  - Alzheimer's disease type1 (AD1) (umls:C1863052, medgen:C1863052)
   - GDA: MedGen (https://www.ncbi.nlm.nih.gov/medgen/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
