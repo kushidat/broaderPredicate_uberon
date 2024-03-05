@@ -291,8 +291,8 @@ Search parameters:
   - Disease: Alzheimer's disease (umls:C0002395)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: Not specified
-  - Confidence Level: high
-  - Expression Level: > 99
+  - Confidence Level: Not specified
+  - Expression Level: Not specified
   - No. of subqueries: 0
   - Property paths: No
     
@@ -312,8 +312,8 @@ Search parameters:
   - Disease: Alzheimer's disease (umls:C0002395)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: Not specified
-  - Confidence Level: high
-  - Expression Level: > 99
+  - Confidence Level: Not specified
+  - Expression Level: Not specified
   - No. of subqueries: 1
   - Property paths: No
  
@@ -333,8 +333,8 @@ Search parameters:
   - Disease: Alzheimer's disease (umls:C0002395)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: Not specified
-  - Confidence Level: high
-  - Expression Level: > 99
+  - Confidence Level: Not specified
+  - Expression Level: Not specified
   - No. of subqueries: 2
   - Property paths: No
         
@@ -354,8 +354,8 @@ Search parameters:
   - Disease: melanoma (umls:C0025202)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: Not specified
-  - Confidence Level: high
-  - Expression Level: > 99
+  - Confidence Level: Not specified
+  - Expression Level: Not specified
   - No. of subqueries: 0
   - Property paths: No
     
@@ -375,8 +375,8 @@ Search parameters:
   - Disease: melanoma (umls:C0025202)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: Not specified
-  - Confidence Level: high
-  - Expression Level: > 99
+  - Confidence Level: Not specified
+  - Expression Level: Not specified
   - No. of subqueries: 1
   - Property paths: No
 
@@ -396,8 +396,8 @@ Search parameters:
   - Disease: melanoma (umls:C0025202)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: Not specified
-  - Confidence Level: high
-  - Expression Level: > 99
+  - Confidence Level: Not specified
+  - Expression Level: Not specified
   - No. of subqueries: 2
   - Property paths: No
     
