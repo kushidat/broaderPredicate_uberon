@@ -60,7 +60,7 @@ WHERE {
       }
       graph <http://metadb.riken.jp/db/mim2gene_medgen_disease> {
         ?medgen <http://med2rdf/ontology/medgen#mgconso> ?bL_disease.
-              VALUES (?medgen) { (medgen:C1863052) } 
+              VALUES (?medgen) { (medgen:C1863052) } # Alzheimer disease type 1(AD1)
         ?idntf_ncbi2 obo:RO_0003302  ?medgen. # ?idntf_ncbi2:human ncbiGene
       }
     }
