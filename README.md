@@ -184,14 +184,24 @@ Search parameters:
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
-  - Expression Level: > 99
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100  
+  - Sex: any
   - No. of subqueries: 2
   - Property paths: No
+  - Limit on the number of rows returned: 100
 
 The average runtime (10 times): 
-  - 12 seconds [Execution date: 4 August 2023]
+  - 2 min 57 sec [Execution date: 4 June 2024]
+  - 12 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
-Results: Same as results of Example 2-1  
+Results:  
+[resultOfExample2-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-2.csv)   
+[resultOfExample2-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-2.xlsx)  
+
+Statistics of results:  
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+|:---|:---:|:---:|:---|
+|Example 2-1: Centralized query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
 ____
 
