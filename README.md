@@ -237,7 +237,7 @@ Statistics of results:
 ____
 
 ### Additional file 8 (SPARQL query Example 4-2)  
-[Example4-2_Additional_file_8.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-2_Additional_file_8.txt)  
+[Example4-2_Additional_file_8.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-2_Additional_file_8.rb)  
 Description: A centralized SPARQL query for melanoma using DisGeNET and two subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -246,19 +246,29 @@ Search parameters:
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
-  - Expression Level: > 99
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100  
+  - Sex: any  
   - No. of subqueries: 2
   - Property paths: No
+  - Limit on the number of rows returned: 100
 
 The average runtime (10 times): 
-  - 42 seconds [Execution date: 4 August 2023]
+  - \> 5 min [Execution date: 6 June 2024]
+  - 42 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
-Results: Same as results of Example 4-1  
+Results:  
+[resultOfExample4-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-2.csv)   
+[resultOfExample4-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-2.xlsx)  
+
+Statistics of results:  
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+|:---|:---:|:---:|:---|
+|Example 4-2: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |   
 
 ____
 
 ### Additional file 9 (SPARQL query Example 1-3)  
-[Example1-3_Additional_file_9.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-3_Additional_file_9.txt)  
+[Example1-3_Additional_file_9.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-3_Additional_file_9.rb)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and three subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): F
@@ -267,19 +277,29 @@ Search parameters:
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
-  - Expression Level: > 99
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100  
+  - Sex: any  
   - No. of subqueries: 3
   - Property paths: No
+  - Limit on the number of rows returned: 100
 
 The average runtime (10 times): 
-  - 47 seconds [Execution date: 4 August 2023]
+  - \> 5 min [Execution date: 6 June 2024]
+  - 47 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
-Results: Same as results of Example 1-1  
+Results:  
+[resultOfExample1-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-3.csv)   
+[resultOfExample1-3.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-3.xlsx)   
+
+Statistics of results:  
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+|:---|:---:|:---:|:---|
+|Example 1-3: Federated query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
 ____
 
 ### Additional file 10 (SPARQL query Example 2-3)  
-[Example2-3_Additional_file_10.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-3_Additional_file_10.txt)  
+[Example2-3_Additional_file_10.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-3_Additional_file_10.rb)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and three subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -288,19 +308,29 @@ Search parameters:
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
-  - Expression Level: > 99
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100  
+  - Sex: any  
   - No. of subqueries: 3
   - Property paths: No
+  - Limit on the number of rows returned: 100
 
-The average runtime (10 times):   
-  - 28 seconds [Execution date: 4 August 2023]
+The average runtime (10 times):  
+  - 3 mins 16 sec [Execution date: 6 June 2024]
+  - 28 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
-Results: Same as results of Example 2-1  
+Results:  
+[resultOfExample2-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-3.csv)   
+[resultOfExample2-3.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-3.xlsx)  
+
+Statistics of results:  
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+|:---|:---:|:---:|:---|
+|Example 2-3: Centralized query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
 ____
 
 ### Additional file 11 (SPARQL query Example 3-3)  
-[Example3-3_Additional_file_11.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-3_Additional_file_11.txt)  
+[Example3-3_Additional_file_11.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-3_Additional_file_11.rb)  
 Description: A federated SPARQL query for melanoma using DisGeNET and three subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): F
@@ -309,19 +339,30 @@ Search parameters:
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
-  - Expression Level: > 99
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100  
+  - Sex: any  
   - No. of subqueries: 3
   - Property paths: No
+  - Limit on the number of rows returned: 100
 
 The average runtime (10 times): 
-  - 40 seconds [Execution date: 4 August 2023]
+  - \> 5 min [Execution date: 6 June 2024]
+  - 40 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
-Results: Same as results of Example 3-1  
+Results:  
+[resultOfExample3-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-3.csv)   
+[resultOfExample3-3.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-3.xlsx)  
+
+Statistics of results:  
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+|:---|:---:|:---:|:---|
+|Example 3-3: Federated query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |  
+ 
 
 ____
 
 ### Additional file 12 (SPARQL query Example 4-3)  
-[Example4-3_Additional_file_12.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-3_Additional_file_12.txt)  
+[Example4-3_Additional_file_12.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-3_Additional_file_12.rb)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and three subqueries.    
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -330,14 +371,24 @@ Search parameters:
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
-  - Expression Level: > 99
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100  
+  - Sex: any  
   - No. of subqueries: 3
   - Property paths: No
+  - Limit on the number of rows returned: 100
 
 The average runtime (10 times): 
-  - 40 seconds [Execution date: 4 August 2023]
+  - \> 5 min [Execution date: 6 June 2024]
+  - 40 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
-Results: Same as results of Example 4-1  
+Results:  
+[resultOfExample4-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-3.csv)   
+[resultOfExample4-3.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-3.xlsx)  
+
+Statistics of results:  
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+|:---|:---:|:---:|:---|
+|Example 4-3: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |   
 
 ____
 
@@ -356,7 +407,7 @@ Search parameters:
   - Property paths: No
     
 The average runtime (10 times): 
-  - 51 seconds [Execution date: 4 August 2023]
+  - 51 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:
 
@@ -377,7 +428,7 @@ Search parameters:
   - Property paths: No
  
 The average runtime (10 times): 
-  - 2 seconds [Execution date: 4 August 2023]
+  - 2 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results: Same as results of Example 5-0  
 
@@ -398,7 +449,7 @@ Search parameters:
   - Property paths: No
         
 The average runtime (10 times): 
-  - 2 seconds [Execution date: 4 August 2023]
+  - 2 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results: Same as results of Example 5-0  
 
@@ -419,7 +470,7 @@ Search parameters:
   - Property paths: No
     
 The average runtime (10 times): 
-  - 77 seconds [Execution date: 4 August 2023]
+  - 77 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
 
@@ -440,7 +491,7 @@ Search parameters:
   - Property paths: No
 
 The average runtime (10 times): 
-  - 2 seconds [Execution date: 4 August 2023]
+  - 2 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results: Same as results of Example 6-0  
 
@@ -461,7 +512,7 @@ Search parameters:
   - Property paths: No
     
 The average runtime (10 times): 
-  - 2 seconds [Execution date: 4 August 2023]
+  - 2 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results: Same as results of Example 6-0  
 
@@ -482,8 +533,8 @@ Search parameters:
   - Property paths: No
     
 The average runtime (10 times):  
-- 29 seconds [Execution date: 4 August 2023]
-- 10 seconds [Execution date: 10 August 2023]  
+- 29 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+- 10 seconds [Execution date: 10 August 2023, Expression Score: > 99, All rows]  
   
 Results:  
 | Query approach | No. of genes |
@@ -506,7 +557,7 @@ Search parameters:
   - Property paths: No
     
 The average runtime (10 times): 
-  - 29 seconds [Execution date: 4 August 2023]
+  - 29 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
 | Query approach | No. of genes |
@@ -530,7 +581,7 @@ Search parameters:
   - Property paths: No
     
 The average runtime (10 times): 
-  - 9 seconds [Execution date: 4 August 2023]
+  - 9 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results: Same as results of Example 7   
 
@@ -551,7 +602,7 @@ Search parameters:
   - Property paths: No
     
 The average runtime (10 times): 
-  - 11 seconds [Execution date: 4 August 2023]
+  - 11 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results: Same as results of Example 8  
 
@@ -609,7 +660,7 @@ Search parameters:
   - Property paths: Yes
     
 The average runtime (10 times): 
-  - 67 seconds [Execution date: 4 August 2023]
+  - 67 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes | Ensembl Gene IDs | Gene labels |  No. of anatomical entities | Uberon IDs | Anatomical entity labels |
@@ -634,7 +685,7 @@ Search parameters:
   - Property paths: Yes
     
 The average runtime (10 times): 
-  - Transaction timed out (over 10 mins) [Execution date: 4 August 2023]
+  - Transaction timed out (over 10 mins) [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  ND
 
@@ -656,7 +707,7 @@ Search parameters:
   - Property paths: No
     
 The average runtime (10 times): 
-  - 67 seconds [Execution date: 4 August 2023]
+  - 67 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  0 cases  
 
@@ -677,7 +728,7 @@ Search parameters:
   - Property paths: No
     
 The average runtime (10 times): 
-  - 1 second [Execution date: 4 August 2023]
+  - 1 second [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
 | Query approach | No. of mice | RIKEN Mouse IDs | No. of genes | Ensembl Gene IDs | Gene labels |
