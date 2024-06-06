@@ -821,7 +821,7 @@ Results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 6-2: Centralized query for melanoma | 9 | 1 | APP (ENSG00000142192) |  
+|Example 12: Centralized query for AD | 9 | 1 | APP (ENSG00000142192) |  
 
 ____
 
@@ -835,17 +835,24 @@ Search parameters:
   - GDA:MGI (https://www.informatics.jax.org/)  
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
-  - Expression Level: > 99
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100  
+  - Sex: any 
   - No. of subqueries: 1
   - Property paths: No
+  - Limit on the number of rows returned: 100
     
 The average runtime (10 times): 
-  - 1 second [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - 1 sec [Execution date: 6 June 2024]
+  - 1 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
-| Query approach | No. of mice | RIKEN Mouse IDs | No. of genes | Ensembl Gene IDs | Gene labels |
-|:---|:---:|:---|:---:|:---|:---:|
-|Example 13: Federated query for AD | 10 | RBRC10700,RBRC10701,<br>RBRC06344,RBRC10042,<br>RBRC10041,RBRC06342,<br>RBRC11518,RBRC06343,<br>RBRC10043,RBRC10368 | 2 | ENSG00000142192,<br>ENSG00000127445 | APP,<br>PIN1 |  
+[resultOfExample13.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample13.csv)   
+[resultOfExample13.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample13.xlsx)  
+
+Statistics of results:  
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
+|:---|:---:|:---:|:---|
+|Example 13: Centralized query for AD | 13 | 4 | PSEN1 (ENSG00000080815)<br>PIN1 (ENSG00000127445)<br>IL33 (ENSG00000137033)<br>APP (ENSG00000142192) |  
 
 ____
 
