@@ -779,12 +779,15 @@ Search parameters:
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
-  - Expression Level: > 99
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100  
+  - Sex: any 
   - No. of subqueries: 1
   - Property paths: Yes
+  - Limit on the number of rows returned: 100
     
 The average runtime (10 times): 
-  - Transaction timed out (over 10 mins) [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - Transaction timed out (over 10 min) [Execution date: 6 June 2024]
+  - Transaction timed out (over 10 min) [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  ND
 
@@ -801,14 +804,24 @@ Search parameters:
   - GDA: MedGen (https://www.ncbi.nlm.nih.gov/medgen/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
-  - Expression Level: > 99
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100  
+  - Sex: any 
   - No. of subqueries: 1
   - Property paths: No
+  - Limit on the number of rows returned: 100
     
 The average runtime (10 times): 
-  - 67 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - 1 sec [Execution date: 6 June 2024]   
+  - 67 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
-Results:  0 cases  
+Results:  
+[resultOfExample12.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample12.csv)   
+[resultOfExample12.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample12.xlsx)  
+
+Statistics of results:  
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
+|:---|:---:|:---:|:---|
+|Example 6-2: Centralized query for melanoma | 9 | 1 | APP (ENSG00000142192) |  
 
 ____
 
