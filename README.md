@@ -25,18 +25,24 @@ Search parameters:
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
-  - Expression Level: > 99
+  - Expression Score: 0 - 100
+  - Sex: any
   - No. of subqueries: 1
   - Property paths: No
+  - Limit on the number of rows returned: 100
 
 The average runtime (10 times):  
-- 59 seconds [Execution date: 4 August 2023]  
-- 44 seconds [Execution date: 10 August 2023]  
+- 112 sec [Execution date: 6 June 2024]  
+- 44 sec [Execution date: 10 August 2023, Expression Score: > 99, All rows]
+- 59 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows] 
   
 Results:  
-| Query approach | No. of mice | RIKEN Mouse IDs | No. of genes | Ensembl Gene IDs | Gene labels |
-|:---|:---:|:---|:---:|:---|:---:|
-|Example 1-1: Federated query for AD | 21 | RBRC06342,RBRC06343,<br>RBRC06344,RBRC10041,<br>RBRC10042,RBRC10700,<br>RBRC10701,RBRC10043,<br>RBRC11518,RBRC03298,<br>RBRC03388,RBRC03389,<br>RBRC03390,RBRC03391,<br>RBRC03418,RBRC03419,<br>RBRC03420,RBRC03421,<br>RBRC03422,RBRC03423,<br>RBRC00052 | 2 | ENSG00000130203,<br>ENSG00000142192 | APOE,<br>APP |  
+[Example_1-1_Additional_file_1.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-1_Additional_file_1.txt)   
+
+Statistics of results: 
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+|:---|:---:|:---:|:---|
+|Example 1-1: Federated query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
 _____
 
