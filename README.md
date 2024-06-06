@@ -17,7 +17,7 @@ ____
 
 ## SPARQL query examples and the related data
 ### Additional file 1 (SPARQL query Example 1-1)  
-[Example_1-1_Additional_file_1.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-1_Additional_file_1.txt)  
+[Example1-1_Additional_file_1.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-1_Additional_file_1.rb)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and one subquery    
 Search parameters:  
   - Federated (F) or Centralized (C): F
