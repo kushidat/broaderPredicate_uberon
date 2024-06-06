@@ -1,4 +1,4 @@
-# Example 13: Centralized query for Alzheimer's disease using the MGI [> 1 sec]
+# Example 13: Centralized query for Alzheimer's disease using the MGI [1 sec/100 rows, 1 sec/all rows]
 PREFIX brso: <http://purl.jp/bio/10/brso/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sio: <http://semanticscience.org/resource/>
@@ -60,7 +60,7 @@ WHERE {
       GRAPH <http://metadb.riken.jp/ontology/MONDO> {
         ?mondo skos:exactMatch ?doid.
         ?mondo skos:exactMatch ?umls.
-        VALUES (?umls) { (umls:C0002395) } 
+        VALUES (?umls) { (umls:C0002395) } # Alzheimer disease
       }
     }
   }
