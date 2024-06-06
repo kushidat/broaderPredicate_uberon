@@ -393,7 +393,7 @@ Statistics of results:
 ____
 
 ### Additional file 13 (SPARQL query Example 5-0)  
-[Example5-0_ Additional_file_13.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-0_Additional_file_13.rb)  
+[Example5-0_Additional_file_13.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-0_Additional_file_13.rb)  
 Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and without the subquery.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -423,7 +423,7 @@ Statistics of results:
 ____
 
 ### Additional file 14 (SPARQL query Example 5-1) 
-[Example5-1_ Additional_file_14.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-1_Additional_file_14.rb)  
+[Example5-1_Additional_file_14.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-1_Additional_file_14.rb)  
 Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and one subquery.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -453,7 +453,7 @@ Statistics of results:
 ____
 
 ### Additional file 15 (SPARQL query Example 5-2)  
-[Example5-2_ Additional_file_15.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-2_Additional_file_15.rb)  
+[Example5-2_Additional_file_15.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-2_Additional_file_15.rb)  
 Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and two subqueries.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -483,7 +483,7 @@ Statistics of results:
 ____
 
 ### Additional file 16 (SPARQL query Example 6-0)  
-[Example6-0_ Additional_file_16.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-0_Additional_file_16.rb)  
+[Example6-0_Additional_file_16.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-0_Additional_file_16.rb)  
 Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and without the subquery.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -495,16 +495,25 @@ Search parameters:
   - Expression Level: Not specified
   - No. of subqueries: 0
   - Property paths: No
+  - Limit on the number of rows returned: 100
     
-The average runtime (10 times): 
-  - 77 seconds [Execution date: 4 August 2023, All rows]
+The average runtime (10 times):  
+  - \> 5 min [Execution date: 6 June 2024]
+  - 77 sec [Execution date: 4 August 2023, All rows]
     
 Results:  
+[resultOfExample6-0.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-0.csv)   
+[resultOfExample6-0.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-0.xlsx)  
+
+Statistics of results:  
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+|:---|:---:|:---:|:---|
+|Example 6-0: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) | 
 
 ____
 
 ### Additional file 17 (SPARQL query Example 6-1)  
-[Example6-1_ Additional_file_17.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-1_Additional_file_17.rb)  
+[Example6-1_Additional_file_17.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-1_Additional_file_17.rb)  
 Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and one subquery.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -516,16 +525,25 @@ Search parameters:
   - Expression Level: Not specified
   - No. of subqueries: 1
   - Property paths: No
+  - Limit on the number of rows returned: 100
 
 The average runtime (10 times): 
-  - 2 seconds [Execution date: 4 August 2023, All rows]
+  - 7 sec [Execution date: 6 June 2024]
+  - 2 sec [Execution date: 4 August 2023, All rows]
     
-Results: Same as results of Example 6-0  
+Results:  
+[resultOfExample6-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-1.csv)   
+[resultOfExample6-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-1.xlsx)  
+
+Statistics of results:  
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+|:---|:---:|:---:|:---|
+|Example 6-1: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) | 
 
 ____
 
 ### Additional file 18 (SPARQL query Example 6-2)  
-[Example6-2_ Additional_file_18.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-2_Additional_file_18.rb)  
+[Example6-2_Additional_file_18.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-2_Additional_file_18.rb)  
 Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and two subqueries.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -537,16 +555,25 @@ Search parameters:
   - Expression Level: Not specified
   - No. of subqueries: 2
   - Property paths: No
+  - Limit on the number of rows returned: 100
     
 The average runtime (10 times): 
-  - 2 seconds [Execution date: 4 August 2023, All rows]
+  - 7 sec [Execution date: 6 June 2024]
+  - 2 sec [Execution date: 4 August 2023, All rows]
     
-Results: Same as results of Example 6-0  
+Results:  
+[resultOfExample6-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-2.csv)   
+[resultOfExample6-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-2.xlsx)  
+
+Statistics of results:  
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+|:---|:---:|:---:|:---|
+|Example 6-2: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) | 
 
 ____
 
 ### Additional file 19 (SPARQL query Example 7)  
-[Example7_ Additional_file_19.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7_Additional_file_19.rb)  
+[Example7_Additional_file_19.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7_Additional_file_19.rb)  
 Description: A federated SPARQL query of Section 4 (Bgee) for the "prefrontal cortex" using DisGeNET.  
 Search parameters:  
   - Federated (F) or Centralized (C): F
@@ -555,22 +582,30 @@ Search parameters:
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
-  - Expression Level: > 99
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100  
+  - Sex: any  
   - No. of subqueries: 0
   - Property paths: No
+  - Limit on the number of rows returned: 100
     
 The average runtime (10 times):  
-- 29 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
-- 10 seconds [Execution date: 10 August 2023, Expression Score: > 99, All rows]  
+  - 3 sec [Execution date: 6 June 2024]
+  - 48 sec [Execution date: 6 June 2024, All rows]
+  - 10 sec [Execution date: 10 August 2023, Expression Score: > 99, All rows]
+  - 29 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]  
   
 Results:  
+[resultOfExample7.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample7.csv)   
+[resultOfExample7.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample7.xlsx)  
+
+Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|Example 7: Federated query of Section 4 (Bgee) for the "prefrontal cortex" | 618 | 
+|Example 7: Federated query of Section 4 (Bgee) for the "prefrontal cortex" | 42,448 | 
 ____
 
 ### Additional file 20 (SPARQL query Example 8)  
-[Example8_ Additional_file_20.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example8_Additional_file_20.rb)  
+[Example8_Additional_file_20.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example8_Additional_file_20.rb)  
 Description: A federated SPARQL query of Section 4 (Bgee) for the "skin of body" using DisGeNET.  
 Search parameters:  
   - Federated (F) or Centralized (C): F
@@ -579,22 +614,30 @@ Search parameters:
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
-  - Expression Level: > 99
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100  
+  - Sex: any  
   - No. of subqueries: 0
   - Property paths: No
+  - Limit on the number of rows returned: 100
     
 The average runtime (10 times): 
+  - 3 sec [Execution date: 6 June 2024]
+  - 58 sec [Execution date: 6 June 2024, All rows]
   - 29 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
+[resultOfExample8.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample8.csv)   
+[resultOfExample8.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample8.xlsx)  
+
+Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|Example 7: Federated query of Section 4 (Bgee) for the "skin of body" | 498 | 
+|Example 8: Federated query of Section 4 (Bgee) for the "skin of body" | 45,724 | 
 
 ____
 
 ### Additional file 21 (SPARQL query Example 9)  
-[Example9_ Additional_file_21.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example9_Additional_file_21.rb)  
+[Example9_Additional_file_21.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example9_Additional_file_21.rb)  
 Description: A centralized SPARQL query of Section 4 (Bgee) for the "prefrontal cortex" using DisGeNET.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -603,19 +646,30 @@ Search parameters:
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
-  - Expression Level: > 99
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100  
+  - Sex: any  
   - No. of subqueries: 0
   - Property paths: No
+  - Limit on the number of rows returned: 100
     
 The average runtime (10 times): 
+  - 4 sec [Execution date: 6 June 2024]
+  - 41 sec [Execution date: 6 June 2024, All rows]
   - 9 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
-Results: Same as results of Example 7   
+Results:  
+[resultOfExample9.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample9.csv)   
+[resultOfExample9.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample9.xlsx)  
+
+Statistics of results:  
+| Query approach | No. of genes |
+|:---|:---:|
+|Example 9: Centralized query of Section 4 (Bgee) for the "prefrontal cortex" | 42,448 |  
 
 ____
 
 ### Additional file 22 (SPARQL query Example 10)  
-[Example10_ Additional_file_22.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example10_Additional_file_22.rb)  
+[Example10_Additional_file_22.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example10_Additional_file_22.rb)  
 Description: A centralized SPARQL query of Section 4 (Bgee) for the "skin of body" using DisGeNET.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -624,14 +678,25 @@ Search parameters:
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
-  - Expression Level: > 99
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100  
+  - Sex: any  
   - No. of subqueries: 0
   - Property paths: No
+  - Limit on the number of rows returned: 100
     
 The average runtime (10 times): 
+  - 3 sec [Execution date: 6 June 2024]
+  - 16 sec [Execution date: 6 June 2024, All rows]
   - 11 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
-Results: Same as results of Example 8  
+Results:  
+[resultOfExample10.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample10.csv)   
+[resultOfExample10.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample10.xlsx)  
+
+Statistics of results:  
+| Query approach | No. of genes |
+|:---|:---:|
+|Example 10: Centralized query of Section 4 (Bgee) for the "skin of body" | 45,724 | 
 
 ____
 
