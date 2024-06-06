@@ -33,7 +33,7 @@ Search parameters:
   - Limit on the number of rows returned: 100
 
 The average runtime (10 times):  
-- 112 sec [Execution date: 6 June 2024]  
+- 1 min 52 sec [Execution date: 6 June 2024]  
 - 44 sec [Execution date: 10 August 2023, Expression Score: > 99, All rows]
 - 59 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows] 
   
@@ -93,6 +93,7 @@ Search parameters:
   - Sex: any
   - No. of subqueries: 1
   - Property paths: No
+  - Limit on the number of rows returned: 100
     
 The average runtime (10 times):  
 - \> 5 min [Execution date: 6 June 2024]    
@@ -112,7 +113,7 @@ Statistics of results:
 ____
 
 ### Additional file 4 (SPARQL query Example 4-1)  
-[Example4-1_ Additional_file_4.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-1_Additional_file_4.txt )  
+[Example4-1_ Additional_file_4.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-1_Additional_file_4.rb)  
 Description: A centralized SPARQL query for melanoma using DisGeNET and one subquery   
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -121,17 +122,24 @@ Search parameters:
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
-  - Expression Level: > 99
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100
+  - Sex: any
   - No. of subqueries: 1
   - Property paths: No
+  - Limit on the number of rows returned: 100
     
 The average runtime (10 times): 
-  - 20 seconds [Execution date: 4 August 2023]
+  - 2 min 22 sec [Execution date: 6 Jun 2024]  
+  - 20 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
      
 Results:  
-| Query approach | No. of mice | RIKEN Mouse IDs | No. of genes | Ensembl Gene IDs | Gene labels |
-|:---|:---:|:---|:---:|:---|:---:|
-|Example 4-1: Centralized query for melanoma | 18 | RBRC10866,RBRC01088,<br>RBRC02449,RBRC02450,<br>RBRC02451,RBRC02460,<br>RBRC02464,RBRC02466,<br>RBRC02473,RBRC02475,<br>RBRC02479,RBRC02481,<br>RBRC02484,RBRC02485,<br>RBRC02487,RBRC02488,<br>RBRC02586,RBRC11578 | 1 | ENSG00000174775 | HRAS |  
+[resultOfExample4-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-1.csv)   
+[resultOfExample4-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-1.xlsx)  
+
+Statistics of results:  
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+|:---|:---:|:---:|:---|
+|Example 4-1: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |   
 
 ____
 
