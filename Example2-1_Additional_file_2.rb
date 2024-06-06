@@ -1,4 +1,4 @@
-# Example 2-1: Centralized query for Alzheimer's disease [5 sec/100 cases, 5 min 7 sec/all]
+# Example 2-1: Centralized query for Alzheimer's disease [5 sec/100 rows, 5 min 7 sec/all rows]
 PREFIX brso: <http://purl.jp/bio/10/brso/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sio: <http://semanticscience.org/resource/>
