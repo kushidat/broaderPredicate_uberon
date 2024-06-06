@@ -254,7 +254,7 @@ Search parameters:
 
 The average runtime (10 times): 
   - \> 5 min [Execution date: 6 June 2024]
-  - 42 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - 42 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
 [resultOfExample4-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-2.csv)   
@@ -285,7 +285,7 @@ Search parameters:
 
 The average runtime (10 times): 
   - \> 5 min [Execution date: 6 June 2024]
-  - 47 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - 47 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
 [resultOfExample1-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-3.csv)   
@@ -316,7 +316,7 @@ Search parameters:
 
 The average runtime (10 times):  
   - 3 mins 16 sec [Execution date: 6 June 2024]
-  - 28 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - 28 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
 [resultOfExample2-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-3.csv)   
@@ -347,7 +347,7 @@ Search parameters:
 
 The average runtime (10 times): 
   - \> 5 min [Execution date: 6 June 2024]
-  - 40 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - 40 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
 [resultOfExample3-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-3.csv)   
@@ -379,7 +379,7 @@ Search parameters:
 
 The average runtime (10 times): 
   - \> 5 min [Execution date: 6 June 2024]
-  - 40 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - 40 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
 [resultOfExample4-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-3.csv)   
@@ -393,7 +393,7 @@ Statistics of results:
 ____
 
 ### Additional file 13 (SPARQL query Example 5-0)  
-[Example5-0_ Additional_file_13.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-0_Additional_file_13.txt )  
+[Example5-0_ Additional_file_13.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-0_Additional_file_13.rb)  
 Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and without the subquery.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -405,11 +405,20 @@ Search parameters:
   - Expression Level: Not specified
   - No. of subqueries: 0
   - Property paths: No
+  - Limit on the number of rows returned: 100
     
 The average runtime (10 times): 
-  - 51 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - 5 min 3 sec [Execution date: 6 June 2024]
+  - 51 sec [Execution date: 4 August 2023, All rows]
     
-Results:
+Results:  
+[resultOfExample5-0.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-0.csv)   
+[resultOfExample5-0.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-0.xlsx)  
+
+Statistics of results:  
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+|:---|:---:|:---:|:---|
+|Example 5-0: Centralized query for AD | 56 | 15 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>LEP (ENSG00000174697)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |   
 
 ____
 
