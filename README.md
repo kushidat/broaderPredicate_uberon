@@ -747,17 +747,24 @@ Search parameters:
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
-  - Expression Level: > 99
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100  
+  - Sex: any 
   - No. of subqueries: 1
   - Property paths: Yes
+  - Limit on the number of rows returned: 100
     
 The average runtime (10 times): 
-  - 67 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - 2 min 23 sec [Execution date: 6 June 2024]
+  - 67 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
-| Query approach | No. of mice | RIKEN Mouse IDs | No. of genes | Ensembl Gene IDs | Gene labels |  No. of anatomical entities | Uberon IDs | Anatomical entity labels |
-|:---|:---:|:---|:---:|:---|:---:|:---:|:---|:---|
-|Example 11-1: Centralized query for melanoma using the broader predicate| 21 | RBRC11578,<br>RBRC02473,<br>RBRC02481,<br>RBRC02449,<br>RBRC02488,<br>RBRC02464,<br>RBRC02485,<br>RBRC02484,<br>RBRC10866,<br>RBRC02466,<br> RBRC02479,<br>RBRC02450,<br>RBRC02586,<br>RBRC02460,<br>RBRC02451,<br> RBRC02475,<br>RBRC01088,<br>RBRC02487,<br>RBRC-AES1453,<br>RBRC02300,<br>RBRC02301 | 2 | ENSG00000174775 | HRAS,<br>PTEN | 8 | UBERON:0000014,<br>UBERON:0001511,<br>UBERON:0003532,<br>UBERON:0001416,<br>UBERON:0001419,<br>UBERON:0002097,<br>UBERON:0003531,<br>UBERON:0004263,<br> | zone of skin,<br>skin of leg,<br>hindlimb skin,<br>skin of abdomen,<br>skin of limb,<br>skin of body,<br>forelimb skin,<br>upper arm skin |  
+[resultOfExample11-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample11-1.csv)   
+[resultOfExample11-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample11-1.xlsx)  
+
+Statistics of results:  
+| Query approach | No. of mice | No. of genes | Gene labels (Ensembl Gene IDs) | No. of anatomical entities | Anatomical entity labels (Uberon IDs) |
+|:---|:---:|:---:|:---|:---:|:---|
+|Example 11-1: Centralized query for melanoma using the broader predicate| 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) | 13 | zone of skin (UBERON_0000014)<br>skin epidermis (UBERON_0001003)<br>skin of abdomen (UBERON_0001416)<br>skin of limb (UBERON_0001419)<br>skin of leg (UBERON_0001511)<br>skin of hip (UBERON_0001554)<br>hair follicle (UBERON_0002073)<br>skin of body (UBERON_0002097)<br>forelimb skin (UBERON_0003531)<br>hindlimb skin (UBERON_0003532)<br>upper leg skin (UBERON_0004262)<br>upper arm skin (UBERON_0004263) |  
 
 ____
 
