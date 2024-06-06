@@ -1,4 +1,4 @@
-# Example 4-1: Centralized query for Melanoma (umls:C0025202) [2 mins 22 sec/100 cases, > 5 mins/all]
+# Example 4-1: Centralized query for Melanoma (umls:C0025202) [2 min 22 sec/100 rows, > 5 min/all]
 PREFIX brso: <http://purl.jp/bio/10/brso/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sio: <http://semanticscience.org/resource/>
