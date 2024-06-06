@@ -160,10 +160,17 @@ Search parameters:
   - Limit on the number of rows returned: 100
 
 The average runtime (10 times): 
-  - 48 seconds [Execution date: 6 June 2024]
-  - 48 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - \> 5 sec [Execution date: 6 June 2024]
+  - 48 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
-Results: Same as results of Example 1-1  
+Results:  
+[resultOfExample1-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-2.csv)   
+[resultOfExample1-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-2.xlsx)   
+
+Statistics of results:  
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+|:---|:---:|:---:|:---|
+|Example 1-2: Federated query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
 ____
 
