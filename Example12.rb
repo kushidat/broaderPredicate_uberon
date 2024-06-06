@@ -1,4 +1,4 @@
-# Example 12: Centralized query for Alzheimer's disease using the MedGen
+# Example 12: Centralized query for Alzheimer's disease using the MedGen [1 sec/100 rows, 1 sec/all rows]
 PREFIX brso: <http://purl.jp/bio/10/brso/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sio: <http://semanticscience.org/resource/>
@@ -30,12 +30,8 @@ WHERE {
   {
     SELECT DISTINCT ?mouse ?ensembl2
     WHERE {
-      GRAPH <http://metadb.riken.jp/db/xsearch_animal_brso> {
-        ?mouse brso:genomic_feature/brso:has_genomic_segment/rdfs:seeAlso ?mgi1 .
-        ?mouse foaf:homepage ?homepage_mouse .
-      }
-      GRAPH <http://metadb.riken.jp/db/mgi_ncbi_ensembl> {
-        ?mgi1 rdfs:seeAlso ?ensembl1 .
+      GRAPH <http://metadb.riken.jp/db/mouse_rdfEnsemblMouseGene> {
+        ?mouse <http://purl.org/rbrc/resource/relatedGene> ?ensembl1 .
       }
       GRAPH <http://metadb.riken.jp/db/omaRDF> {
         ?cluster a orth:OrthologsCluster .
@@ -62,7 +58,7 @@ WHERE {
       graph <http://metadb.riken.jp/db/mim2gene_medgen_disease> {
         ?medgen <http://med2rdf/ontology/medgen#mgconso> ?bL_disease.
               VALUES (?medgen) { (medgen:C1863052) } # Alzheimer disease type 1(AD1)
-        ?idntf_ncbi2 obo:RO_0003302  ?medgen. # ?idntf_ncbi2:human ncbiGene
+        ?identifiers_ncbi2 obo:RO_0003302  ?medgen. # ?idntf_ncbi2:human ncbiGene
       }
     }
   }

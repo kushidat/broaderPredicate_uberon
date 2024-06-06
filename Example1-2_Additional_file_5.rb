@@ -1,4 +1,4 @@
-# Example 1-2 with 2 subqueries [> 5 mins]
+# Example 1-2 with 2 subqueries [> 5 min/100 rows]
 PREFIX brso: <http://purl.jp/bio/10/brso/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sio: <http://semanticscience.org/resource/>
