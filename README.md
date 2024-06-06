@@ -42,7 +42,7 @@ Results:
 [resultOfExample1-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-1.xlsx)   
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 1-1: Federated query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
@@ -73,7 +73,7 @@ Results:
 [resultOfExample2-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-1.xlsx)  
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 2-1: Centralized query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
@@ -105,7 +105,7 @@ Results:
 [resultOfExample3-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-1.xlsx)  
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 3-1: Federated query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |  
 
@@ -137,7 +137,7 @@ Results:
 [resultOfExample4-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-1.xlsx)  
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 4-1: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |   
 
@@ -168,7 +168,7 @@ Results:
 [resultOfExample1-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-2.xlsx)   
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 1-2: Federated query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
@@ -199,7 +199,7 @@ Results:
 [resultOfExample2-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-2.xlsx)  
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 2-2: Centralized query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
@@ -230,7 +230,7 @@ Results:
 [resultOfExample3-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-2.xlsx)  
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 3-2: Federated query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |  
 
@@ -261,7 +261,7 @@ Results:
 [resultOfExample4-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-2.xlsx)  
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 4-2: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |   
 
@@ -292,7 +292,7 @@ Results:
 [resultOfExample1-3.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-3.xlsx)   
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 1-3: Federated query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
@@ -323,7 +323,7 @@ Results:
 [resultOfExample2-3.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-3.xlsx)  
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 2-3: Centralized query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
@@ -354,7 +354,7 @@ Results:
 [resultOfExample3-3.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-3.xlsx)  
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 3-3: Federated query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |  
  
@@ -386,7 +386,7 @@ Results:
 [resultOfExample4-3.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-3.xlsx)  
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 4-3: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |   
 
@@ -416,7 +416,7 @@ Results:
 [resultOfExample5-0.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-0.xlsx)  
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 5-0: Centralized query for AD | 56 | 15 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>LEP (ENSG00000174697)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |   
 
@@ -446,7 +446,7 @@ Results:
 [resultOfExample5-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-1.xlsx)  
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 5-1: Centralized query for AD | 56 | 15 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>LEP (ENSG00000174697)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |   
 
@@ -476,7 +476,7 @@ Results:
 [resultOfExample5-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-2.xlsx)  
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 5-2: Centralized query for AD | 56 | 15 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>LEP (ENSG00000174697)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |    
 
@@ -506,7 +506,7 @@ Results:
 [resultOfExample6-0.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-0.xlsx)  
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 6-0: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) | 
 
@@ -536,7 +536,7 @@ Results:
 [resultOfExample6-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-1.xlsx)  
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 6-1: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) | 
 
@@ -566,7 +566,7 @@ Results:
 [resultOfExample6-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-2.xlsx)  
 
 Statistics of results:  
-| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
 |Example 6-2: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) | 
 
