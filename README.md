@@ -796,7 +796,7 @@ ____
 
 ### SPARQL query Example 12  
 [Example12.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example12.rb)  
-Description: A centralized query for Alzheimer's disease using MedGen  
+Description: A centralized query for Alzheimer's disease 1 using MedGen  
 Search parameters:  
   - Federated (F) or Centralized (C): C
   - Sections: All
@@ -821,7 +821,7 @@ Results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 12: Centralized query for AD | 9 | 1 | APP (ENSG00000142192) |  
+|Example 12: Centralized query for AD1 | 9 | 1 | APP (ENSG00000142192) |  
 
 ____
 
