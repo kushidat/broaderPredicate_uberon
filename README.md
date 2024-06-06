@@ -160,7 +160,7 @@ Search parameters:
   - Limit on the number of rows returned: 100
 
 The average runtime (10 times): 
-  - \> 5 sec [Execution date: 6 June 2024]
+  - \> 5 min [Execution date: 6 June 2024]
   - 48 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
@@ -175,7 +175,7 @@ Statistics of results:
 ____
 
 ### Additional file 6 (SPARQL query Example 2-2)  
-[Example2-2_Additional_file_6.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-2_Additional_file_6.txt)  
+[Example2-2_Additional_file_6.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-2_Additional_file_6.rb)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and two subqueries   
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -201,12 +201,12 @@ Results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
 |:---|:---:|:---:|:---|
-|Example 2-1: Centralized query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
+|Example 2-2: Centralized query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
 ____
 
 ### Additional file 7 (SPARQL query Example 3-2)  
-[Example3-2_Additional_file_7.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-2_Additional_file_7.txt)  
+[Example3-2_Additional_file_7.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-2_Additional_file_7.rb)  
 Description: A federated SPARQL query for melanoma using DisGeNET and two subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): F
@@ -215,14 +215,24 @@ Search parameters:
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
-  - Expression Level: > 99
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100  
+  - Sex: any 
   - No. of subqueries: 2
   - Property paths: No
+  - Limit on the number of rows returned: 100
 
 The average runtime (10 times):  
-- 42 seconds [Execution date: 4 August 2023]   
+  - \> 5 min [Execution date: 6 June 2024]
+  - 42 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]   
   
-Results: Same as results of Example 3-1  
+Results:  
+[resultOfExample3-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-2.csv)   
+[resultOfExample3-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-2.xlsx)  
+
+Statistics of results:  
+| Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
+|:---|:---:|:---:|:---|
+|Example 3-2: Federated query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |  
 
 ____
 
