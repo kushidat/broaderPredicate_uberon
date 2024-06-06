@@ -144,7 +144,7 @@ Statistics of results:
 ____
 
 ### Additional file 5 (SPARQL query Example 1-2)  
-[Example1-2_Additional_file_5.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-2_Additional_file_5.txt)  
+[Example1-2_Additional_file_5.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-2_Additional_file_5.rb)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and two subqueries   
 Search parameters:  
   - Federated (F) or Centralized (C): F
@@ -153,12 +153,15 @@ Search parameters:
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
-  - Expression Level: > 99
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100
+  - Sex: any
   - No. of subqueries: 2
   - Property paths: No
+  - Limit on the number of rows returned: 100
 
 The average runtime (10 times): 
-  - 48 seconds [Execution date: 4 August 2023]
+  - 48 seconds [Execution date: 6 June 2024]
+  - 48 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results: Same as results of Example 1-1  
 
