@@ -4,7 +4,8 @@
 The RIKEN BioResource Research Center (BRC) is exploring the model organisms which are expected to be available for medical science research by executing the SPARQL queries for the RIKEN bioresource Knowledge graph integrated with the Bgee, a gene expression database, the Orthologous MAtrix (OMA, an orthology database), the DisGeNET, a human gene-disease association, Mouse Genome Informatics (MGI), UniProt, and four disease ontologies stored in the RIKEN BioResource MetaDatabase. This page shares the SPARQL query examples and the related data.
 
 ## Reference
-https://github.com/tarcisiotmf/swat4hcls
+https://github.com/tarcisiotmf/swat4hcls  
+[Querying the Bgee Knowledge Graph with SPARQL](https://www.bgee.org/support/tutorial-query-bgee-knowledge-graph-sparql)  
 
 ## SPARQL endpoint
   - RIKEN BioResource SPARQL endpoint: https://knowledge.brc.riken.jp/sparql
@@ -25,7 +26,7 @@ Search parameters:
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
-  - Expression Score: 0 - 100
+  - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100
   - Sex: any
   - No. of subqueries: 1
   - Property paths: No
@@ -37,7 +38,8 @@ The average runtime (10 times):
 - 59 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows] 
   
 Results:  
-[Example_1-1_Additional_file_1.txt](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-1_Additional_file_1.txt)   
+[resultOfExample1-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-1.csv)   
+[resultOfExample1-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-1.xlsx)   
 
 Statistics of results: 
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl ID) |
