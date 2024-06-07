@@ -315,7 +315,7 @@ Search parameters:
   - Limit on the number of rows returned: 100
 
 The average runtime (10 times):  
-  - 3 mins 16 sec [Execution date: 6 June 2024]
+  - 3 min 16 sec [Execution date: 6 June 2024]
   - 28 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
