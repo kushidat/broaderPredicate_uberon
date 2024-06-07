@@ -653,7 +653,7 @@ Search parameters:
   - Limit on the number of rows returned: No
     
 The average runtime (10 times): 
-  - 41 sec [Execution date: 6 June 2024]
+  - 14 sec [Execution date: 6 June 2024]
   - 4 sec [Execution date: 6 June 2024, 100 rows]
   - 9 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
