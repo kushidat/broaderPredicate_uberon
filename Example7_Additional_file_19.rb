@@ -29,7 +29,7 @@ WHERE {
     ?expr a genex:Expression .
     ?expr genex:hasConfidenceLevel obo:CIO_0000029 . # high confidence level
     ?expr genex:hasExpressionLevel ?exprLevel .
-    FILTER (?exprLevel > 99)
+#    FILTER (?exprLevel > 99)
   } LIMIT 100 OFFSET 0
  }
 }
