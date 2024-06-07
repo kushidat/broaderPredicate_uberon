@@ -668,7 +668,7 @@ Search parameters:
     
 The average runtime (10 times): 
   - 14 sec / all rows [Execution date: 6 June 2024]
-  - 4 sec / all rows [Execution date: 6 June 2024, 100 rows]
+  - 4 sec / 100 rows [Execution date: 6 June 2024]
   - 9 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
