@@ -586,11 +586,11 @@ Search parameters:
   - Sex: any  
   - No. of subqueries: 0
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: No
     
 The average runtime (10 times):  
-  - 3 sec [Execution date: 6 June 2024]
   - 48 sec [Execution date: 6 June 2024, All rows]
+  - 3 sec [Execution date: 6 June 2024, 100 rows]
   - 10 sec [Execution date: 10 August 2023, Expression Score: > 99, All rows]
   - 29 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]  
   
@@ -618,11 +618,11 @@ Search parameters:
   - Sex: any  
   - No. of subqueries: 0
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: No
     
 The average runtime (10 times): 
-  - 3 sec [Execution date: 6 June 2024]
-  - 58 sec [Execution date: 6 June 2024, All rows]
+  - 58 sec [Execution date: 6 June 2024]
+  - 3 sec [Execution date: 6 June 2024, 100 rows]
   - 29 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
@@ -650,11 +650,11 @@ Search parameters:
   - Sex: any  
   - No. of subqueries: 0
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: No
     
 The average runtime (10 times): 
-  - 4 sec [Execution date: 6 June 2024]
-  - 41 sec [Execution date: 6 June 2024, All rows]
+  - 41 sec [Execution date: 6 June 2024]
+  - 4 sec [Execution date: 6 June 2024, 100 rows]
   - 9 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
@@ -682,11 +682,11 @@ Search parameters:
   - Sex: any  
   - No. of subqueries: 0
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: No
     
 The average runtime (10 times): 
-  - 3 sec [Execution date: 6 June 2024]
-  - 16 sec [Execution date: 6 June 2024, All rows]
+  - 16 sec [Execution date: 6 June 2024]
+  - 3 sec [Execution date: 6 June 2024, 100 rows]
   - 11 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
