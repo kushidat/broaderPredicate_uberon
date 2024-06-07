@@ -30,12 +30,13 @@ Search parameters:
   - Sex: any
   - No. of subqueries: 1
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows)
 
 The average runtime (10 times):  
-- 1 min 52 sec [Execution date: 6 June 2024]  
-- 44 sec [Execution date: 10 August 2023, Expression Score: > 99, All rows]
-- 59 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows] 
+- \> 300 sec / all rows [Execution date: 6 June 2024] 
+- 112 sec / 100 rows [Execution date: 6 June 2024]  
+- 44 sec / all rows, Expression Score: > 99 [Execution date: 10 August 2023]
+- 59 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023] 
   
 Results:  
 [resultOfExample1-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-1.csv)   
@@ -62,11 +63,12 @@ Search parameters:
   - Sex: any
   - No. of subqueries: 1
   - Property paths: No
-  - Limit on the number of rows returned: 100  
+  - Limit on the number of rows returned: 100 and No (all rows)  
     
 The average runtime (10 times): 
-  - 5 sec [Execution date: 6 June 2024]
-  - 40 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - 307 sec / all rows [Execution date: 6 June 2024]
+  - 5 sec  / 100 rows [Execution date: 6 June 2024]
+  - 40 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample2-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-1.csv)   
@@ -93,12 +95,13 @@ Search parameters:
   - Sex: any
   - No. of subqueries: 1
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows) 
     
 The average runtime (10 times):  
-- \> 5 min [Execution date: 6 June 2024]    
-- 21 sec [Execution date: 10 August 2023, Expression Score: > 99, All rows]
-- 38 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+- \> 300 sec / all rows [Execution date: 6 June 2024]
+- \> 300 sec / 100 rows [Execution date: 6 June 2024]     
+- 21 sec / all rows, Expression Score: > 99 [Execution date: 10 August 2023]
+- 38 sec / all rows, Expression Score: > 99  [Execution date: 4 August 2023]
 
 Results:  
 [resultOfExample3-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-1.csv)   
@@ -126,11 +129,12 @@ Search parameters:
   - Sex: any
   - No. of subqueries: 1
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows) 
     
 The average runtime (10 times): 
-  - 2 min 22 sec [Execution date: 6 Jun 2024]  
-  - 20 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - \> 300 sec / all rows [Execution date: 6 Jun 2024]
+  - 142 sec / 100 rows [Execution date: 6 Jun 2024] 
+  - 20 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
      
 Results:  
 [resultOfExample4-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-1.csv)   
@@ -157,11 +161,12 @@ Search parameters:
   - Sex: any
   - No. of subqueries: 2
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows) 
 
 The average runtime (10 times): 
-  - \> 5 min [Execution date: 6 June 2024]
-  - 48 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - \> 300 sec / all rows [Execution date: 6 June 2024]
+  - \> 300 sec / 100 rows [Execution date: 6 June 2024]
+  - 48 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample1-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-2.csv)   
@@ -188,11 +193,12 @@ Search parameters:
   - Sex: any
   - No. of subqueries: 2
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows) 
 
 The average runtime (10 times): 
-  - 2 min 57 sec [Execution date: 4 June 2024]
-  - 12 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - \> 300 sec / all rows [Execution date: 4 June 2024]
+  - 177 sec / 100 rows [Execution date: 4 June 2024]
+  - 12 sec / all rows,  Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample2-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-2.csv)   
@@ -219,11 +225,12 @@ Search parameters:
   - Sex: any 
   - No. of subqueries: 2
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows) 
 
 The average runtime (10 times):  
-  - \> 5 min [Execution date: 6 June 2024]
-  - 42 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]   
+  - \> 5 min / all rows [Execution date: 6 June 2024]
+  - \> 5 min / 100 rows [Execution date: 6 June 2024]
+  - 42 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]   
   
 Results:  
 [resultOfExample3-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-2.csv)   
@@ -250,11 +257,12 @@ Search parameters:
   - Sex: any  
   - No. of subqueries: 2
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows) 
 
 The average runtime (10 times): 
-  - \> 5 min [Execution date: 6 June 2024]
-  - 42 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - \> 5 min / all rows [Execution date: 6 June 2024]
+  - \> 5 min / 100 rows [Execution date: 6 June 2024]
+  - 42 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample4-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-2.csv)   
@@ -281,11 +289,11 @@ Search parameters:
   - Sex: any  
   - No. of subqueries: 3
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows) 
 
 The average runtime (10 times): 
-  - \> 5 min [Execution date: 6 June 2024]
-  - 47 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - \> 5 min / 100 rows [Execution date: 6 June 2024]
+  - 47 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample1-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-3.csv)   
@@ -312,11 +320,11 @@ Search parameters:
   - Sex: any  
   - No. of subqueries: 3
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows) 
 
 The average runtime (10 times):  
-  - 3 min 16 sec [Execution date: 6 June 2024]
-  - 28 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - 196 sec / 100 rows [Execution date: 6 June 2024]
+  - 28 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample2-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-3.csv)   
@@ -343,11 +351,11 @@ Search parameters:
   - Sex: any  
   - No. of subqueries: 3
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows) 
 
 The average runtime (10 times): 
-  - \> 5 min [Execution date: 6 June 2024]
-  - 40 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - \> 5 min / all rows [Execution date: 6 June 2024]
+  - 40 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample3-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-3.csv)   
@@ -375,11 +383,11 @@ Search parameters:
   - Sex: any  
   - No. of subqueries: 3
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows) 
 
 The average runtime (10 times): 
-  - \> 5 min [Execution date: 6 June 2024]
-  - 40 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - \> 5 min / all rows [Execution date: 6 June 2024]
+  - 40 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample4-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-3.csv)   
@@ -408,9 +416,9 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows)
     
 The average runtime (10 times): 
-  - \> 5 min [Execution date: 6 June 2024, all rows]
-  - 5 min 3 sec [Execution date: 6 June 2024, 100 rows]
-  - 51 sec [Execution date: 4 August 2023, All rows]
+  - \> 300 sec / all rows [Execution date: 6 June 2024]
+  - 303 sec / 100 rows [Execution date: 6 June 2024]
+  - 51 sec / all rows [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample5-0.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-0.csv)   
@@ -439,9 +447,9 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows)
  
 The average runtime (10 times): 
-  - 4 sec [Execution date: 6 June 2024, all rows]
-  - 4 sec [Execution date: 6 June 2024]
-  - 2 sec [Execution date: 4 August 2023, All rows]
+  - 4 sec / all rows [Execution date: 6 June 2024]
+  - 4 sec / 100 rows [Execution date: 6 June 2024]
+  - 2 sec / all rows [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample5-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-1.csv)   
@@ -470,9 +478,9 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows)
         
 The average runtime (10 times): 
-  - 4 sec [Execution date: 6 June 2024, all rows]
-  - 4 sec [Execution date: 6 June 2024, 100 rows]
-  - 2 seconds [Execution date: 4 August 2023, All rows]
+  - 4 sec / all rows [Execution date: 6 June 2024]
+  - 4 sec / 100 rows [Execution date: 6 June 2024]
+  - 2 sec / all rows [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample5-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-2.csv)   
@@ -501,9 +509,9 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows)
     
 The average runtime (10 times): 
-  - \> 5 min [Execution date: 6 June 2024, all rows]
-  - \> 5 min [Execution date: 6 June 2024, 100 rows]
-  - 77 sec [Execution date: 4 August 2023, All rows]
+  - \> 300 sec / all rows [Execution date: 6 June 2024]
+  - \> 300 sec / 100 rows [Execution date: 6 June 2024]
+  - 77 sec / all rows [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample6-0.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-0.csv)   
@@ -532,9 +540,9 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows)
 
 The average runtime (10 times): 
-  - 7 sec [Execution date: 6 June 2024, all rows]
-  - 7 sec [Execution date: 6 June 2024, 100 rows]
-  - 2 sec [Execution date: 4 August 2023, All rows]
+  - 7 sec / all rows [Execution date: 6 June 2024]
+  - 7 sec / 100 rows [Execution date: 6 June 2024]
+  - 2 sec / all rows [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample6-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-1.csv)   
@@ -563,9 +571,9 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows)
     
 The average runtime (10 times): 
-  - 7 sec [Execution date: 6 June 2024, all rows]
-  - 7 sec [Execution date: 6 June 2024, 100 rows]
-  - 2 sec [Execution date: 4 August 2023, All rows]
+  - 7 sec / all rows [Execution date: 6 June 2024]
+  - 7 sec / 100 rows [Execution date: 6 June 2024]
+  - 2 sec / all rows [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample6-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-2.csv)   
@@ -592,13 +600,13 @@ Search parameters:
   - Sex: any  
   - No. of subqueries: 0
   - Property paths: No
-  - Limit on the number of rows returned: No
+  - Limit on the number of rows returned: 100 and No (all rows) 
     
 The average runtime (10 times):  
-  - 48 sec [Execution date: 6 June 2024, All rows]
-  - 3 sec [Execution date: 6 June 2024, 100 rows]
-  - 10 sec [Execution date: 10 August 2023, Expression Score: > 99, All rows]
-  - 29 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]  
+  - 48 sec / all rows [Execution date: 6 June 2024]
+  - 3 sec / 100 rows [Execution date: 6 June 2024]
+  - 10 sec / all rows, Expression Score: > 99 [Execution date: 10 August 2023]
+  - 29 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]  
   
 Results:  
 [resultOfExample7.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample7.csv)   
@@ -624,12 +632,12 @@ Search parameters:
   - Sex: any  
   - No. of subqueries: 0
   - Property paths: No
-  - Limit on the number of rows returned: No
+  - Limit on the number of rows returned: 100 and No (all rows) 
     
 The average runtime (10 times): 
-  - 58 sec [Execution date: 6 June 2024]
-  - 3 sec [Execution date: 6 June 2024, 100 rows]
-  - 29 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - 58 sec / all rows [Execution date: 6 June 2024]
+  - 3 sec / 100 rows [Execution date: 6 June 2024, 100 rows]
+  - 29 sec / all rows, Expression Score: > 99  [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample8.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample8.csv)   
@@ -656,12 +664,12 @@ Search parameters:
   - Sex: any  
   - No. of subqueries: 0
   - Property paths: No
-  - Limit on the number of rows returned: No
+  - Limit on the number of rows returned: 100 and No (all rows) 
     
 The average runtime (10 times): 
-  - 14 sec [Execution date: 6 June 2024]
-  - 4 sec [Execution date: 6 June 2024, 100 rows]
-  - 9 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - 14 sec / all rows [Execution date: 6 June 2024]
+  - 4 sec / all rows [Execution date: 6 June 2024, 100 rows]
+  - 9 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample9.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample9.csv)   
@@ -688,12 +696,12 @@ Search parameters:
   - Sex: any  
   - No. of subqueries: 0
   - Property paths: No
-  - Limit on the number of rows returned: No
+  - Limit on the number of rows returned: 100 and No (all rows) 
     
 The average runtime (10 times): 
-  - 16 sec [Execution date: 6 June 2024]
-  - 3 sec [Execution date: 6 June 2024, 100 rows]
-  - 11 seconds [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - 16 sec / all rows [Execution date: 6 June 2024]
+  - 3 sec / 100 rows [Execution date: 6 June 2024]
+  - 11 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample10.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample10.csv)   
@@ -757,11 +765,12 @@ Search parameters:
   - Sex: any 
   - No. of subqueries: 1
   - Property paths: Yes
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows) 
     
 The average runtime (10 times): 
-  - 2 min 23 sec [Execution date: 6 June 2024]
-  - 67 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  -  sec / all rows [Execution date: 6 June 2024]
+  - 143 sec / all rows [Execution date: 6 June 2024]
+  - 67 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample11-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample11-1.csv)   
@@ -789,7 +798,7 @@ Search parameters:
   - Sex: any 
   - No. of subqueries: 1
   - Property paths: Yes
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows) 
     
 The average runtime (10 times): 
   - Transaction timed out (over 10 min) [Execution date: 6 June 2024]
@@ -814,11 +823,12 @@ Search parameters:
   - Sex: any 
   - No. of subqueries: 1
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows) 
     
-The average runtime (10 times): 
-  - 1 sec [Execution date: 6 June 2024]   
-  - 67 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+The average runtime (10 times):  
+  - 1 sec / all rows [Execution date: 6 June 2024]  
+  - 1 sec / 100 rows [Execution date: 6 June 2024]   
+  - 67 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample12.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample12.csv)   
@@ -845,11 +855,12 @@ Search parameters:
   - Sex: any 
   - No. of subqueries: 1
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows) 
     
-The average runtime (10 times): 
-  - 1 sec [Execution date: 6 June 2024]
-  - 1 sec [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+The average runtime (10 times):  
+  - 1 sec / all rows [Execution date: 6 June 2024]
+  - 1 sec / 100 rows [Execution date: 6 June 2024]
+  - 1 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  
 [resultOfExample13.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample13.csv)   
