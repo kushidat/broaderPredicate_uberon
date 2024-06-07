@@ -33,7 +33,7 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows)
 
 The average runtime (10 times):  
-- \> 300 sec / all rows [Execution date: 6 June 2024] 
+- \> 600 sec / all rows [Execution date: 6 June 2024] 
 - 112 sec / 100 rows [Execution date: 6 June 2024]  
 - 44 sec / all rows, Expression Score: > 99 [Execution date: 10 August 2023]
 - 59 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023] 
@@ -98,7 +98,7 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows) 
     
 The average runtime (10 times):  
-- \> 300 sec / all rows [Execution date: 6 June 2024]
+- \> 600 sec / all rows [Execution date: 6 June 2024]
 - \> 300 sec / 100 rows [Execution date: 6 June 2024]     
 - 21 sec / all rows, Expression Score: > 99 [Execution date: 10 August 2023]
 - 38 sec / all rows, Expression Score: > 99  [Execution date: 4 August 2023]
@@ -132,7 +132,7 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows) 
     
 The average runtime (10 times): 
-  - \> 300 sec / all rows [Execution date: 6 Jun 2024]
+  - 502 sec / all rows [Execution date: 6 Jun 2024]
   - 142 sec / 100 rows [Execution date: 6 Jun 2024] 
   - 20 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
      
@@ -164,7 +164,7 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows) 
 
 The average runtime (10 times): 
-  - \> 300 sec / all rows [Execution date: 6 June 2024]
+  - \> 600 sec / all rows [Execution date: 6 June 2024]
   - \> 300 sec / 100 rows [Execution date: 6 June 2024]
   - 48 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
@@ -196,7 +196,7 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows) 
 
 The average runtime (10 times): 
-  - \> 300 sec / all rows [Execution date: 4 June 2024]
+  - \> 600 sec / all rows [Execution date: 4 June 2024]
   - 177 sec / 100 rows [Execution date: 4 June 2024]
   - 12 sec / all rows,  Expression Score: > 99 [Execution date: 4 August 2023]
     
@@ -228,8 +228,8 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows) 
 
 The average runtime (10 times):  
-  - \> 5 min / all rows [Execution date: 6 June 2024]
-  - \> 5 min / 100 rows [Execution date: 6 June 2024]
+  - \> 600 sec / all rows [Execution date: 6 June 2024]
+  - \> 300 sec / 100 rows [Execution date: 6 June 2024]
   - 42 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]   
   
 Results:  
@@ -260,8 +260,8 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows) 
 
 The average runtime (10 times): 
-  - \> 5 min / all rows [Execution date: 6 June 2024]
-  - \> 5 min / 100 rows [Execution date: 6 June 2024]
+  - \> 600 sec / all rows [Execution date: 6 June 2024]
+  - \> 300 sec / 100 rows [Execution date: 6 June 2024]
   - 42 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
@@ -291,8 +291,9 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
 
-The average runtime (10 times): 
-  - \> 5 min / 100 rows [Execution date: 6 June 2024]
+The average runtime (10 times):  
+  - \> 600 sec / all rows [Execution date: 6 June 2024]
+  - \> 300 sec / 100 rows [Execution date: 6 June 2024]
   - 47 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
@@ -323,6 +324,7 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows) 
 
 The average runtime (10 times):  
+  - \> 600 sec / all rows [Execution date: 6 June 2024]
   - 196 sec / 100 rows [Execution date: 6 June 2024]
   - 28 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
@@ -353,8 +355,9 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
 
-The average runtime (10 times): 
-  - \> 5 min / all rows [Execution date: 6 June 2024]
+The average runtime (10 times):  
+  - \> 600 sec / all rows [Execution date: 6 June 2024]
+  - \> 300 sec / 100 rows [Execution date: 6 June 2024]
   - 40 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
@@ -385,8 +388,9 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
 
-The average runtime (10 times): 
-  - \> 5 min / all rows [Execution date: 6 June 2024]
+The average runtime (10 times):  
+  - \> 600 sec / all rows [Execution date: 6 June 2024]
+  - \> 300 sec / 100 rows [Execution date: 6 June 2024]
   - 40 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
@@ -768,8 +772,8 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows) 
     
 The average runtime (10 times): 
-  -  sec / all rows [Execution date: 6 June 2024]
-  - 143 sec / all rows [Execution date: 6 June 2024]
+  - 627 sec / all rows [Execution date: 6 June 2024]
+  - 143 sec / 100 rows [Execution date: 6 June 2024]
   - 67 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
