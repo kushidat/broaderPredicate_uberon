@@ -408,7 +408,8 @@ Search parameters:
   - Limit on the number of rows returned: 100
     
 The average runtime (10 times): 
-  - 5 min 3 sec [Execution date: 6 June 2024]
+  - \> 5 min [Execution date: 6 June 2024, all rows]
+  - 5 min 3 sec [Execution date: 6 June 2024, 100 rows]
   - 51 sec [Execution date: 4 August 2023, All rows]
     
 Results:  
