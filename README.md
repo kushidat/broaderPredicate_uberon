@@ -405,7 +405,7 @@ Search parameters:
   - Expression Level: Not specified
   - No. of subqueries: 0
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows)
     
 The average runtime (10 times): 
   - \> 5 min [Execution date: 6 June 2024, all rows]
@@ -436,9 +436,10 @@ Search parameters:
   - Expression Level: Not specified
   - No. of subqueries: 1
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows)
  
-The average runtime (10 times):  
+The average runtime (10 times): 
+  - 4 sec [Execution date: 6 June 2024, all rows]
   - 4 sec [Execution date: 6 June 2024]
   - 2 sec [Execution date: 4 August 2023, All rows]
     
@@ -466,10 +467,11 @@ Search parameters:
   - Expression Level: Not specified
   - No. of subqueries: 2
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows)
         
 The average runtime (10 times): 
-  - 4 sec [Execution date: 6 June 2024]
+  - 4 sec [Execution date: 6 June 2024, all rows]
+  - 4 sec [Execution date: 6 June 2024, 100 rows]
   - 2 seconds [Execution date: 4 August 2023, All rows]
     
 Results:  
@@ -496,10 +498,11 @@ Search parameters:
   - Expression Level: Not specified
   - No. of subqueries: 0
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows)
     
-The average runtime (10 times):  
-  - \> 5 min [Execution date: 6 June 2024]
+The average runtime (10 times): 
+  - \> 5 min [Execution date: 6 June 2024, all rows]
+  - \> 5 min [Execution date: 6 June 2024, 100 rows]
   - 77 sec [Execution date: 4 August 2023, All rows]
     
 Results:  
@@ -526,10 +529,11 @@ Search parameters:
   - Expression Level: Not specified
   - No. of subqueries: 1
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows)
 
 The average runtime (10 times): 
-  - 7 sec [Execution date: 6 June 2024]
+  - 7 sec [Execution date: 6 June 2024, all rows]
+  - 7 sec [Execution date: 6 June 2024, 100 rows]
   - 2 sec [Execution date: 4 August 2023, All rows]
     
 Results:  
@@ -556,10 +560,11 @@ Search parameters:
   - Expression Level: Not specified
   - No. of subqueries: 2
   - Property paths: No
-  - Limit on the number of rows returned: 100
+  - Limit on the number of rows returned: 100 and No (all rows)
     
 The average runtime (10 times): 
-  - 7 sec [Execution date: 6 June 2024]
+  - 7 sec [Execution date: 6 June 2024, all rows]
+  - 7 sec [Execution date: 6 June 2024, 100 rows]
   - 2 sec [Execution date: 4 August 2023, All rows]
     
 Results:  
