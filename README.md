@@ -420,8 +420,8 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows)
     
 The average runtime (10 times): 
-  - \> 300 sec / all rows [Execution date: 6 June 2024]
-  - 303 sec / 100 rows [Execution date: 6 June 2024]
+  - 285 sec / all rows [Execution date: 6 June 2024]
+  - 283 sec / 100 rows [Execution date: 6 June 2024]
   - 51 sec / all rows [Execution date: 4 August 2023]
     
 Results:  
@@ -513,8 +513,8 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows)
     
 The average runtime (10 times): 
-  - \> 300 sec / all rows [Execution date: 6 June 2024]
-  - 424 sec / 100 rows [Execution date: 6 June 2024]
+  - 465 sec / all rows [Execution date: 6 June 2024]
+  - 439 sec / 100 rows [Execution date: 6 June 2024]
   - 77 sec / all rows [Execution date: 4 August 2023]
     
 Results:  
