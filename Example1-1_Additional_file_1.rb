@@ -1,4 +1,4 @@
-# Example 1-1: Federated query for Alzheimer's disease) [1 min 52 sec/100 rows] 
+# Example 1-1: Federated query for Alzheimer's disease) [1 min 52 sec/100 rows, > 10 min/all rows] 
 PREFIX brso: <http://purl.jp/bio/10/brso/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sio: <http://semanticscience.org/resource/>
