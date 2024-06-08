@@ -596,7 +596,7 @@ Description: A federated SPARQL query of Section 4 (Bgee) for the "prefrontal co
 Search parameters:  
   - Federated (F) or Centralized (C): F
   - Sections: 4 (Bgee data)
-  - Disease: Not specified
+  - Disease: Not used
   - GDA: Not specified
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
@@ -628,7 +628,7 @@ Description: A federated SPARQL query of Section 4 (Bgee) for the "skin of body"
 Search parameters:  
   - Federated (F) or Centralized (C): F
   - Sections: 4 (Bgee data)
-  - Disease: Not specified
+  - Disease: Not used
   - GDA: Not specified
   - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
@@ -660,7 +660,7 @@ Description: A centralized SPARQL query of Section 4 (Bgee) for the "prefrontal 
 Search parameters:  
   - Federated (F) or Centralized (C): C
   - Sections: 4 (Bgee data)
-  - Disease: Not specified
+  - Disease: Not used
   - GDA: Not specified
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
@@ -692,8 +692,8 @@ Description: A centralized SPARQL query of Section 4 (Bgee) for the "skin of bod
 Search parameters:  
   - Federated (F) or Centralized (C): C
   - Sections: 4 (Bgee data)
-  - Disease: Not specified
-  - GDA: DisGeNET (https://www.disgenet.org/)
+  - Disease: Not used
+  - GDA: Not specified
   - Anatomical parts: skin of body (UBERON:0002097)
   - Confidence Level: high
   - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100  
