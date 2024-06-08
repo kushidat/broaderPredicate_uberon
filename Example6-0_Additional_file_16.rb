@@ -1,4 +1,4 @@
-# Example 6-0 [> 5 min/100 rows]
+# Example 6-0 [439 sec/100 rows, 465 sec/100 rows]
 # Section 1(GDA)-2(OMA )-3(Bior) 0 subqueries (melanoma)
 PREFIX brso: <http://purl.jp/bio/10/brso/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>

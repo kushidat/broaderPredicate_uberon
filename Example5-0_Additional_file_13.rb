@@ -1,4 +1,4 @@
-# Example 5-0 [5 min 3 sec/100 rows, > 5 min/all]
+# Example 5-0 [283 sec/100 rows, 285 sec/all]
 # Section 1(GDA)-2(OMA )-3(Bior) 0 subqueries (AD)
 PREFIX brso: <http://purl.jp/bio/10/brso/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
