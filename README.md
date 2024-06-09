@@ -681,8 +681,13 @@ The average runtime (10 times):
   - 9 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
-[resultOfExample9.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample9.csv)   
-[resultOfExample9.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample9.xlsx)  
+Limit on the number of rows returned: No (all rows (42,448 genes))  
+[resultOfExample9_all.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample9_all.csv)   
+[resultOfExample9_all.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample9_all.xlsx)  
+
+Limit on the number of rows returned: 100 rows (genes)  
+[resultOfExample9_100.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample9_100.csv)   
+[resultOfExample9_100.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample9_100.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of genes |
