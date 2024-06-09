@@ -881,8 +881,8 @@ Statistics of results:
 ____
 
 
-### Additional file 14
-[Example14.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-1_Additional_file_26.rb)      
+### SPARQL query Example 14
+[Example14.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example14.rb)      
 Description: A centralized query for Alzheimer's disease using DisGeNET and the uberonRDF-KGX (prefrontal cortex (UBERON:0000451))  
   
 Search parameters:  
