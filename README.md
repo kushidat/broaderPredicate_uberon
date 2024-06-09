@@ -909,7 +909,7 @@ Results:
 Statistics of results:  
 | Query approach | No. of mice | No. of genes | Gene labels (Ensembl Gene IDs) | No. of anatomical entities | Anatomical entity labels (Uberon IDs) |
 |:---|:---:|:---:|:---|:---:|:---|
-|Example 11-1: Centralized query for AD using the broader predicate| 55 | 15 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>LEP (ENSG00000174697)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) | 2 | prefrontal cortex (UBERON_0000451)<br>Brodmann (1909) area 10 (UBERON_0013541) |  
+|Example 11-1: Centralized query for AD using the broader predicate| 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) | 2 | prefrontal cortex (UBERON_0000451)<br>Brodmann (1909) area 10 (UBERON_0013541) |  
 
 ____
 
