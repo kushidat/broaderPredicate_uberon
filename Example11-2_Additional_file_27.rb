@@ -32,7 +32,7 @@ SERVICE <https://ubergraph.apps.renci.org/sparql> {
     ?expr a genex:Expression .
     ?expr genex:hasConfidenceLevel obo:CIO_0000029 . # high confidence level
     ?expr genex:hasExpressionLevel ?exprLevel .
-    FILTER (?exprLevel > 99)
+#    FILTER (?exprLevel > 99)
   }
   {
     SELECT DISTINCT ?mouse ?ensembl2
