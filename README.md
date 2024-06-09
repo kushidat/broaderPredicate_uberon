@@ -774,6 +774,7 @@ Search parameters:
 The average runtime (10 times): 
   - 627 sec / all rows [Execution date: 6 June 2024]
   - 143 sec / 100 rows [Execution date: 6 June 2024]
+  - 499 sec / all rows, Expression Score: > 99 [Execution date: 6 June 2024]
   - 67 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
@@ -806,6 +807,7 @@ Search parameters:
     
 The average runtime (10 times): 
   - Transaction timed out (over 1800 sec) [Execution date: 6 June 2024]
+  - 499 sec / all rows, Expression Score: > 99 [Execution date: 6 June 2024]
   - Transaction timed out (over 600 sec) [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  ND
