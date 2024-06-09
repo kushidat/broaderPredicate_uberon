@@ -809,7 +809,7 @@ The average runtime (10 times):
   - Transaction timed out (over 3600 sec) [Execution date: 6 June 2024]
   - 3604 sec / 100 rows [Execution date: 6 June 2024]
   - 1875 sec / all rows, Expression Score: > 99 [Execution date: 6 June 2024]
-  - Transaction timed out (over 600 sec) [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - Transaction timed out (over 600 sec) [Execution date: 4 August 2023]
     
 Results:  ND
 
@@ -867,7 +867,7 @@ Search parameters:
 The average runtime (10 times):  
   - 1 sec / all rows [Execution date: 6 June 2024]
   - 1 sec / 100 rows [Execution date: 6 June 2024]
-  - 1 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - 1 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
     
 Results:  
 [resultOfExample13.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample13.csv)   
@@ -901,6 +901,7 @@ Search parameters:
 The average runtime (10 times): 
   - 358 sec / all rows [Execution date: 9 June 2024]
   - 357 sec / 100 rows [Execution date: 9 June 2024]
+  - 318 sec / all rows, Expression Score: > 99 [Execution date: 9 June 2024]
     
 Results:  
 [resultOfExample14.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample14.csv)   
