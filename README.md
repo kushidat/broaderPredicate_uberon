@@ -805,8 +805,8 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows) 
     
 The average runtime (10 times): 
-  - Transaction timed out (over 10 min) [Execution date: 6 June 2024]
-  - Transaction timed out (over 10 min) [Execution date: 4 August 2023, Expression Score: > 99, All rows]
+  - Transaction timed out (over 1800 sec) [Execution date: 6 June 2024]
+  - Transaction timed out (over 600 sec) [Execution date: 4 August 2023, Expression Score: > 99, All rows]
     
 Results:  ND
 
