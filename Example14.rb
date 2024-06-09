@@ -1,5 +1,5 @@
-# Example 11-1: Centralized query for Melanoma (umls:C0025202) using the uberonRDF-KGX (skin of body (UBERON:0002097))
-# [2 min 23 sec/100 rows, 10 min 26 sec/all rows] 
+# Example 14: Centralized query for AD (umls:C0002395) using the uberonRDF-KGX (prefrontal cortex (UBERON:0000451) 
+# [ 357 sec/100 rows,  sec/all rows] 
 PREFIX brso: <http://purl.jp/bio/10/brso/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sio: <http://semanticscience.org/resource/>
@@ -14,14 +14,14 @@ PREFIX umls: <http://linkedlifedata.com/resource/umls/id/>
 SELECT DISTINCT ?mouse ?ensembl2 ?lower_anatomicalEntity
 WHERE {
   GRAPH <http://metadb.riken.jp/db/uberonRDF_broader_fromKGX> {
-    ?lower_anatomicalEntity <http://purl.org/rbrc/resource/broader>*  obo:UBERON_0002097. #skin of body
+    ?lower_anatomicalEntity <http://purl.org/rbrc/resource/broader>*  obo:UBERON_0000451. # prefrontal cortex
     }  
    GRAPH <http://metadb.riken.jp/db/bgee> {
     ?oma_gene2 a orth:Gene .
     ?oma_gene2 lscr:xrefEnsemblGene ?ensembl2 .
     ?oma_gene2 orth:organism/obo:RO_0002162 taxon:9606 . # human
     ?oma_gene2 genex:isExpressedIn ?cond .
-    ?cond genex:hasAnatomicalEntity ?lower_anatomicalEntity . # skin of body
+    ?cond genex:hasAnatomicalEntity ?lower_anatomicalEntity . # prefrontal cortex
     ?cond genex:hasSex "any" .      
     ?expr genex:hasExpressionCondition ?cond .
     ?expr genex:hasSequenceUnit ?oma_gene2 .
@@ -61,7 +61,7 @@ WHERE {
       GRAPH <http://metadb.riken.jp/db/gda_score_05> {
         ?gda sio:SIO_000628 ?identifiers_ncbi2 .
         ?gda sio:SIO_000628 ?umls .
-        VALUES (?umls) { (umls:C0025202) } # Melanoma
+        VALUES (?umls) { (umls:C0002395) } # AD
         FILTER (?identifiers_ncbi2 != ?umls)
       }
     }

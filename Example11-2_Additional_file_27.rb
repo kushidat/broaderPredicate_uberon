@@ -1,4 +1,5 @@
-# Example 11-2: Centralized query for Melanoma using the ubergraph [> 5 min/100 rows]
+# Example 11-2: Centralized query for Melanoma using the ubergraph (skin of body (UBERON:0002097))
+[60 min 4 sec/100 rows, Transaction timed out (over 3600 sec)/100 rows]
 PREFIX brso: <http://purl.jp/bio/10/brso/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sio: <http://semanticscience.org/resource/>
@@ -13,9 +14,9 @@ PREFIX umls: <http://linkedlifedata.com/resource/umls/id/>
 SELECT DISTINCT ?mouse ?ensembl2 ?lower_anatomicalEntity
 WHERE {
 SERVICE <https://ubergraph.apps.renci.org/sparql> {
-  {?lower_anatomicalEntity rdfs:subClassOf obo:UBERON_0002097 .}
+  {?lower_anatomicalEntity rdfs:subClassOf obo:UBERON_0002097 .} #skin of body
   UNION
-  {?lower_anatomicalEntity <http://purl.obolibrary.org/obo/BFO_0000050> obo:UBERON_0002097.}
+  {?lower_anatomicalEntity <http://purl.obolibrary.org/obo/BFO_0000050> obo:UBERON_0002097.} #skin of body
 	}
   {
     SELECT DISTINCT ?mouse ?ensembl2 ?lower_anatomicalEntity
