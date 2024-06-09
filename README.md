@@ -756,7 +756,7 @@ ____
 
 ### Additional file 26 (SPARQL query Example 11-1)  
 [Example11-1_Additional_file_26.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-1_Additional_file_26.rb)      
-Description: A centralized query for melanoma using DisGeNET and the uberonRDF-KGX
+Description: A centralized query for melanoma using DisGeNET and the uberonRDF-KGX (skin of body (UBERON:0002097))  
   
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -791,7 +791,7 @@ ____
 
 ### Additional file 27 (SPARQL query Example 11-2)  
 [Example11-2_Additional_file_27.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-2_Additional_file_27.rb)      
-Description: A centralized query for melanoma using DisGeNET and the Ubergraph (Endpoint: https://ubergraph.apps.renci.org/sparql)   
+Description: A centralized query for melanoma using DisGeNET and the Ubergraph (Endpoint: https://ubergraph.apps.renci.org/sparql), skin of body (UBERON:0002097)     
 Search parameters:  
   - Federated (F) or Centralized (C): C
   - Sections: All
@@ -883,14 +883,14 @@ ____
 
 ### Additional file 14
 [Example14.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-1_Additional_file_26.rb)      
-Description: A centralized query for Alzheimer's disease using DisGeNET and the uberonRDF-KGX
+Description: A centralized query for Alzheimer's disease using DisGeNET and the uberonRDF-KGX (prefrontal cortex (UBERON:0000451))  
   
 Search parameters:  
   - Federated (F) or Centralized (C): C
   - Sections: All
   - Disease: Alzheimer's disease (umls:C0002395)
   - GDA: DisGeNET (https://www.disgenet.org/)
-  - Anatomical parts: skin of body (UBERON:0002097)
+  - Anatomical parts: prefrontal cortex (UBERON:0000451)
   - Confidence Level: high
   - [Expression Score](https://www.bgee.org/support/tutorial-gene-page#expression-and-reported-absence-of-expression): 0 - 100  
   - Sex: any 
@@ -899,8 +899,8 @@ Search parameters:
   - Limit on the number of rows returned: 100 and No (all rows) 
     
 The average runtime (10 times): 
-  - 384 sec / all rows [Execution date: 9 June 2024]
-  -  sec / 100 rows [Execution date: 9 June 2024]
+  - 358 sec / all rows [Execution date: 9 June 2024]
+  - 357 sec / 100 rows [Execution date: 9 June 2024]
     
 Results:  
 [resultOfExample14.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample14.csv)   
@@ -909,7 +909,7 @@ Results:
 Statistics of results:  
 | Query approach | No. of mice | No. of genes | Gene labels (Ensembl Gene IDs) | No. of anatomical entities | Anatomical entity labels (Uberon IDs) |
 |:---|:---:|:---:|:---|:---:|:---|
-|Example 11-1: Centralized query for AD using the broader predicate| 56 | 15 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) | 12 | zone of skin (UBERON_0000014)<br>skin epidermis (UBERON_0001003)<br>skin of abdomen (UBERON_0001416)<br>skin of limb (UBERON_0001419)<br>skin of leg (UBERON_0001511)<br>skin of hip (UBERON_0001554)<br>hair follicle (UBERON_0002073)<br>skin of body (UBERON_0002097)<br>forelimb skin (UBERON_0003531)<br>hindlimb skin (UBERON_0003532)<br>upper leg skin (UBERON_0004262)<br>upper arm skin (UBERON_0004263) |  
+|Example 11-1: Centralized query for AD using the broader predicate| 55 | 15 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>LEP (ENSG00000174697)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) | 2 | prefrontal cortex (UBERON_0000451)<br>Brodmann (1909) area 10 (UBERON_0013541) |  
 
 ____
 
