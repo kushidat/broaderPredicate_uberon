@@ -63,14 +63,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows)  
     
-The average runtime (10 times): 
+The average runtime (10 times) and the query results:  
   - 307 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample2-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-1.csv)
+    - [resultOfExample2-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-1.xlsx)  
   - 5 sec  / 100 rows [Execution date: 6 June 2024]
-  - 40 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample2-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-1.csv)   
-[resultOfExample2-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-1.xlsx)  
+  - 40 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023] 
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -95,15 +93,13 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
     
-The average runtime (10 times):  
+The average runtime (10 times) and the query results:  
 - \> 600 sec / all rows [Execution date: 6 June 2024]
+  - [resultOfExample3-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-1.csv)
+  - [resultOfExample3-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-1.xlsx)  
 - \> 300 sec / 100 rows [Execution date: 6 June 2024]     
 - 21 sec / all rows, Expression Score: > 99 [Execution date: 10 August 2023]
 - 38 sec / all rows, Expression Score: > 99  [Execution date: 4 August 2023]
-
-Results:  
-[resultOfExample3-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-1.csv)   
-[resultOfExample3-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-1.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -129,14 +125,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
     
-The average runtime (10 times): 
+The average runtime (10 times) and the query results:  
   - 502 sec / all rows [Execution date: 6 Jun 2024]
+    - [resultOfExample4-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-1.csv)
+    - [resultOfExample4-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-1.xlsx) 
   - 142 sec / 100 rows [Execution date: 6 Jun 2024] 
   - 20 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
-     
-Results:  
-[resultOfExample4-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-1.csv)   
-[resultOfExample4-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-1.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -161,14 +155,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
 
-The average runtime (10 times): 
+The average runtime (10 times) and the query results:  
   - \> 600 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample1-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-2.csv)
+    - [resultOfExample1-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-2.xlsx)  
   - \> 300 sec / 100 rows [Execution date: 6 June 2024]
-  - 48 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample1-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-2.csv)   
-[resultOfExample1-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-2.xlsx)   
+  - 48 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]  
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -193,14 +185,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
 
-The average runtime (10 times): 
+The average runtime (10 times) and the query results:  
   - \> 600 sec / all rows [Execution date: 4 June 2024]
+    - [resultOfExample2-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-2.csv)
+    - [resultOfExample2-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-2.xlsx) 
   - 177 sec / 100 rows [Execution date: 4 June 2024]
   - 12 sec / all rows,  Expression Score: > 99 [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample2-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-2.csv)   
-[resultOfExample2-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-2.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -225,14 +215,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
 
-The average runtime (10 times):  
+The average runtime (10 times) and the query results:  
   - \> 600 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample3-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-2.csv)
+    - [resultOfExample3-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-2.xlsx)  
   - \> 300 sec / 100 rows [Execution date: 6 June 2024]
   - 42 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]   
-  
-Results:  
-[resultOfExample3-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-2.csv)   
-[resultOfExample3-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-2.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -257,14 +245,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
 
-The average runtime (10 times): 
+The average runtime (10 times) and the query results:  
   - \> 600 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample4-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-2.csv)
+    - [resultOfExample4-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-2.xlsx)  
   - \> 300 sec / 100 rows [Execution date: 6 June 2024]
   - 42 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample4-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-2.csv)   
-[resultOfExample4-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-2.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -289,14 +275,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
 
-The average runtime (10 times):  
+The average runtime (10 times) and the query results:  
   - \> 600 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample1-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-3.csv)
+    - [resultOfExample1-3.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-3.xlsx)   
   - \> 300 sec / 100 rows [Execution date: 6 June 2024]
-  - 47 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample1-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-3.csv)   
-[resultOfExample1-3.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-3.xlsx)   
+  - 47 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023] 
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -321,14 +305,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
 
-The average runtime (10 times):  
+The average runtime (10 times) and the query results:  
   - \> 600 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample2-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-3.csv)
+    - [resultOfExample2-3.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-3.xlsx) 
   - 196 sec / 100 rows [Execution date: 6 June 2024]
   - 28 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample2-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-3.csv)   
-[resultOfExample2-3.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample2-3.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -353,14 +335,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
 
-The average runtime (10 times):  
+The average runtime (10 times) and the query results:  
   - \> 600 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample3-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-3.csv)
+    - [resultOfExample3-3.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-3.xlsx) 
   - \> 300 sec / 100 rows [Execution date: 6 June 2024]
   - 40 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample3-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-3.csv)   
-[resultOfExample3-3.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample3-3.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -386,14 +366,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
 
-The average runtime (10 times):  
+The average runtime (10 times) and the query results:  
   - \> 600 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample4-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-3.csv)
+    - [resultOfExample4-3.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-3.xlsx) 
   - \> 300 sec / 100 rows [Execution date: 6 June 2024]
   - 40 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample4-3.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-3.csv)   
-[resultOfExample4-3.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample4-3.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -417,14 +395,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows)
     
-The average runtime (10 times): 
+The average runtime (10 times) and the query results:  
   - 285 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample5-0.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-0.csv)
+    - [resultOfExample5-0.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-0.xlsx)  
   - 283 sec / 100 rows [Execution date: 6 June 2024]
   - 51 sec / all rows [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample5-0.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-0.csv)   
-[resultOfExample5-0.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-0.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -448,14 +424,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows)
  
-The average runtime (10 times): 
+The average runtime (10 times) and the query results:  
   - 4 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample5-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-1.csv)
+    - [resultOfExample5-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-1.xlsx)  
   - 4 sec / 100 rows [Execution date: 6 June 2024]
   - 2 sec / all rows [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample5-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-1.csv)   
-[resultOfExample5-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-1.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -479,14 +453,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows)
         
-The average runtime (10 times): 
+The average runtime (10 times) and the query results:  
   - 4 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample5-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-2.csv)
+    - [resultOfExample5-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-2.xlsx) 
   - 4 sec / 100 rows [Execution date: 6 June 2024]
   - 2 sec / all rows [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample5-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-2.csv)   
-[resultOfExample5-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample5-2.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -510,14 +482,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows)
     
-The average runtime (10 times): 
+The average runtime (10 times) and the query results:  
   - 465 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample6-0.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-0.csv)
+    - [resultOfExample6-0.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-0.xlsx)  
   - 439 sec / 100 rows [Execution date: 6 June 2024]
   - 77 sec / all rows [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample6-0.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-0.csv)   
-[resultOfExample6-0.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-0.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -541,14 +511,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows)
 
-The average runtime (10 times): 
+The average runtime (10 times) and the query results:  
   - 7 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample6-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-1.csv)
+    - [resultOfExample6-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-1.xlsx)  
   - 7 sec / 100 rows [Execution date: 6 June 2024]
   - 2 sec / all rows [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample6-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-1.csv)   
-[resultOfExample6-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-1.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -572,14 +540,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows)
     
-The average runtime (10 times): 
+The average runtime (10 times) and the query results:  
   - 7 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample6-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-2.csv)
+    - [resultOfExample6-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-2.xlsx)  
   - 7 sec / 100 rows [Execution date: 6 June 2024]
   - 2 sec / all rows [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample6-2.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-2.csv)   
-[resultOfExample6-2.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample6-2.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -604,20 +570,15 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
     
-The average runtime (10 times):  
-  - 48 sec / all rows [Execution date: 6 June 2024]
-  - 3 sec / 100 rows [Execution date: 6 June 2024]
+The average runtime (10 times) and the query results:  
+  - 48 sec / all rows (42,448 genes) [Execution date: 6 June 2024]
+    - [resultOfExample7_all.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample7_all.csv)
+    - [resultOfExample7_all.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample7_all.xlsx)  
+  - 3 sec / 100 rows (genes) [Execution date: 6 June 2024]
+    - [resultOfExample7_100.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample7_100.csv)
+    - [resultOfExample7_100.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample7_100.xlsx)  
   - 10 sec / all rows, Expression Score: > 99 [Execution date: 10 August 2023]
   - 29 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]  
-  
-Results:  
-Limit on the number of rows returned: No (all rows (42,448 genes))  
-[resultOfExample7_all.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample7_all.csv)   
-[resultOfExample7_all.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample7_all.xlsx)  
-
-Limit on the number of rows returned: 100 rows (genes)  
-[resultOfExample7_100.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample7_100.csv)   
-[resultOfExample7_100.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample7_100.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of genes |
@@ -641,14 +602,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
     
-The average runtime (10 times): 
+The average runtime (10 times) and the query results:  
   - 58 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample8.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample8.csv)
+    - [resultOfExample8.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample8.xlsx)  
   - 3 sec / 100 rows [Execution date: 6 June 2024, 100 rows]
   - 29 sec / all rows, Expression Score: > 99  [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample8.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample8.csv)   
-[resultOfExample8.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample8.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of genes |
@@ -673,19 +632,14 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
     
-The average runtime (10 times): 
-  - 14 sec / all rows [Execution date: 6 June 2024]
-  - 4 sec / 100 rows [Execution date: 6 June 2024]
-  - 9 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
-    
-Results:  
-Limit on the number of rows returned: No (all rows (42,448 genes))  
-[resultOfExample9_all.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample9_all.csv)   
-[resultOfExample9_all.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample9_all.xlsx)  
-
-Limit on the number of rows returned: 100 rows (genes)  
-[resultOfExample9_100.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample9_100.csv)   
-[resultOfExample9_100.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample9_100.xlsx)  
+The average runtime (10 times) and the query results:  
+  - 14 sec / all rows (42,448 genes) [Execution date: 6 June 2024]
+    - [resultOfExample9_all.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample9_all.csv)
+    - [resultOfExample9_all.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample9_all.xlsx)  
+  - 4 sec / 100 rows (genes)  [Execution date: 6 June 2024]
+    - [resultOfExample9_100.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample9_100.csv)
+    - [resultOfExample9_100.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample9_100.xlsx)  
+  - 9 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023] 
 
 Statistics of results:  
 | Query approach | No. of genes |
@@ -710,14 +664,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
     
-The average runtime (10 times): 
+The average runtime (10 times) and the query results:  
   - 16 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample10.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample10.csv)
+    - [resultOfExample10.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample10.xlsx)  
   - 3 sec / 100 rows [Execution date: 6 June 2024]
-  - 11 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample10.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample10.csv)   
-[resultOfExample10.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample10.xlsx)  
+  - 11 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023] 
 
 Statistics of results:  
 | Query approach | No. of genes |
@@ -779,15 +731,13 @@ Search parameters:
   - Property paths: Yes
   - Limit on the number of rows returned: 100 and No (all rows) 
     
-The average runtime (10 times): 
+The average runtime (10 times) and the query results:  
   - 627 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample11-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample11-1.csv)
+    - [resultOfExample11-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample11-1.xlsx)  
   - 143 sec / 100 rows [Execution date: 6 June 2024]
   - 499 sec / all rows, Expression Score: > 99 [Execution date: 6 June 2024]
   - 67 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample11-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample11-1.csv)   
-[resultOfExample11-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample11-1.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of mice | No. of genes | Gene labels (Ensembl Gene IDs) | No. of anatomical entities | Anatomical entity labels (Uberon IDs) |
@@ -813,13 +763,12 @@ Search parameters:
   - Property paths: Yes
   - Limit on the number of rows returned: 100 and No (all rows) 
     
-The average runtime (10 times): 
+The average runtime (10 times) and the query results:  
   - Transaction timed out (over 3600 sec) [Execution date: 6 June 2024]
+    - Results:  ND
   - 3604 sec / 100 rows [Execution date: 6 June 2024]
   - 1875 sec / all rows, Expression Score: > 99 [Execution date: 6 June 2024]
   - Transaction timed out (over 600 sec) [Execution date: 4 August 2023]
-    
-Results:  ND
 
 ____
 
@@ -840,14 +789,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
     
-The average runtime (10 times):  
-  - 1 sec / all rows [Execution date: 6 June 2024]  
+The average runtime (10 times) and the query results:  
+  - 1 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample12.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample12.csv)
+    - [resultOfExample12.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample12.xlsx)  
   - 1 sec / 100 rows [Execution date: 6 June 2024]   
   - 67 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample12.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample12.csv)   
-[resultOfExample12.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample12.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -872,14 +819,12 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows) 
     
-The average runtime (10 times):  
+The average runtime (10 times) and the query results:  
   - 1 sec / all rows [Execution date: 6 June 2024]
+    - [resultOfExample13.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample13.csv)
+    - [resultOfExample13.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample13.xlsx)  
   - 1 sec / 100 rows [Execution date: 6 June 2024]
   - 1 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023]
-    
-Results:  
-[resultOfExample13.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample13.csv)   
-[resultOfExample13.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample13.xlsx)  
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
@@ -906,14 +851,12 @@ Search parameters:
   - Property paths: Yes
   - Limit on the number of rows returned: 100 and No (all rows) 
     
-The average runtime (10 times): 
+The average runtime (10 times) and the query results:  
   - 358 sec / all rows [Execution date: 9 June 2024]
+    - [resultOfExample14.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample14.csv)
+    - [resultOfExample14.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample14.xlsx)  
   - 357 sec / 100 rows [Execution date: 9 June 2024]
-  - 318 sec / all rows, Expression Score: > 99 [Execution date: 9 June 2024]
-    
-Results:  
-[resultOfExample14.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample14.csv)   
-[resultOfExample14.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample14.xlsx)  
+  - 318 sec / all rows, Expression Score: > 99 [Execution date: 9 June 2024] 
 
 Statistics of results:  
 | Query approach | No. of mice | No. of genes | Gene labels (Ensembl Gene IDs) | No. of anatomical entities | Anatomical entity labels (Uberon IDs) |
