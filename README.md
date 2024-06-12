@@ -32,15 +32,13 @@ Search parameters:
   - Property paths: No
   - Limit on the number of rows returned: 100 and No (all rows)
 
-The average runtime (10 times):  
-- \> 600 sec / all rows [Execution date: 6 June 2024] 
+The average runtime (10 times) and the query results:  
+- \> 600 sec / all rows [Execution date: 6 June 2024]
+  -  [resultOfExample1-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-1.csv)
+  -  [resultOfExample1-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-1.xlsx)  
 - 112 sec / 100 rows [Execution date: 6 June 2024]  
 - 44 sec / all rows, Expression Score: > 99 [Execution date: 10 August 2023]
 - 59 sec / all rows, Expression Score: > 99 [Execution date: 4 August 2023] 
-  
-Results:  
-[resultOfExample1-1.csv](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-1.csv)   
-[resultOfExample1-1.xlsx](https://github.com/kushidat/broaderPredicate_uberon/blob/main/resultOfExample1-1.xlsx)   
 
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
