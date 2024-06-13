@@ -48,7 +48,7 @@ Statistics of results:
 _____
 
 ### Additional file 2 (SPARQL query Example 2-1)  
-[Example2-1_Additional_file_2.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-1_Additional_file_2.rb)  
+[Example2-1_Additional_file_2.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-1_Additional_file_2.rq)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and one subquery     
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -78,7 +78,7 @@ Statistics of results:
 ____
 
 ### Additional file 3 (SPARQL query Example 3-1)  
-[Example3-1_Additional_file_3.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-1_Additional_file_3.rb)  
+[Example3-1_Additional_file_3.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-1_Additional_file_3.rq)  
 Description: A federated SPARQL query for melanoma using DisGeNET and one subquery  
 Search parameters:  
   - Federated (F) or Centralized (C): F
@@ -110,7 +110,7 @@ Statistics of results:
 ____
 
 ### Additional file 4 (SPARQL query Example 4-1)  
-[Example4-1_ Additional_file_4.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-1_Additional_file_4.rb)  
+[Example4-1_ Additional_file_4.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-1_Additional_file_4.rq)  
 Description: A centralized SPARQL query for melanoma using DisGeNET and one subquery   
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -140,7 +140,7 @@ Statistics of results:
 ____
 
 ### Additional file 5 (SPARQL query Example 1-2)  
-[Example1-2_Additional_file_5.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-2_Additional_file_5.rb)  
+[Example1-2_Additional_file_5.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-2_Additional_file_5.rq)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and two subqueries   
 Search parameters:  
   - Federated (F) or Centralized (C): F
@@ -170,7 +170,7 @@ Statistics of results:
 ____
 
 ### Additional file 6 (SPARQL query Example 2-2)  
-[Example2-2_Additional_file_6.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-2_Additional_file_6.rb)  
+[Example2-2_Additional_file_6.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-2_Additional_file_6.rq)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and two subqueries   
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -200,7 +200,7 @@ Statistics of results:
 ____
 
 ### Additional file 7 (SPARQL query Example 3-2)  
-[Example3-2_Additional_file_7.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-2_Additional_file_7.rb)  
+[Example3-2_Additional_file_7.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-2_Additional_file_7.rq)  
 Description: A federated SPARQL query for melanoma using DisGeNET and two subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): F
@@ -230,7 +230,7 @@ Statistics of results:
 ____
 
 ### Additional file 8 (SPARQL query Example 4-2)  
-[Example4-2_Additional_file_8.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-2_Additional_file_8.rb)  
+[Example4-2_Additional_file_8.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-2_Additional_file_8.rq)  
 Description: A centralized SPARQL query for melanoma using DisGeNET and two subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -260,7 +260,7 @@ Statistics of results:
 ____
 
 ### Additional file 9 (SPARQL query Example 1-3)  
-[Example1-3_Additional_file_9.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-3_Additional_file_9.rb)  
+[Example1-3_Additional_file_9.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-3_Additional_file_9.rq)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and three subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): F
@@ -290,7 +290,7 @@ Statistics of results:
 ____
 
 ### Additional file 10 (SPARQL query Example 2-3)  
-[Example2-3_Additional_file_10.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-3_Additional_file_10.rb)  
+[Example2-3_Additional_file_10.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-3_Additional_file_10.rq)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and three subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -320,7 +320,7 @@ Statistics of results:
 ____
 
 ### Additional file 11 (SPARQL query Example 3-3)  
-[Example3-3_Additional_file_11.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-3_Additional_file_11.rb)  
+[Example3-3_Additional_file_11.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-3_Additional_file_11.rq)  
 Description: A federated SPARQL query for melanoma using DisGeNET and three subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): F
@@ -351,7 +351,7 @@ Statistics of results:
 ____
 
 ### Additional file 12 (SPARQL query Example 4-3)  
-[Example4-3_Additional_file_12.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-3_Additional_file_12.rb)  
+[Example4-3_Additional_file_12.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-3_Additional_file_12.rq)  
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and three subqueries.    
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -381,7 +381,7 @@ Statistics of results:
 ____
 
 ### Additional file 13 (SPARQL query Example 5-0)  
-[Example5-0_Additional_file_13.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-0_Additional_file_13.rb)  
+[Example5-0_Additional_file_13.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-0_Additional_file_13.rq)  
 Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and without the subquery.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -410,7 +410,7 @@ Statistics of results:
 ____
 
 ### Additional file 14 (SPARQL query Example 5-1) 
-[Example5-1_Additional_file_14.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-1_Additional_file_14.rb)  
+[Example5-1_Additional_file_14.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-1_Additional_file_14.rq)  
 Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and one subquery.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -439,7 +439,7 @@ Statistics of results:
 ____
 
 ### Additional file 15 (SPARQL query Example 5-2)  
-[Example5-2_Additional_file_15.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-2_Additional_file_15.rb)  
+[Example5-2_Additional_file_15.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-2_Additional_file_15.rq)  
 Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and two subqueries.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -468,7 +468,7 @@ Statistics of results:
 ____
 
 ### Additional file 16 (SPARQL query Example 6-0)  
-[Example6-0_Additional_file_16.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-0_Additional_file_16.rb)  
+[Example6-0_Additional_file_16.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-0_Additional_file_16.rq)  
 Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and without the subquery.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -497,7 +497,7 @@ Statistics of results:
 ____
 
 ### Additional file 17 (SPARQL query Example 6-1)  
-[Example6-1_Additional_file_17.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-1_Additional_file_17.rb)  
+[Example6-1_Additional_file_17.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-1_Additional_file_17.rq)  
 Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and one subquery.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -526,7 +526,7 @@ Statistics of results:
 ____
 
 ### Additional file 18 (SPARQL query Example 6-2)  
-[Example6-2_Additional_file_18.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-2_Additional_file_18.rb)  
+[Example6-2_Additional_file_18.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-2_Additional_file_18.rq)  
 Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and two subqueries.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -555,7 +555,7 @@ Statistics of results:
 ____
 
 ### Additional file 19 (SPARQL query Example 7)  
-[Example7_Additional_file_19.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7_Additional_file_19.rb)  
+[Example7_Additional_file_19.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7_Additional_file_19.rq)  
 Description: A federated SPARQL query of Section 4 (Bgee) for the "prefrontal cortex".
 Search parameters:  
   - Federated (F) or Centralized (C): F
@@ -587,7 +587,7 @@ Statistics of results:
 ____
 
 ### Additional file 20 (SPARQL query Example 8)  
-[Example8_Additional_file_20.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example8_Additional_file_20.rb)  
+[Example8_Additional_file_20.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example8_Additional_file_20.rq)  
 Description: A federated SPARQL query of Section 4 (Bgee) for the "skin of body".  
 Search parameters:  
   - Federated (F) or Centralized (C): F
@@ -617,7 +617,7 @@ Statistics of results:
 ____
 
 ### Additional file 21 (SPARQL query Example 9)  
-[Example9_Additional_file_21.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example9_Additional_file_21.rb)  
+[Example9_Additional_file_21.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example9_Additional_file_21.rq)  
 Description: A centralized SPARQL query of Section 4 (Bgee) for the "prefrontal cortex".  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -649,7 +649,7 @@ Statistics of results:
 ____
 
 ### Additional file 22 (SPARQL query Example 10)  
-[Example10_Additional_file_22.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example10_Additional_file_22.rb)  
+[Example10_Additional_file_22.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example10_Additional_file_22.rq)  
 Description: A centralized SPARQL query of Section 4 (Bgee) for the "skin of body".  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -715,7 +715,7 @@ Description: A path between the “skin of limb” ([UBERON_0001419](http://purl
 ____
 
 ### Additional file 26 (SPARQL query Example 11-1)  
-[Example11-1_Additional_file_26.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-1_Additional_file_26.rb)      
+[Example11-1_Additional_file_26.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-1_Additional_file_26.rq)      
 Description: A centralized query for melanoma using DisGeNET and the uberonRDF-KGX (skin of body (UBERON:0002097))  
   
 Search parameters:  
@@ -748,7 +748,7 @@ ____
 
 
 ### Additional file 27 (SPARQL query Example 11-2)  
-[Example11-2_Additional_file_27.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-2_Additional_file_27.rb)      
+[Example11-2_Additional_file_27.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-2_Additional_file_27.rq)      
 Description: A centralized query for melanoma using DisGeNET and the Ubergraph (Endpoint: https://ubergraph.apps.renci.org/sparql), skin of body (UBERON:0002097)     
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -774,7 +774,7 @@ ____
 
 
 ### SPARQL query Example 12  
-[Example12.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example12.rb)  
+[Example12.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example12.rq)  
 Description: A centralized query for Alzheimer's disease 1 using MedGen  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -804,7 +804,7 @@ Statistics of results:
 ____
 
 ### SPARQL query Example 13  
-[Example13.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example13.rb)  
+[Example13.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example13.rq)  
 Description: A centralized query for Alzheimer's disease using MGI  
 Search parameters:  
   - Federated (F) or Centralized (C): C
@@ -835,7 +835,7 @@ ____
 
 
 ### SPARQL query Example 14
-[Example14.rb](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example14.rb)      
+[Example14.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example14.rq)      
 Description: A centralized query for Alzheimer's disease using DisGeNET and the uberonRDF-KGX (prefrontal cortex (UBERON:0000451))  
   
 Search parameters:  
