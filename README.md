@@ -15,7 +15,7 @@ https://github.com/tarcisiotmf/swat4hcls
 
 ____
 
-## SPARQL query examples and the related data
+## SPARQL query examples, the query results, and the related data
 ### Additional file 1 (SPARQL query Example 1-1)  
 [Example1-1_Additional_file_1.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-1_Additional_file_1.rq)  
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and one subquery    
