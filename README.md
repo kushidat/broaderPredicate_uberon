@@ -21,7 +21,7 @@ ____
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and one subquery    
 Search parameters:  
   - Federated (F) or Centralized (C): F
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png): 
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png): 
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -56,7 +56,7 @@ _____
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and one subquery     
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png): 
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png): 
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -90,7 +90,7 @@ ____
 Description: A federated SPARQL query for melanoma using DisGeNET and one subquery  
 Search parameters:  
   - Federated (F) or Centralized (C): F
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png): 
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png): 
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -126,7 +126,7 @@ ____
 Description: A centralized SPARQL query for melanoma using DisGeNET and one subquery   
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -160,7 +160,7 @@ ____
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and two subqueries   
 Search parameters:  
   - Federated (F) or Centralized (C): F
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -194,7 +194,7 @@ ____
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and two subqueries   
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -228,7 +228,7 @@ ____
 Description: A federated SPARQL query for melanoma using DisGeNET and two subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): F
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -262,7 +262,7 @@ ____
 Description: A centralized SPARQL query for melanoma using DisGeNET and two subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -296,7 +296,7 @@ ____
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and three subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): F
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -330,7 +330,7 @@ ____
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and three subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -364,7 +364,7 @@ ____
 Description: A federated SPARQL query for melanoma using DisGeNET and three subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): F
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -399,7 +399,7 @@ ____
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and three subqueries.    
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -430,10 +430,10 @@ ____
 
 ### Additional file 13 (SPARQL query Example 5-0)  
 [Example5-0_Additional_file_13.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-0_Additional_file_13.rq)  
-Description: A centralized SPARQL query of Query parts 1 to 3 for Alzheimer's disease using DisGeNET and without the subquery.  
+Description: A centralized SPARQL query of Query subparts 1 to 3 for Alzheimer's disease using DisGeNET and without the subquery.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -462,10 +462,10 @@ ____
 
 ### Additional file 14 (SPARQL query Example 5-1) 
 [Example5-1_Additional_file_14.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-1_Additional_file_14.rq)  
-Description: A centralized SPARQL query of Query parts 1 to 3 for Alzheimer's disease using DisGeNET and one subquery.  
+Description: A centralized SPARQL query of Query subparts 1 to 3 for Alzheimer's disease using DisGeNET and one subquery.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -494,10 +494,10 @@ ____
 
 ### Additional file 15 (SPARQL query Example 5-2)  
 [Example5-2_Additional_file_15.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-2_Additional_file_15.rq)  
-Description: A centralized SPARQL query of Query parts 1 to 3 for Alzheimer's disease using DisGeNET and two subqueries.  
+Description: A centralized SPARQL query of Query subparts 1 to 3 for Alzheimer's disease using DisGeNET and two subqueries.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -526,10 +526,10 @@ ____
 
 ### Additional file 16 (SPARQL query Example 6-0)  
 [Example6-0_Additional_file_16.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-0_Additional_file_16.rq)  
-Description: A centralized SPARQL query of Query parts 1 to 3 for melanoma using DisGeNET and without the subquery.  
+Description: A centralized SPARQL query of Query subparts 1 to 3 for melanoma using DisGeNET and without the subquery.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -558,10 +558,10 @@ ____
 
 ### Additional file 17 (SPARQL query Example 6-1)  
 [Example6-1_Additional_file_17.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-1_Additional_file_17.rq)  
-Description: A centralized SPARQL query of Query parts 1 to 3 for melanoma using DisGeNET and one subquery.  
+Description: A centralized SPARQL query of Query subparts 1 to 3 for melanoma using DisGeNET and one subquery.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -590,10 +590,10 @@ ____
 
 ### Additional file 18 (SPARQL query Example 6-2)  
 [Example6-2_Additional_file_18.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-2_Additional_file_18.rq)  
-Description: A centralized SPARQL query of Query parts 1 to 3 for melanoma using DisGeNET and two subqueries.  
+Description: A centralized SPARQL query of Query subparts 1 to 3 for melanoma using DisGeNET and two subqueries.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -622,10 +622,10 @@ ____
 
 ### Additional file 19 (SPARQL query Example 7)  
 [Example7_Additional_file_19.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7_Additional_file_19.rq)  
-Description: A federated SPARQL query of Query part 4 (Bgee) for the "prefrontal cortex".
+Description: A federated SPARQL query of Query subpart 4 (Bgee) for the "prefrontal cortex".
 Search parameters:  
   - Federated (F) or Centralized (C): F
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 4 (Bgee)
   - Disease: Not used
   - GDA: Not specified
@@ -650,15 +650,15 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|Example 7: Federated query of Query part 4 (Bgee) for the "prefrontal cortex" | 42,448 | 
+|Example 7: Federated query of Query subpart 4 (Bgee) for the "prefrontal cortex" | 42,448 | 
 ____
 
 ### Additional file 20 (SPARQL query Example 8)  
 [Example8_Additional_file_20.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example8_Additional_file_20.rq)  
-Description: A federated SPARQL query of Query part 4 (Bgee) for the "skin of body".  
+Description: A federated SPARQL query of Query subpart 4 (Bgee) for the "skin of body".  
 Search parameters:  
   - Federated (F) or Centralized (C): F
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 4 (Bgee)
   - Disease: Not used
   - GDA: Not specified
@@ -680,16 +680,16 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|Example 8: Federated query of Query part 4 (Bgee) for the "skin of body" | 45,724 | 
+|Example 8: Federated query of Query subpart 4 (Bgee) for the "skin of body" | 45,724 | 
 
 ____
 
 ### Additional file 21 (SPARQL query Example 9)  
 [Example9_Additional_file_21.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example9_Additional_file_21.rq)  
-Description: A centralized SPARQL query of Query part 4 (Bgee) for the "prefrontal cortex".  
+Description: A centralized SPARQL query of Query subpart 4 (Bgee) for the "prefrontal cortex".  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 4 (Bgee)
   - Disease: Not used
   - GDA: Not specified
@@ -713,16 +713,16 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|Example 9: Centralized query of Query part 4 (Bgee) for the "prefrontal cortex" | 42,448 |  
+|Example 9: Centralized query of Query subpart 4 (Bgee) for the "prefrontal cortex" | 42,448 |  
 
 ____
 
 ### Additional file 22 (SPARQL query Example 10)  
 [Example10_Additional_file_22.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example10_Additional_file_22.rq)  
-Description: A centralized SPARQL query of Query part 4 (Bgee) for the "skin of body".  
+Description: A centralized SPARQL query of Query subpart 4 (Bgee) for the "skin of body".  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 4 (Bgee)
   - Disease: Not used
   - GDA: Not specified
@@ -744,7 +744,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|Example 10: Centralized query of Query part 4 (Bgee) for the "skin of body" | 45,724 | 
+|Example 10: Centralized query of Query subpart 4 (Bgee) for the "skin of body" | 45,724 | 
 
 ____
 
@@ -790,7 +790,7 @@ Description: A centralized query for melanoma using DisGeNET and the uberonRDF-K
   
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -826,7 +826,7 @@ ____
 Description: A centralized query for melanoma using DisGeNET and the Ubergraph (Endpoint: https://ubergraph.apps.renci.org/sparql), skin of body (UBERON:0002097)     
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -856,7 +856,7 @@ ____
 Description: A centralized query for Alzheimer's disease 1 using MedGen  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -890,7 +890,7 @@ ____
 Description: A centralized query for Alzheimer's disease using MGI  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
@@ -926,7 +926,7 @@ Description: A centralized query for Alzheimer's disease using DisGeNET and the 
   
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
+  - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
     - 3 (Bioresource)
