@@ -21,7 +21,7 @@ ____
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and one subquery    
 Search parameters:  
   - Federated (F) or Centralized (C): F
-  - Sections: All
+  - Query parts: All
   - Disease: Alzheimer's disease (umls:C0002395)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
@@ -52,7 +52,7 @@ _____
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and one subquery     
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: All
+  - Query parts: All
   - Disease: Alzheimer's disease (umls:C0002395)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
@@ -82,7 +82,7 @@ ____
 Description: A federated SPARQL query for melanoma using DisGeNET and one subquery  
 Search parameters:  
   - Federated (F) or Centralized (C): F
-  - Sections: All
+  - Query parts: All
   - Disease: melanoma (umls:C0025202) 
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
@@ -114,7 +114,7 @@ ____
 Description: A centralized SPARQL query for melanoma using DisGeNET and one subquery   
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: All
+  - Query parts: All
   - Disease: melanoma (umls:C0025202) 
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
@@ -144,7 +144,7 @@ ____
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and two subqueries   
 Search parameters:  
   - Federated (F) or Centralized (C): F
-  - Sections: All
+  - Query parts: All
   - Disease: Alzheimer's disease (umls:C0002395)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
@@ -174,7 +174,7 @@ ____
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and two subqueries   
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: All
+  - Query parts: All
   - Disease: Alzheimer's disease (umls:C0002395)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
@@ -204,7 +204,7 @@ ____
 Description: A federated SPARQL query for melanoma using DisGeNET and two subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): F
-  - Sections: All
+  - Query parts: All
   - Disease: melanoma (umls:C0025202)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
@@ -234,7 +234,7 @@ ____
 Description: A centralized SPARQL query for melanoma using DisGeNET and two subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: All
+  - Query parts: All
   - Disease: melanoma (umls:C0025202)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
@@ -264,7 +264,7 @@ ____
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and three subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): F
-  - Sections: All
+  - Query parts: All
   - Disease: Alzheimer's disease (umls:C0002395)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
@@ -294,7 +294,7 @@ ____
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and three subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: All
+  - Query parts: All
   - Disease: Alzheimer's disease (umls:C0002395)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
@@ -324,7 +324,7 @@ ____
 Description: A federated SPARQL query for melanoma using DisGeNET and three subqueries  
 Search parameters:  
   - Federated (F) or Centralized (C): F
-  - Sections: All
+  - Query parts: All
   - Disease: melanoma (umls:C0025202)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
@@ -355,7 +355,7 @@ ____
 Description: A centralized SPARQL query for Alzheimer's disease using DisGeNET and three subqueries.    
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: All
+  - Query parts: All
   - Disease: melanoma (umls:C0025202)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
@@ -382,10 +382,10 @@ ____
 
 ### Additional file 13 (SPARQL query Example 5-0)  
 [Example5-0_Additional_file_13.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-0_Additional_file_13.rq)  
-Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and without the subquery.  
+Description: A centralized SPARQL query of Query parts 1 to 3 for Alzheimer's disease using DisGeNET and without the subquery.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: 1, 2, and 3
+  - Query parts: 1, 2, and 3
   - Disease: Alzheimer's disease (umls:C0002395)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: Not specified
@@ -411,10 +411,10 @@ ____
 
 ### Additional file 14 (SPARQL query Example 5-1) 
 [Example5-1_Additional_file_14.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-1_Additional_file_14.rq)  
-Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and one subquery.  
+Description: A centralized SPARQL query of Query parts 1 to 3 for Alzheimer's disease using DisGeNET and one subquery.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: 1, 2, and 3
+  - Query parts: 1, 2, and 3
   - Disease: Alzheimer's disease (umls:C0002395)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: Not specified
@@ -440,10 +440,10 @@ ____
 
 ### Additional file 15 (SPARQL query Example 5-2)  
 [Example5-2_Additional_file_15.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-2_Additional_file_15.rq)  
-Description: A centralized SPARQL query of Sections 1 through 3 for Alzheimer's disease using DisGeNET and two subqueries.  
+Description: A centralized SPARQL query of Query parts 1 to 3 for Alzheimer's disease using DisGeNET and two subqueries.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: 1, 2, and 3
+  - Query parts: 1, 2, and 3
   - Disease: Alzheimer's disease (umls:C0002395)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: Not specified
@@ -469,10 +469,10 @@ ____
 
 ### Additional file 16 (SPARQL query Example 6-0)  
 [Example6-0_Additional_file_16.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-0_Additional_file_16.rq)  
-Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and without the subquery.  
+Description: A centralized SPARQL query of Query parts 1 to 3 for melanoma using DisGeNET and without the subquery.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: 1, 2, and 3
+  - Query parts: 1, 2, and 3
   - Disease: melanoma (umls:C0025202)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: Not specified
@@ -498,10 +498,10 @@ ____
 
 ### Additional file 17 (SPARQL query Example 6-1)  
 [Example6-1_Additional_file_17.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-1_Additional_file_17.rq)  
-Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and one subquery.  
+Description: A centralized SPARQL query of Query parts 1 to 3 for melanoma using DisGeNET and one subquery.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: 1, 2, and 3
+  - Query parts: 1, 2, and 3
   - Disease: melanoma (umls:C0025202)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: Not specified
@@ -527,10 +527,10 @@ ____
 
 ### Additional file 18 (SPARQL query Example 6-2)  
 [Example6-2_Additional_file_18.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-2_Additional_file_18.rq)  
-Description: A centralized SPARQL query of Sections 1 through 3 for melanoma using DisGeNET and two subqueries.  
+Description: A centralized SPARQL query of Query parts 1 to 3 for melanoma using DisGeNET and two subqueries.  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: 1, 2, and 3
+  - Query parts: 1, 2, and 3
   - Disease: melanoma (umls:C0025202)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: Not specified
@@ -556,10 +556,10 @@ ____
 
 ### Additional file 19 (SPARQL query Example 7)  
 [Example7_Additional_file_19.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7_Additional_file_19.rq)  
-Description: A federated SPARQL query of Section 4 (Bgee) for the "prefrontal cortex".
+Description: A federated SPARQL query of Query part 4 (Bgee) for the "prefrontal cortex".
 Search parameters:  
   - Federated (F) or Centralized (C): F
-  - Sections: 4 (Bgee data)
+  - Query parts: 4 (Bgee data)
   - Disease: Not used
   - GDA: Not specified
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
@@ -583,15 +583,15 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|Example 7: Federated query of Section 4 (Bgee) for the "prefrontal cortex" | 42,448 | 
+|Example 7: Federated query of Query part 4 (Bgee) for the "prefrontal cortex" | 42,448 | 
 ____
 
 ### Additional file 20 (SPARQL query Example 8)  
 [Example8_Additional_file_20.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example8_Additional_file_20.rq)  
-Description: A federated SPARQL query of Section 4 (Bgee) for the "skin of body".  
+Description: A federated SPARQL query of Query part 4 (Bgee) for the "skin of body".  
 Search parameters:  
   - Federated (F) or Centralized (C): F
-  - Sections: 4 (Bgee data)
+  - Query parts: 4 (Bgee data)
   - Disease: Not used
   - GDA: Not specified
   - Anatomical parts: skin of body (UBERON:0002097)
@@ -612,16 +612,16 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|Example 8: Federated query of Section 4 (Bgee) for the "skin of body" | 45,724 | 
+|Example 8: Federated query of Query part 4 (Bgee) for the "skin of body" | 45,724 | 
 
 ____
 
 ### Additional file 21 (SPARQL query Example 9)  
 [Example9_Additional_file_21.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example9_Additional_file_21.rq)  
-Description: A centralized SPARQL query of Section 4 (Bgee) for the "prefrontal cortex".  
+Description: A centralized SPARQL query of Query part 4 (Bgee) for the "prefrontal cortex".  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: 4 (Bgee data)
+  - Query parts: 4 (Bgee data)
   - Disease: Not used
   - GDA: Not specified
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
@@ -644,16 +644,16 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|Example 9: Centralized query of Section 4 (Bgee) for the "prefrontal cortex" | 42,448 |  
+|Example 9: Centralized query of Query part 4 (Bgee) for the "prefrontal cortex" | 42,448 |  
 
 ____
 
 ### Additional file 22 (SPARQL query Example 10)  
 [Example10_Additional_file_22.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example10_Additional_file_22.rq)  
-Description: A centralized SPARQL query of Section 4 (Bgee) for the "skin of body".  
+Description: A centralized SPARQL query of Query part 4 (Bgee) for the "skin of body".  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: 4 (Bgee data)
+  - Query parts: 4 (Bgee data)
   - Disease: Not used
   - GDA: Not specified
   - Anatomical parts: skin of body (UBERON:0002097)
@@ -674,7 +674,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|Example 10: Centralized query of Section 4 (Bgee) for the "skin of body" | 45,724 | 
+|Example 10: Centralized query of Query part 4 (Bgee) for the "skin of body" | 45,724 | 
 
 ____
 
@@ -720,7 +720,7 @@ Description: A centralized query for melanoma using DisGeNET and the uberonRDF-K
   
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: All
+  - Query parts: All
   - Disease: melanoma (umls:C0025202) 
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
@@ -752,7 +752,7 @@ ____
 Description: A centralized query for melanoma using DisGeNET and the Ubergraph (Endpoint: https://ubergraph.apps.renci.org/sparql), skin of body (UBERON:0002097)     
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: All
+  - Query parts: All
   - Disease: melanoma (umls:C0025202) 
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: skin of body (UBERON:0002097)
@@ -778,7 +778,7 @@ ____
 Description: A centralized query for Alzheimer's disease 1 using MedGen  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: All
+  - Query parts: All
   - Alzheimer's disease type1 (AD1) (umls:C1863052, medgen:C1863052)
   - GDA: MedGen (https://www.ncbi.nlm.nih.gov/medgen/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
@@ -808,7 +808,7 @@ ____
 Description: A centralized query for Alzheimer's disease using MGI  
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: All
+  - Query parts: All
   - Alzheimer's disease (umls:C0002395)
   - GDA:MGI (https://www.informatics.jax.org/)  
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
@@ -840,7 +840,7 @@ Description: A centralized query for Alzheimer's disease using DisGeNET and the 
   
 Search parameters:  
   - Federated (F) or Centralized (C): C
-  - Sections: All
+  - Query parts: All
   - Disease: Alzheimer's disease (umls:C0002395)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
