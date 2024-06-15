@@ -21,7 +21,7 @@ ____
 Description: A federated SPARQL query for Alzheimer's disease using DisGeNET and one subquery    
 Search parameters:  
   - Federated (F) or Centralized (C): F
-  - Query parts: All
+  - [Query parts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png): All
   - Disease: Alzheimer's disease (umls:C0002395)
   - GDA: DisGeNET (https://www.disgenet.org/)
   - Anatomical parts: prefrontal cortex (UBERON:0000451)
