@@ -11,7 +11,7 @@ PREFIX orth: <http://purl.org/net/orth#>
 PREFIX genex: <http://purl.org/genex#>
 PREFIX umls: <http://linkedlifedata.com/resource/umls/id/>
 
-SELECT DISTINCT ?mouse ?ensembl2 ?lower_anatomicalEntity
+SELECT DISTINCT ?mouse ?ensembl2 ?lower_anatomicalEntity ?exprLevel
 WHERE {
   GRAPH <http://metadb.riken.jp/db/uberonRDF_broader_fromKGX> {
     ?lower_anatomicalEntity <http://purl.org/rbrc/resource/broader>*  obo:UBERON_0002097. #skin of body
