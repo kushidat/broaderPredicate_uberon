@@ -116,7 +116,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|[Example 3-1: Federated query for melanoma](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-1_Additional_file_3.rq)   | [102](https://github.com/kushidat/broaderPredicate_uberon/blob/main/102mice.txt) | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |  
+|[Example 3-1: Federated query for melanoma](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-1_Additional_file_3.rq)   | [102](https://github.com/kushidat/broaderPredicate_uberon/blob/main/102mice.txt) | [14](https://github.com/kushidat/broaderPredicate_uberon/blob/main/14genes_mela.txt) | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |  
 
 
 ____
