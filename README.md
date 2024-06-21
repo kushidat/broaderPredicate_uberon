@@ -47,7 +47,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|[Example 1-1: Federated query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-1_Additional_file_1.rq)  |[55](https://github.com/kushidat/broaderPredicate_uberon/blob/main/55mice.txt)  | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
+|[Example 1-1: Federated query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-1_Additional_file_1.rq)  |[55](https://github.com/kushidat/broaderPredicate_uberon/blob/main/55mice.txt)  | [14](https://github.com/kushidat/broaderPredicate_uberon/blob/main/14genes_alz.txt) | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
 _____
 
@@ -185,7 +185,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|[Example 1-2: Federated query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-2_Additional_file_5.rq)   | [55](https://github.com/kushidat/broaderPredicate_uberon/blob/main/55mice.txt) | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
+|[Example 1-2: Federated query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-2_Additional_file_5.rq)   | [55](https://github.com/kushidat/broaderPredicate_uberon/blob/main/55mice.txt) | [14](https://github.com/kushidat/broaderPredicate_uberon/blob/main/14genes_alz.txt) | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
 ____
 
@@ -219,7 +219,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|[Example 2-2: Centralized query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-2_Additional_file_6.rq)  | [55](https://github.com/kushidat/broaderPredicate_uberon/blob/main/55mice.txt) | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
+|[Example 2-2: Centralized query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-2_Additional_file_6.rq)  | [55](https://github.com/kushidat/broaderPredicate_uberon/blob/main/55mice.txt) | [14](https://github.com/kushidat/broaderPredicate_uberon/blob/main/14genes_alz.txt) | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
 ____
 
@@ -321,7 +321,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|[Example 1-3: Federated query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-3_Additional_file_9.rq)  | [55](https://github.com/kushidat/broaderPredicate_uberon/blob/main/55mice.txt) | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
+|[Example 1-3: Federated query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-3_Additional_file_9.rq)  | [55](https://github.com/kushidat/broaderPredicate_uberon/blob/main/55mice.txt) | [14](https://github.com/kushidat/broaderPredicate_uberon/blob/main/14genes_alz.txt) | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
 ____
 
@@ -355,7 +355,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|[Example 2-3: Centralized query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-3_Additional_file_10.rq)   | [55](https://github.com/kushidat/broaderPredicate_uberon/blob/main/55mice.txt) | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
+|[Example 2-3: Centralized query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-3_Additional_file_10.rq)   | [55](https://github.com/kushidat/broaderPredicate_uberon/blob/main/55mice.txt) | [14](https://github.com/kushidat/broaderPredicate_uberon/blob/main/14genes_alz.txt) | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
 ____
 
@@ -488,7 +488,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|[Example 5-1: Centralized query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-1_Additional_file_14.rq)   | [56](https://github.com/kushidat/broaderPredicate_uberon/blob/main/56mice.txt) | 15 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>LEP (ENSG00000174697)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |   
+|[Example 5-1: Centralized query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-1_Additional_file_14.rq)   | [56](https://github.com/kushidat/broaderPredicate_uberon/blob/main/56mice.txt) | [14](https://github.com/kushidat/broaderPredicate_uberon/blob/main/14genes_alz.txt) | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>LEP (ENSG00000174697)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |   
 
 ____
 
