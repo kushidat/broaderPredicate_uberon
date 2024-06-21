@@ -1,4 +1,4 @@
-# Example 11-2: Centralized query for Melanoma using the ubergraph (skin of body (UBERON:0002097))
+# Example 11-2: Federated query for Melanoma using the ubergraph (skin of body (UBERON:0002097))
 [60 min 4 sec/100 rows, Transaction timed out (over 3600 sec)/100 rows]
 PREFIX brso: <http://purl.jp/bio/10/brso/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
