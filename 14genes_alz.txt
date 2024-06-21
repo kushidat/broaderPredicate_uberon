@@ -1,0 +1,14 @@
+https://identifiers.org/ensembl:ENSG00000073921
+https://identifiers.org/ensembl:ENSG00000080815
+https://identifiers.org/ensembl:ENSG00000122585
+https://identifiers.org/ensembl:ENSG00000130203
+https://identifiers.org/ensembl:ENSG00000142192
+https://identifiers.org/ensembl:ENSG00000143801
+https://identifiers.org/ensembl:ENSG00000159640
+https://identifiers.org/ensembl:ENSG00000171105
+https://identifiers.org/ensembl:ENSG00000171791
+https://identifiers.org/ensembl:ENSG00000176697
+https://identifiers.org/ensembl:ENSG00000186868
+https://identifiers.org/ensembl:ENSG00000198087
+https://identifiers.org/ensembl:ENSG00000254647
+https://identifiers.org/ensembl:ENSG00000288674
