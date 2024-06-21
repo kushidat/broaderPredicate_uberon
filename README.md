@@ -47,7 +47,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 1-1: Federated query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
+|[Example 1-1: Federated query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-1_Additional_file_1.rq)  | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
 _____
 
@@ -81,7 +81,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 2-1: Centralized query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
+|[Example 2-1: Centralized query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-1_Additional_file_2.rq)   | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
 ____
 
@@ -116,7 +116,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 3-1: Federated query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |  
+|[Example 3-1: Federated query for melanoma](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-1_Additional_file_3.rq)   | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |  
 
 
 ____
@@ -151,7 +151,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 4-1: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |   
+|[Example 4-1: Centralized query for melanoma](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-1_Additional_file_4.rq)   | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |   
 
 ____
 
@@ -185,7 +185,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 1-2: Federated query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
+|[Example 1-2: Federated query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-2_Additional_file_5.rq)   | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
 ____
 
@@ -219,7 +219,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 2-2: Centralized query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
+|[Example 2-2: Centralized query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-2_Additional_file_6.rq)  | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
 ____
 
@@ -253,7 +253,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 3-2: Federated query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |  
+|[Example 3-2: Federated query for melanoma](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-2_Additional_file_7.rq)   | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |  
 
 ____
 
@@ -287,7 +287,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 4-2: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |   
+|[Example 4-2: Centralized query for melanoma](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-2_Additional_file_8.rq)  | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |   
 
 ____
 
@@ -321,7 +321,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 1-3: Federated query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
+|[Example 1-3: Federated query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example1-3_Additional_file_9.rq)  | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
 ____
 
@@ -355,7 +355,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 2-3: Centralized query for AD | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
+|[Example 2-3: Centralized query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example2-3_Additional_file_10.rq)   | 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |  
 
 ____
 
@@ -389,7 +389,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 3-3: Federated query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |  
+|[Example 3-3: Federated query for melanoma](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example3-3_Additional_file_11.rq)  | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |  
  
 
 ____
@@ -424,7 +424,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 4-3: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |   
+|[Example 4-3: Centralized query for melanoma](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example4-3_Additional_file_12.rq)   | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) |   
 
 ____
 
@@ -456,7 +456,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 5-0: Centralized query for AD | 56 | 15 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>LEP (ENSG00000174697)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |   
+|[Example 5-0: Centralized query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-0_Additional_file_13.rq)  | 56 | 15 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>LEP (ENSG00000174697)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |   
 
 ____
 
@@ -488,7 +488,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 5-1: Centralized query for AD | 56 | 15 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>LEP (ENSG00000174697)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |   
+|[Example 5-1: Centralized query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-1_Additional_file_14.rq)   | 56 | 15 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>LEP (ENSG00000174697)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |   
 
 ____
 
@@ -520,7 +520,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 5-2: Centralized query for AD | 56 | 15 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>LEP (ENSG00000174697)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |    
+|[Example 5-2: Centralized query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example5-2_Additional_file_15.rq)   | 56 | 15 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>LEP (ENSG00000174697)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) |    
 
 ____
 
@@ -552,7 +552,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 6-0: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) | 
+|[Example 6-0: Centralized query for melanoma](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-0_Additional_file_16.rq)  | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) | 
 
 ____
 
@@ -584,7 +584,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 6-1: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) | 
+|[Example 6-1: Centralized query for melanoma](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-1_Additional_file_17.rq) | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) | 
 
 ____
 
@@ -616,7 +616,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 6-2: Centralized query for melanoma | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) | 
+|[Example 6-2: Centralized query for melanoma](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example6-2_Additional_file_18.rq)  | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) | 
 
 ____
 
@@ -650,7 +650,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|Example 7: Federated query of Query subpart 4 (Bgee) for the "prefrontal cortex" | 42,448 | 
+|[Example 7: Federated query of Query subpart 4 (Bgee) for the "prefrontal cortex"](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7_Additional_file_19.rq) | 42,448 | 
 ____
 
 ### Additional file 20 (SPARQL query Example 8)  
@@ -680,7 +680,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|Example 8: Federated query of Query subpart 4 (Bgee) for the "skin of body" | 45,724 | 
+|[Example 8: Federated query of Query subpart 4 (Bgee) for the "skin of body"](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example8_Additional_file_20.rq) | 45,724 | 
 
 ____
 
@@ -713,7 +713,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|Example 9: Centralized query of Query subpart 4 (Bgee) for the "prefrontal cortex" | 42,448 |  
+|[Example 9: Centralized query of Query subpart 4 (Bgee) for the "prefrontal cortex"](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example9_Additional_file_21.rq)   | 42,448 |  
 
 ____
 
@@ -744,7 +744,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|Example 10: Centralized query of Query subpart 4 (Bgee) for the "skin of body" | 45,724 | 
+|[Example 10: Centralized query of Query subpart 4 (Bgee) for the "skin of body"](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example10_Additional_file_22.rq)   | 45,724 | 
 
 ____
 
@@ -816,7 +816,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of mice | No. of genes | Gene labels (Ensembl Gene IDs) | No. of anatomical entities | Anatomical entity labels (Uberon IDs) |
 |:---|:---:|:---:|:---|:---:|:---|
-|Example 11-1: Centralized query for melanoma using the broader predicate| 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) | 13 | zone of skin (UBERON_0000014)<br>skin epidermis (UBERON_0001003)<br>skin of abdomen (UBERON_0001416)<br>skin of limb (UBERON_0001419)<br>skin of leg (UBERON_0001511)<br>skin of hip (UBERON_0001554)<br>hair follicle (UBERON_0002073)<br>skin of body (UBERON_0002097)<br>forelimb skin (UBERON_0003531)<br>hindlimb skin (UBERON_0003532)<br>upper leg skin (UBERON_0004262)<br>upper arm skin (UBERON_0004263) |  
+|[Example 11-1: Centralized query for melanoma using the broader predicate](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-1_Additional_file_26.rq) | 102 | 14 | TYR (ENSG00000077498)<br>PPP6C (ENSG00000119414)<br>PIK3CA (ENSG00000121879)<br>BRCA2 (ENSG00000139618)<br>TP53 (ENSG00000141510)<br>AKT1 (ENSG00000142208)<br>ATM (ENSG00000149311)<br>KIT (ENSG00000157404)<br>TERT (ENSG00000164362)<br>CTNNB1 (ENSG00000168036)<br>PTEN (ENSG00000171862)<br>HRAS (ENSG00000174775)<br>MITF (ENSG00000187098)<br>NRAS (ENSG00000213281) | 13 | zone of skin (UBERON_0000014)<br>skin epidermis (UBERON_0001003)<br>skin of abdomen (UBERON_0001416)<br>skin of limb (UBERON_0001419)<br>skin of leg (UBERON_0001511)<br>skin of hip (UBERON_0001554)<br>hair follicle (UBERON_0002073)<br>skin of body (UBERON_0002097)<br>forelimb skin (UBERON_0003531)<br>hindlimb skin (UBERON_0003532)<br>upper leg skin (UBERON_0004262)<br>upper arm skin (UBERON_0004263) |  
 
 ____
 
@@ -881,7 +881,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 12: Centralized query for AD1 | 9 | 1 | APP (ENSG00000142192) |  
+|[Example 12: Centralized query for AD1](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example12.rq) | 9 | 1 | APP (ENSG00000142192) |  
 
 ____
 
@@ -915,7 +915,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|Example 13: Centralized query for AD | 13 | 4 | PSEN1 (ENSG00000080815)<br>PIN1 (ENSG00000127445)<br>IL33 (ENSG00000137033)<br>APP (ENSG00000142192) |  
+|[Example 13: Centralized query for AD](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example13.rq) | 13 | 4 | PSEN1 (ENSG00000080815)<br>PIN1 (ENSG00000127445)<br>IL33 (ENSG00000137033)<br>APP (ENSG00000142192) |  
 
 ____
 
@@ -951,7 +951,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of mice | No. of genes | Gene labels (Ensembl Gene IDs) | No. of anatomical entities | Anatomical entity labels (Uberon IDs) |
 |:---|:---:|:---:|:---|:---:|:---|
-|Example 11-1: Centralized query for AD using the broader predicate| 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) | 2 | prefrontal cortex (UBERON_0000451)<br>Brodmann (1909) area 10 (UBERON_0013541) |  
+|[Example 11-1: Centralized query for AD using the broader predicate](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example14.rq)| 55 | 14 | PICALM (ENSG00000073921)<br>PSEN1 (ENSG00000080815)<br>NPY (ENSG00000122585)<br>APOE (ENSG00000130203)<br>APP (ENSG00000142192)<br>PSEN2 (ENSG00000143801)<br>ACE (ENSG00000159640)<br>INSR (ENSG00000171105)<br>BCL2 (ENSG00000171791)<br>BDNF (ENSG00000176697)<br>MAPT (ENSG00000186868)<br>CD2AP (ENSG00000198087)<br>INS (ENSG00000254647)<br>Novel protein (ENSG00000288674) | 2 | prefrontal cortex (UBERON_0000451)<br>Brodmann (1909) area 10 (UBERON_0013541) |  
 
 ____
 
