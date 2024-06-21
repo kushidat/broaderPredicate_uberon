@@ -823,9 +823,9 @@ ____
 
 ### Additional file 27 (SPARQL query Example 11-2)  
 [Example11-2_Additional_file_27.rq](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example11-2_Additional_file_27.rq)      
-Description: A centralized query for melanoma using DisGeNET and the Ubergraph (Endpoint: https://ubergraph.apps.renci.org/sparql), skin of body (UBERON:0002097)     
+Description: A federated query for melanoma using DisGeNET and the Ubergraph (Endpoint: https://ubergraph.apps.renci.org/sparql), skin of body (UBERON:0002097)     
 Search parameters:  
-  - Federated (F) or Centralized (C): C
+  - Federated (F) or Centralized (C): F
   - [Query subparts](https://github.com/kushidat/broaderPredicate_uberon/blob/main/fig6_tk2.png):
     - 1 (DisGeNET)
     - 2 (OMA)
