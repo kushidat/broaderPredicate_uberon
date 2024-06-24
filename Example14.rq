@@ -67,5 +67,5 @@ WHERE {
     }
   }
 }
-LIMIT 100 OFFSET 0
+# LIMIT 100 OFFSET 0
 
