@@ -78,5 +78,5 @@ SERVICE <https://ubergraph.apps.renci.org/sparql> {
    }
   }
 }
-LIMIT 100 OFFSET 0
+# LIMIT 100 OFFSET 0
 
