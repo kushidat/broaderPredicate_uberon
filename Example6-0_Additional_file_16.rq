@@ -44,4 +44,4 @@ WHERE {
           FILTER (?identifiers_ncbi2 != ?umls)
         }
 }
-LIMIT 100 OFFSET 0
+# LIMIT 100 OFFSET 0
