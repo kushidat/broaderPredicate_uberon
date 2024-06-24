@@ -881,7 +881,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of RIKEN mice | No. of genes | Gene labels (Ensembl Gene IDs) |
 |:---|:---:|:---:|:---|
-|[Example 12: Centralized query for AD1](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example12.rq) | 9 | 1 | APP (ENSG00000142192) |  
+|[Example 12: Centralized query for AD1](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example12.rq) | [9](https://github.com/kushidat/broaderPredicate_uberon/blob/main/9mice_alz_prefrontalCortex_medgen.txt) | [1](https://github.com/kushidat/broaderPredicate_uberon/blob/main/1gene_alz_prefrontalCortex_medgen.txt) | APP ([ENSG00000142192](https://www.ensembl.org/homo_sapiens/Gene/Summary?g=ENSG00000142192)) |  
 
 ____
 
