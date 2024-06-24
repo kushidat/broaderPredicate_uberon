@@ -650,7 +650,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|[Example 7: Federated query of Query subpart 4 (Bgee) for the "prefrontal cortex"](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7_Additional_file_19.rq) | 42,448 | 
+|[Example 7: Federated query of Query subpart 4 (Bgee) for the "prefrontal cortex"](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example7_Additional_file_19.rq) | [42,448](https://github.com/kushidat/broaderPredicate_uberon/blob/main/42448genes_prefrontalCortex.txt) | 
 ____
 
 ### Additional file 20 (SPARQL query Example 8)  
@@ -680,7 +680,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|[Example 8: Federated query of Query subpart 4 (Bgee) for the "skin of body"](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example8_Additional_file_20.rq) | 45,724 | 
+|[Example 8: Federated query of Query subpart 4 (Bgee) for the "skin of body"](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example8_Additional_file_20.rq) | [45,724](https://github.com/kushidat/broaderPredicate_uberon/blob/main/45724genes_skinOfBody.txt) | 
 
 ____
 
@@ -713,7 +713,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|[Example 9: Centralized query of Query subpart 4 (Bgee) for the "prefrontal cortex"](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example9_Additional_file_21.rq)   | 42,448 |  
+|[Example 9: Centralized query of Query subpart 4 (Bgee) for the "prefrontal cortex"](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example9_Additional_file_21.rq)   | [42,448](https://github.com/kushidat/broaderPredicate_uberon/blob/main/42448genes_prefrontalCortex.txt) |  
 
 ____
 
@@ -744,7 +744,7 @@ The average runtime (10 times) and the query results:
 Statistics of results:  
 | Query approach | No. of genes |
 |:---|:---:|
-|[Example 10: Centralized query of Query subpart 4 (Bgee) for the "skin of body"](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example10_Additional_file_22.rq)   | 45,724 | 
+|[Example 10: Centralized query of Query subpart 4 (Bgee) for the "skin of body"](https://github.com/kushidat/broaderPredicate_uberon/blob/main/Example10_Additional_file_22.rq)   | [45,724](https://github.com/kushidat/broaderPredicate_uberon/blob/main/45724genes_skinOfBody.txt) | 
 
 ____
 
